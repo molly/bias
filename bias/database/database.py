@@ -1,5 +1,6 @@
-from bias.secrets import MONGO_URL
+from bias._secrets import MONGO_URL
 from bias.utils import omit
+from urllib.parse import urlparse
 import pymongo
 
 
@@ -24,12 +25,23 @@ class Database:
             [pymongo.ReplaceOne({"_id": source["_id"]}, source) for source in data]
         )
 
-    def load(self, query):
-        return self.database.sources.find(query)
-
     def set_last_updated(self, source, timestamp):
         self.database.metadata.update(
             {"source": source},
             {"$set": {"source": source, "last_updated": timestamp}},
             upsert=True,
         )
+
+    def find(self, query):
+        return self.database.sources.find(query)
+
+    def find_by_url(self, urls):
+        domains = []
+        for url in urls:
+            netloc = urlparse(url).netloc
+            domains.append(".".join(netloc.split(".")[1:]))
+        return self.find({"source_url": {"$in": domains}})
+
+    def find_by_name(self, names):
+        normalized = [name.lower() for name in names]
+        return self.find({"name": {"$in": normalized}})

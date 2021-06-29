@@ -9,5 +9,5 @@ api = Api(app)
 api.add_resource(Bias, "/")
 
 if __name__ == "__main__":
-    update_if_stale()
-    # app.run(debug=True)
+    # update_if_stale() TODO: Move this somewhere else to run periodically
+    app.run(debug=True)
