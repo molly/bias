@@ -1,4 +1,6 @@
 from bias.constants.misc import HEADERS
+from bias.database.database import Database
+from bias.database.source import validate_mbfc_source
 from time import time
 import json
 import requests
@@ -14,10 +16,11 @@ def update():
         req = requests.get(
             "http://mbfcapi.herokuapp.com/api/v1/sources", headers=HEADERS, timeout=10
         )
-        with open("data/mbfc-sources.json", "wb") as mbfc_file:
-            mbfc_file.write(req.content)
-        with open("data/metadata.json", "w") as metadata_file:
-            json.dump({"mbfc": time()}, metadata_file)
+        sources = req.json()["sources"]
+        timestamp = int(time() * 1000)
+        db = Database()
+        db.set_last_updated("mbfc", timestamp)
+        db.bulk_update([validate_mbfc_source(source, timestamp) for source in sources])
     except requests.exceptions.Timeout:
         # This is a pretty slow endpoint, so it may time out. If it does, just try
         # again next time; no need for fancier error handling.

@@ -130,3 +130,5 @@ dmypy.json
 
 .idea/
 bias/data/
+secrets.py
+.DS_Store
