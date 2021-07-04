@@ -1,5 +1,5 @@
-from bias._secrets import MONGO_URL
-from bias.utils import omit
+from _secrets import MONGO_URL
+from utils import omit
 from urllib.parse import urlparse
 import pymongo
 

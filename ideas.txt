@@ -1,0 +1,6 @@
+data sources:
+* mb/fc
+* allsides
+* ad fontes
+* on-wiki (RSP, NPPRS)
+

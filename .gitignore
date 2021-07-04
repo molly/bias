@@ -129,6 +129,5 @@ dmypy.json
 .pyre/
 
 .idea/
-bias/data/
-bias/_secrets.py
+_secrets.py
 .DS_Store

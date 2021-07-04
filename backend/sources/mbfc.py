@@ -1,13 +1,12 @@
-from bias.constants.misc import HEADERS
-from bias.database.database import Database
-from bias.database.mbfc_source import validate_mbfc_source
+from constants.misc import HEADERS, SECONDS_IN_A_DAY
+from database.database import Database
+from database.mbfc_source import validate_mbfc_source
 from time import time
 import json
 import requests
 import threading
 
 MBFC_API_URL = "http://mbfcapi.herokuapp.com/api/v1/sources"
-SECONDS_IN_A_DAY = 86400
 
 
 def update():
