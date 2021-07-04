@@ -1,12 +1,11 @@
 from constants.misc import HEADERS, SECONDS_IN_A_DAY
+from constants.urls import MBFC_API_URL
 from database.database import Database
 from database.mbfc_source import validate_mbfc_source
 from time import time
 import json
 import requests
 import threading
-
-MBFC_API_URL = "http://mbfcapi.herokuapp.com/api/v1/sources"
 
 
 def update():
