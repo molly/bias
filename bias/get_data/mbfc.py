@@ -1,6 +1,6 @@
 from bias.constants.misc import HEADERS
 from bias.database.database import Database
-from bias.database.source import validate_mbfc_source
+from bias.database.mbfc_source import validate_mbfc_source
 from time import time
 import json
 import requests
@@ -40,7 +40,7 @@ def needs_update():
         return True
 
 
-def update_if_stale():
+def update_mbfc_if_stale():
     if needs_update():
         thread = threading.Thread(target=update)
         thread.start()
