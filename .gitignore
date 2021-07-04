@@ -130,3 +130,4 @@ _secrets.py
 .DS_Store
 node_modules/
 data/
+backend/**/*.html
