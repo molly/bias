@@ -6,9 +6,9 @@ from urllib.parse import urlparse
 import requests
 
 
-def get_references(soup, section_name):
+def get_references(soup, section_name=None):
     """Find the references section."""
-    section_name = section_name.replace(" ", "_")
+    section_name = section_name.replace(" ", "_") if section_name else "References"
     references_header = soup.find(
         lambda tag: tag.name == "h2" and tag.find("span", id=section_name)
     )
@@ -33,11 +33,11 @@ def filter_domains(domains):
     return filtered if len(filtered) > 0 else domains
 
 
-def parse_references(title, section_name="References"):
+def parse_references(title, args):
     req = requests.get(WIKIPEDIA_URL + title, headers=HEADERS)
     html = req.text
     soup = BeautifulSoup(html, "html.parser")
-    html_references = get_references(soup, section_name)
+    html_references = get_references(soup, args.get("references_section_name"))
     if not html_references:
         return None
     references = {}
@@ -58,5 +58,4 @@ def parse_references(title, section_name="References"):
             "possible_domains": filter_domains(possible_domains),
             "usages": num_backlinks,
         }
-
     return references

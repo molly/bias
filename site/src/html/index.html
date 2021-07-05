@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="apple-touch-icon" href="icon.png" />
+  </head>
+
+  <body>
+    <div class="container form-block">
+      <h1>Wikipedia article source evaluator</h1>
+      <form id="evaluator-form" class="row">
+        <div class="col-md-6 mb-4">
+          <label for="article-title" class="form-label"> Article title:</label>
+          <input
+            type="text"
+            id="article-title"
+            name="article-title"
+            class="form-control"
+            placeholder="Trojan Room coffee pot"
+            required
+          />
+        </div>
+        <hr />
+        <h5>Additional options</h5>
+        <div class="col-md-4">
+          <label for="references-section-name" class="form-label"
+            >References section name:</label
+          >
+          <input
+            type="text"
+            id="references-section-name"
+            name="references-section-name"
+            class="form-control form-control-sm"
+            aria-describedby="references-section-name-help"
+          />
+          <p id="references-section-name-help" class="form-text">
+            Defaults to "References", but if the section is titled something
+            different like "Notes", enter it here.
+          </p>
+        </div>
+        <div class="col-md-12">
+          <button class="btn btn-primary" type="submit">Evaluate</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

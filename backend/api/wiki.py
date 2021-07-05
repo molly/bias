@@ -1,9 +1,11 @@
-from flask import request
+from flask import request, abort
 from flask_restful import Resource
+from wikipedia.process import process
 
 
 class Wikipedia(Resource):
     def post(self):
         body = request.get_json()
-        title = body["title"]
-        print(title)
+        if "title" not in body:
+            abort(400, "No article title")
+        process(body)
