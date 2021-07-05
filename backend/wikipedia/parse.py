@@ -4,19 +4,27 @@ from constants.urls import WIKIPEDIA_URL
 from constants.likely_not_primary_url import LIKELY_NOT_PRIMARY_URL
 from tld import get_fld
 from urllib.parse import urlparse
+from wikipedia.ProcessingException import ProcessingException
 import requests
 
 
 def get_references(soup, section_name=None):
     """Find the references section."""
-    section_name = section_name.replace(" ", "_") if section_name else "References"
+    wt_section_name = section_name.replace(" ", "_") if section_name else "References"
     references_header = soup.find(
-        lambda tag: tag.name == "h2" and tag.find("span", id=section_name)
+        lambda tag: tag.name == "h2" and tag.find("span", id=wt_section_name)
     )
     if not references_header:
-        return None
+        raise ProcessingException(
+            "Couldn't find a references section named '" + section_name + "'"
+        )
     references_list = references_header.find_next(["ol", "ul"])
     if not references_list:
+        raise ProcessingException(
+            "Couldn't find the references list within the section named '"
+            + section_name
+            + "'"
+        )
         return None
     return references_list.find_all("li", recursive=False)
 
@@ -71,8 +79,6 @@ def parse_references(title, args):
     html = req.text
     soup = BeautifulSoup(html, "html.parser")
     html_references = get_references(soup, args.get("references_section_name"))
-    if not html_references:
-        return None
     references = {"domains": set(), "citations": dict()}
     for ind, ref in enumerate(html_references):
         anchors = ref.find_all("a", class_="external")

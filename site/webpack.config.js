@@ -2,10 +2,23 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
+const config = [
+  {
+    title: "index",
+    template: "./src/html/index.html",
+    chunks: ["index"],
+  },
+  {
+    title: "visualize",
+    template: "./src/html/visualize.html",
+    chunks: ["visualize"],
+  },
+];
+
 module.exports = {
-  entry: "./src/js/main.js",
+  entry: { index: "./src/js/index.js", visualize: "./src/js/visualize.js" },
   output: {
-    filename: "bundle.js",
+    filename: "[name].js",
     path: path.resolve(__dirname, "dist"),
   },
   module: {
@@ -41,12 +54,15 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      title: "Wikipedia article source evaluator",
-      template: "./src/html/index.html",
-    }),
-  ],
+  plugins: config.map(
+    (entry) =>
+      new HtmlWebpackPlugin({
+        title: entry.title,
+        template: entry.template,
+        chunks: entry.chunks,
+        filename: entry.title + ".html",
+      })
+  ),
   devServer: {
     contentBase: "./dist",
   },
