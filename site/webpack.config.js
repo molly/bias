@@ -2,21 +2,8 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
-const config = [
-  {
-    title: "index",
-    template: "./src/html/index.html",
-    chunks: ["index"],
-  },
-  {
-    title: "visualize",
-    template: "./src/html/visualize.html",
-    chunks: ["visualize"],
-  },
-];
-
 module.exports = {
-  entry: { index: "./src/js/index.js", visualize: "./src/js/visualize.js" },
+  entry: "./src/js/index.js",
   output: {
     filename: "[name].js",
     path: path.resolve(__dirname, "dist"),
@@ -54,15 +41,12 @@ module.exports = {
       },
     ],
   },
-  plugins: config.map(
-    (entry) =>
-      new HtmlWebpackPlugin({
-        title: entry.title,
-        template: entry.template,
-        chunks: entry.chunks,
-        filename: entry.title + ".html",
-      })
-  ),
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: "index",
+      template: "./src/html/index.html",
+    }),
+  ],
   devServer: {
     contentBase: "./dist",
   },

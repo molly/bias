@@ -1,20 +1,20 @@
-require("../css/main.scss");
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./components/Home";
+import "../css/main.scss";
 
-const evaluate = (e) => {
-  e.preventDefault();
-  const formData = new FormData(e.target);
-  const params = {};
-  for (const [k, v] of formData.entries()) {
-    if (v) {
-      params[k] = v;
-    }
-  }
-  const urlParams = new URLSearchParams(params);
-  window.location.href = "/visualize.html?" + urlParams.toString();
-};
+const App = () => (
+  <Router>
+    <Switch>
+      <Route exact path="/" component={Home} />
+    </Switch>
+  </Router>
+);
 
-(function () {
-  // Add handlers
-  const form = document.getElementById("evaluator-form");
-  form.addEventListener("submit", evaluate);
-})();
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
