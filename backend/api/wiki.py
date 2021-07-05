@@ -8,4 +8,4 @@ class Wikipedia(Resource):
         body = request.get_json()
         if "title" not in body:
             abort(400, "No article title")
-        process(body)
+        return process(body)

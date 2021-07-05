@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 from constants.misc import HEADERS
 from constants.urls import WIKIPEDIA_URL
 from constants.likely_not_primary_url import LIKELY_NOT_PRIMARY_URL
+from tld import get_fld
 from urllib.parse import urlparse
 import requests
 
@@ -27,10 +28,42 @@ def filter_domains(domains):
     if len(domains) == 1:
         return domains
     filtered = []
-    for anchor in domains:
-        if anchor["domain"] not in LIKELY_NOT_PRIMARY_URL:
-            filtered.append(anchor)
+    for domain in domains:
+        if domain not in LIKELY_NOT_PRIMARY_URL:
+            filtered.append(domain)
     return filtered if len(filtered) > 0 else domains
+
+
+def get_additional_possibilities_for_domain(domain):
+    fld = get_fld(domain, fix_protocol=True)
+    if fld != domain:
+        return fld
+    return None
+
+
+def get_domain_possibilities(anchors):
+    raw_domains_list = []
+
+    # First just get all of the domains
+    for anchor in anchors:
+        parsed = urlparse(anchor["href"])
+        netloc = (
+            parsed.netloc[4:] if parsed.netloc.startswith("www.") else parsed.netloc
+        )
+        netloc = netloc.lower()
+        raw_domains_list.append(netloc)
+
+    # Filter out likely red herrings (archive.org, etc.)
+    domain_possibilities = set(filter_domains(raw_domains_list))
+
+    # Get additional possibilities (for example, for "subdomain.foo.com", get "foo.com")
+    additional_possibilities = set()
+    for domain in domain_possibilities:
+        additional_possibility = get_additional_possibilities_for_domain(domain)
+        if additional_possibility:
+            additional_possibilities.add(additional_possibility)
+
+    return domain_possibilities.union(additional_possibilities)
 
 
 def parse_references(title, args):
@@ -40,22 +73,17 @@ def parse_references(title, args):
     html_references = get_references(soup, args.get("references_section_name"))
     if not html_references:
         return None
-    references = {}
+    references = {"domains": set(), "citations": dict()}
     for ind, ref in enumerate(html_references):
         anchors = ref.find_all("a", class_="external")
         backlinks = ref.find("span", class_="mw-cite-backlink")
         num_backlinks = len(backlinks.find_all("a")) if backlinks else 0
-        possible_domains = []
-        for anchor in anchors:
-            parsed = urlparse(anchor["href"])
-            netloc = (
-                parsed.netloc[4:] if parsed.netloc.startswith("www.") else parsed.netloc
-            )
-            possible_domains.append({"href": anchor["href"], "domain": netloc.lower()})
-        references[ind] = {
-            "id": ref.id,
+        possible_domains = get_domain_possibilities(anchors)
+        references["domains"].update(possible_domains)
+        references["citations"][ind] = {
+            "id": ref.get("id"),
             "full": str(ref),
-            "possible_domains": filter_domains(possible_domains),
+            "possible_domains": list(possible_domains),
             "usages": num_backlinks,
         }
     return references
