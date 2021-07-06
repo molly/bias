@@ -9,7 +9,7 @@ export const SourcesActionTypes = {
 const SOURCES_URL = "http://localhost:5000/evaluate";
 
 export const fetchSources = (args) => (dispatch) => {
-  const { title, references_section_name } = Object.fromEntries(args);
+  const { title, references_section_name } = args;
   dispatch({ type: SourcesActionTypes.SOURCES_FETCH_STARTED });
   return axios
     .post(SOURCES_URL, { title, references_section_name })
@@ -21,5 +21,6 @@ export const fetchSources = (args) => (dispatch) => {
     })
     .catch((err) => {
       dispatch({ type: SourcesActionTypes.SOURCES_FETCH_FAILED, payload: err });
+      throw err;
     });
 };

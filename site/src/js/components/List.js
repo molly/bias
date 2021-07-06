@@ -2,11 +2,12 @@ import React, { useEffect, useMemo } from "react";
 import { useLocation } from "react-router-dom";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
+import { RequestStatusPropType } from "../utils/RequestStatus";
 
 import { fetchSources as fetchSourcesAction } from "../actions/sourcesActions";
 
 import Spinner from "./Spinner";
-import RequestStatus from "../utils/RequestStatus";
+import APIError from "./APIError";
 import SourcesTable from "./SourcesTable";
 
 function List({ fetchSources, sources, sourcesStatus }) {
@@ -18,7 +19,7 @@ function List({ fetchSources, sources, sourcesStatus }) {
 
   useEffect(() => {
     if (sourcesStatus.uninitialized) {
-      fetchSources(params);
+      fetchSources(Object.fromEntries(params));
     }
   }, [params, sourcesStatus]);
 
@@ -26,7 +27,7 @@ function List({ fetchSources, sources, sourcesStatus }) {
     if (sourcesStatus.succeeded) {
       return <SourcesTable sources={sources} />;
     } else if (sourcesStatus.failed) {
-      return <div>Error</div>;
+      return <APIError status={sourcesStatus} />;
     } else {
       return <Spinner centered={true} height="200px" color="primary" />;
     }
@@ -43,7 +44,7 @@ function List({ fetchSources, sources, sourcesStatus }) {
 List.propTypes = {
   fetchSources: PropTypes.func.isRequired,
 
-  sourcesStatus: PropTypes.instanceOf(RequestStatus).isRequired,
+  sourcesStatus: RequestStatusPropType.isRequired,
   sources: PropTypes.object,
 };
 

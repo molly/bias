@@ -1,15 +1,15 @@
 $used-colors: (
-  "blue-100": $blue-100,
-  "blue-200": $blue-200,
-  "green-100": $green-100,
-  "green-200": $green-200,
-  "green-300": $green-300,
-  "yellow-100": $yellow-100,
-  "orange-200": $orange-200,
-  "red-100": $red-100,
-  "red-200": $red-200,
-  "red-300": $red-300,
-  "gray-200": $gray-200
+  "blue-1": $blue-100,
+  "blue-2": $blue-200,
+  "green-1": $green-100,
+  "green-2": $green-200,
+  "green-3": $green-300,
+  "yellow-1": tint-color($yellow, 90%),
+  "orange-1": $orange-200,
+  "red-1": $red-100,
+  "red-2": $red-200,
+  "red-3": $red-300,
+  "gray-1": $gray-200
 );
 
 @each $name, $value in $used-colors {

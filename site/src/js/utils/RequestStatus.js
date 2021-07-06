@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default class RequestStatus {
   constructor({
     uninitialized = false,
@@ -11,7 +13,7 @@ export default class RequestStatus {
     this.succeeded = succeeded;
     this.failed = failed;
 
-    this.error = null;
+    this.error = error;
   }
 
   static uninitialized() {
@@ -30,3 +32,5 @@ export default class RequestStatus {
     return new RequestStatus({ failed: true, error: error });
   }
 }
+
+export const RequestStatusPropType = PropTypes.instanceOf(RequestStatus);

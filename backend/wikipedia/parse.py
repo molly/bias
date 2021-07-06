@@ -10,20 +10,21 @@ import requests
 
 def get_references(soup, section_name=None):
     """Find the references section."""
-    wt_section_name = section_name.replace(" ", "_") if section_name else "References"
+    section_name = section_name or "References"
+    wt_section_name = section_name.replace(" ", "_")
     references_header = soup.find(
         lambda tag: tag.name == "h2" and tag.find("span", id=wt_section_name)
     )
     if not references_header:
         raise ProcessingException(
-            "Couldn't find a references section named '" + section_name + "'"
+            "Couldn't find a references section named \"" + section_name + '".'
         )
     references_list = references_header.find_next(["ol", "ul"])
     if not references_list:
         raise ProcessingException(
-            "Couldn't find the references list within the section named '"
+            "Couldn't find the references list within the section named \""
             + section_name
-            + "'"
+            + '".'
         )
         return None
     return references_list.find_all("li", recursive=False)
@@ -79,6 +80,8 @@ def parse_references(title, args):
     req = requests.get(url, headers=HEADERS)
     html = req.text
     soup = BeautifulSoup(html, "html.parser")
+    if soup.find(class_="noarticletext"):
+        raise ProcessingException('There is no article titled "' + title + '".')
     html_references = get_references(soup, args.get("references_section_name"))
     references = {"domains": set(), "citations": dict(), "url": url}
     for ind, ref in enumerate(html_references):

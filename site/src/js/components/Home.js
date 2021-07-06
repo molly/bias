@@ -1,20 +1,33 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
 import { useHistory } from "react-router-dom";
+import { fetchSources as fetchSourcesAction } from "../actions/sourcesActions";
+import { RequestStatusPropType } from "../utils/RequestStatus";
+import APIError from "./APIError";
 
-export default function Home() {
+function Home({ fetchSources, sourcesStatus }) {
   const history = useHistory();
   const [formData, setFormData] = useState({
     title: "",
     references_section_name: "",
   });
 
-  const navigate = (e) => {
-    e.preventDefault();
+  const navigate = () => {
     const queryString = Object.entries(formData)
       .filter(([_, v]) => !!v)
       .map(([k, v]) => `${k}=${v}`)
       .join("&");
     history.push(`/list?${queryString}`);
+  };
+
+  const evaluate = (e) => {
+    e.preventDefault();
+    if (!sourcesStatus.pending) {
+      fetchSources(formData)
+        .then(navigate)
+        .catch(() => {});
+    }
   };
 
   return (
@@ -60,8 +73,16 @@ export default function Home() {
             something different like &quot;Notes&quot;, enter it here.
           </p>
         </div>
+        <APIError status={sourcesStatus} />
         <div className="col-md-12">
-          <button className="btn btn-primary" onClick={navigate}>
+          <button className="btn btn-primary" onClick={evaluate}>
+            {sourcesStatus.pending && (
+              <span
+                className="spinner-border spinner-border-sm me-2"
+                role="status"
+                aria-hidden="true"
+              ></span>
+            )}
             Evaluate
           </button>
         </div>
@@ -69,3 +90,18 @@ export default function Home() {
     </div>
   );
 }
+
+Home.propTypes = {
+  fetchSources: PropTypes.func.isRequired,
+  sourcesStatus: RequestStatusPropType.isRequired,
+};
+
+const select = (state) => ({
+  sourcesStatus: state.sources.status,
+});
+
+const mapDispatchToProps = {
+  fetchSources: fetchSourcesAction,
+};
+
+export default connect(select, mapDispatchToProps)(Home);
