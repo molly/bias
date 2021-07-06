@@ -75,20 +75,22 @@ def get_domain_possibilities(anchors):
 
 
 def parse_references(title, args):
-    req = requests.get(WIKIPEDIA_URL + title, headers=HEADERS)
+    url = WIKIPEDIA_URL + title
+    req = requests.get(url, headers=HEADERS)
     html = req.text
     soup = BeautifulSoup(html, "html.parser")
     html_references = get_references(soup, args.get("references_section_name"))
-    references = {"domains": set(), "citations": dict()}
+    references = {"domains": set(), "citations": dict(), "url": url}
     for ind, ref in enumerate(html_references):
         anchors = ref.find_all("a", class_="external")
         backlinks = ref.find("span", class_="mw-cite-backlink")
         num_backlinks = len(backlinks.find_all("a")) if backlinks else 0
         possible_domains = get_domain_possibilities(anchors)
         references["domains"].update(possible_domains)
+        ref_text = ref.find(class_="reference-text")
         references["citations"][ind] = {
             "id": ref.get("id"),
-            "full": str(ref),
+            "text": ref_text.text,
             "possible_domains": list(possible_domains),
             "usages": num_backlinks,
         }

@@ -40,6 +40,12 @@ module.exports = {
           "sass-loader",
         ],
       },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        include: path.resolve(__dirname, "src", "images"),
+        loader: "file-loader",
+        options: { name: "[name].[ext]?[hash]" },
+      },
     ],
   },
   plugins: [

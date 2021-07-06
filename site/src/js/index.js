@@ -9,6 +9,7 @@ import reducer from "./reducers";
 
 import Home from "./components/Home";
 import List from "./components/List";
+import FAQ from "./components/FAQ";
 
 import "../css/main.scss";
 
@@ -19,6 +20,7 @@ ReactDOM.render(
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/list" component={List} />
+          <Route path="/faq" component={FAQ} />
         </Switch>
       </Router>
     </Provider>

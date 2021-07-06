@@ -7,6 +7,7 @@ import { fetchSources as fetchSourcesAction } from "../actions/sourcesActions";
 
 import Spinner from "./Spinner";
 import RequestStatus from "../utils/RequestStatus";
+import SourcesTable from "./SourcesTable";
 
 function List({ fetchSources, sources, sourcesStatus }) {
   const location = useLocation();
@@ -21,18 +22,20 @@ function List({ fetchSources, sources, sourcesStatus }) {
     }
   }, [params, sourcesStatus]);
 
-  const renderTable = () => <div>{Object.keys(sources).length} sources</div>;
-
-  const renderError = () => <div>Error</div>;
+  const renderBody = () => {
+    if (sourcesStatus.succeeded) {
+      return <SourcesTable sources={sources} />;
+    } else if (sourcesStatus.failed) {
+      return <div>Error</div>;
+    } else {
+      return <Spinner centered={true} height="200px" color="primary" />;
+    }
+  };
 
   return (
     <div className="container">
       <h1>{params.get("title")} source evaluation</h1>
-      {sourcesStatus.pending && (
-        <Spinner centered={true} height="200px" color="primary" />
-      )}
-      {sourcesStatus.succeeded && renderTable()}
-      {sourcesStatus.failed && renderError()}
+      {renderBody()}
     </div>
   );
 }
