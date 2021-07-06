@@ -1,0 +1,19 @@
+$used-colors: (
+  "blue-100": $blue-100,
+  "blue-200": $blue-200,
+  "green-100": $green-100,
+  "green-200": $green-200,
+  "green-300": $green-300,
+  "yellow-100": $yellow-100,
+  "orange-200": $orange-200,
+  "red-100": $red-100,
+  "red-200": $red-200,
+  "red-300": $red-300,
+  "gray-200": $gray-200
+);
+
+@each $name, $value in $used-colors {
+  .bg-#{$name} {
+    background-color: $value !important;
+  }
+}
