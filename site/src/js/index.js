@@ -8,8 +8,8 @@ import thunk from "redux-thunk";
 import reducer from "./reducers";
 
 import Home from "./components/Home";
-import List from "./components/List";
-import FAQ from "./components/FAQ";
+import List from "./components/list/List";
+import FAQ from "./components/faq/FAQ";
 
 import "../css/main.scss";
 

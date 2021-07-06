@@ -2,12 +2,12 @@ import React, { useEffect, useMemo } from "react";
 import { useLocation } from "react-router-dom";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
-import { RequestStatusPropType } from "../utils/RequestStatus";
+import { RequestStatusPropType } from "../../utils/RequestStatus";
 
-import { fetchSources as fetchSourcesAction } from "../actions/sourcesActions";
+import { fetchSources as fetchSourcesAction } from "../../actions/sourcesActions";
 
-import Spinner from "./Spinner";
-import APIError from "./APIError";
+import Spinner from "../Spinner";
+import APIError from "../APIError";
 import SourcesTable from "./SourcesTable";
 
 function List({ fetchSources, sources, sourcesStatus }) {

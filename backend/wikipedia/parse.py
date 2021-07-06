@@ -80,17 +80,28 @@ def parse_references(title, args):
     req = requests.get(url, headers=HEADERS)
     html = req.text
     soup = BeautifulSoup(html, "html.parser")
+
+    # Check that an article exists
     if soup.find(class_="noarticletext"):
         raise ProcessingException('There is no article titled "' + title + '".')
+
+    # Parse references
     html_references = get_references(soup, args.get("references_section_name"))
     references = {"domains": set(), "citations": dict(), "url": url}
     for ind, ref in enumerate(html_references):
-        anchors = ref.find_all("a", class_="external")
+        # Calculate usages
         backlinks = ref.find("span", class_="mw-cite-backlink")
         num_backlinks = len(backlinks.find_all("a")) if backlinks else 0
+
+        # Find domains
+        anchors = ref.find_all("a", class_="external")
         possible_domains = get_domain_possibilities(anchors)
         references["domains"].update(possible_domains)
+
+        # Get text-only representation of this reference
         ref_text = ref.find(class_="reference-text")
+
+        # Add result to citations dict
         references["citations"][ind] = {
             "id": ref.get("id"),
             "text": ref_text.text,

@@ -12,7 +12,7 @@ export const ACCURACY_COLORS = {
 export const BIAS_COLORS = {
   left: "blue-2",
   "left-center": "blue-1",
-  "least biased": "gray-2",
+  "least biased": "gray-1",
   "pro-science": "gray-1",
   "right-center": "red-1",
   right: "red-2",

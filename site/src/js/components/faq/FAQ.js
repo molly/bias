@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { useHistory, useLocation } from "react-router";
-import usagesImg from "../../images/usages.png";
+import usagesImg from "../../../images/usages.png";
 import FAQEntry from "./FAQEntry";
 
 export default function FAQ() {
@@ -27,7 +27,13 @@ export default function FAQ() {
         <p>
           References can be reused in Wikipedia articles, so this shows the
           number of times this reference is used, as well as the percentage of
-          total reference usages in an article.
+          total reference usages in an article. Please note that if there are
+          multiple distinct references with the same content, they are counted
+          separately; consider editing the article to{" "}
+          <a href="https://en.wikipedia.org/w/index.php?title=Wikipedia:DUPREF">
+            combine duplicate references
+          </a>
+          .
           <div className="img-fluid image-container">
             <img
               className="image"
@@ -36,7 +42,7 @@ export default function FAQ() {
               style={{ maxWidth: "500px", padding: "10px" }}
             />
           </div>
-          In this example, reference A has one usage and reference B has 3.
+          In this example, reference A has one usage and reference B has three.
           Reference A is 25% (1/4) of the total usages, and reference B is 75%
           (3/4).
         </p>
