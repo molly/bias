@@ -8,8 +8,8 @@ import thunk from "redux-thunk";
 import reducer from "./reducers";
 
 import Home from "./components/Home";
-import List from "./components/list/List";
-import Chart from "./components/chart/Chart";
+import ListWrapper from "./components/list/ListWrapper";
+import ChartWrapper from "./components/chart/ChartWrapper";
 import FAQ from "./components/faq/FAQ";
 
 import "../css/main.scss";
@@ -20,8 +20,8 @@ ReactDOM.render(
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/list" component={List} />
-          <Route path="/chart" component={Chart} />
+          <Route path="/list" component={ListWrapper} />
+          <Route path="/chart" component={ChartWrapper} />
           <Route path="/faq" component={FAQ} />
         </Switch>
       </Router>

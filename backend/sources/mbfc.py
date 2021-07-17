@@ -3,7 +3,6 @@ from constants.urls import MBFC_API_URL
 from database.database import Database
 from database.mbfc_source import validate_mbfc_source
 from time import time
-import json
 import requests
 import threading
 
@@ -11,9 +10,7 @@ import threading
 def update(db):
     """Update the MBFC sources file from their API."""
     try:
-        req = requests.get(
-            "http://mbfcapi.herokuapp.com/api/v1/sources", headers=HEADERS, timeout=10
-        )
+        req = requests.get(MBFC_API_URL, headers=HEADERS, timeout=10)
         sources = req.json()["sources"]
         timestamp = int(time() * 1000)
         db.set_last_updated("mbfc", timestamp)

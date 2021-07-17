@@ -1,16 +1,16 @@
-import React, { useEffect, useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
-import { RequestStatusPropType } from "../../utils/RequestStatus";
+import { RequestStatusPropType } from "../utils/RequestStatus";
 
-import { fetchSources as fetchSourcesAction } from "../../actions/sourcesActions";
+import { fetchSources as fetchSourcesAction } from "../actions/sourcesActions";
 
-import Spinner from "../Spinner";
-import APIError from "../APIError";
-import SourcesTable from "./SourcesTable";
+import Spinner from "./Spinner";
+import APIError from "./APIError";
+import SourcesPropType from "../constants/SourcesPropType";
 
-function List({ fetchSources, sources, sourcesStatus }) {
+function Results({ fetchSources, sources, sourcesStatus, children }) {
   const location = useLocation();
   const params = useMemo(
     () => new URLSearchParams(location.search.slice("1")),
@@ -25,7 +25,7 @@ function List({ fetchSources, sources, sourcesStatus }) {
 
   const renderBody = () => {
     if (sourcesStatus.succeeded) {
-      return <SourcesTable sources={sources} />;
+      return React.cloneElement(children, { sources });
     } else if (sourcesStatus.failed) {
       return <APIError status={sourcesStatus} />;
     } else {
@@ -41,11 +41,12 @@ function List({ fetchSources, sources, sourcesStatus }) {
   );
 }
 
-List.propTypes = {
+Results.propTypes = {
   fetchSources: PropTypes.func.isRequired,
 
+  children: PropTypes.element.isRequired,
   sourcesStatus: RequestStatusPropType.isRequired,
-  sources: PropTypes.object,
+  sources: SourcesPropType,
 };
 
 const select = (state) => ({
@@ -57,4 +58,4 @@ const mapDispatchToProps = {
   fetchSources: fetchSourcesAction,
 };
 
-export default connect(select, mapDispatchToProps)(List);
+export default connect(select, mapDispatchToProps)(Results);

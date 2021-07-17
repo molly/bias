@@ -8,6 +8,7 @@ import { ACCURACY_COLORS, BIAS_COLORS } from "../../utils/colors";
 import pluralize from "../../utils/pluralize";
 
 import Filters from "./Filters";
+import SourcesPropType from "../../constants/SourcesPropType";
 
 export default function SourcesTable({ sources }) {
   const [showRowAccuracyHighlights, setShowRowAccuracyHighlights] =
@@ -35,12 +36,12 @@ export default function SourcesTable({ sources }) {
   const getColor = (evaluations) => {
     if ("mbfc" in evaluations) {
       if (showRowAccuracyHighlights) {
-        const reliability = evaluations.mbfc.accuracy;
+        const reliability = evaluations.mbfc.accuracy_str;
         if (reliability in ACCURACY_COLORS) {
           return ACCURACY_COLORS[reliability];
         }
       } else if (showRowBiasHighlights) {
-        const bias = evaluations.mbfc.bias;
+        const bias = evaluations.mbfc.bias_str;
         if (bias in BIAS_COLORS) {
           return BIAS_COLORS[bias];
         }
@@ -57,9 +58,9 @@ export default function SourcesTable({ sources }) {
       <>
         <b>{evaluation.display_name}</b>
         <br />
-        Reliability: {evaluation.accuracy}
+        Reliability: {evaluation.accuracy_str}
         <br />
-        Bias: {evaluation.bias}
+        Bias: {evaluation.bias_str}
       </>
     );
   };
@@ -190,11 +191,5 @@ export default function SourcesTable({ sources }) {
 }
 
 SourcesTable.propTypes = {
-  sources: PropTypes.shape({
-    citations: PropTypes.object.isRequired,
-    domain_usages: PropTypes.object.isRequired,
-    url: PropTypes.string.isRequired,
-    total: PropTypes.number.isRequired,
-    total_usages: PropTypes.number.isRequired,
-  }).isRequired,
+  sources: SourcesPropType,
 };

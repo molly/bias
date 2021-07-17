@@ -20,27 +20,27 @@ export default function ScatterPlot({ data, width, height }) {
       .attr("transform", `translate(${xMargin},${yMargin})`);
 
     // X axis
-    const xScale = d3.scaleLinear().domain([-100, 100]).range([0, plotWidth]);
+    const xScale = d3.scaleLinear().domain([-105, 105]).range([0, plotWidth]);
     svg
       .append("g")
       .attr("transform", `translate(0, ${plotHeight / 2})`)
       .call(
         d3
           .axisBottom(xScale)
-          .tickValues([-100, 100])
-          .tickFormat((d) => (d < 0 ? "Left bias" : "Right bias"))
+          .tickValues([-105, 105])
+          .tickFormat((d) => (d < 0 ? "Farthest left" : "Farthest right"))
       )
       .selectAll("path")
       .style("stroke", "#DDDDDD");
     // Y axis
-    const yScale = d3.scaleLinear().domain([-100, 100]).range([plotHeight, 0]);
+    const yScale = d3.scaleLinear().domain([-105, 105]).range([plotHeight, 0]);
     svg
       .append("g")
       .attr("transform", `translate(${plotWidth / 2},0)`)
       .call(
         d3
           .axisLeft(yScale)
-          .tickValues([-100, 100])
+          .tickValues([-105, 105])
           .tickFormat((d) => (d < 0 ? "Least reliable" : "Most reliable"))
       )
       .selectAll("path")
@@ -55,8 +55,8 @@ export default function ScatterPlot({ data, width, height }) {
       .selectAll("circle")
       .data(data)
       .join("circle")
-      .attr("cx", (d) => xScale(d.x))
-      .attr("cy", (d) => yScale(d.y))
+      .attr("cx", (d) => xScale(d.bias))
+      .attr("cy", (d) => yScale(d.accuracy))
       .attr("r", 3);
   }, [data, height, width]);
 
