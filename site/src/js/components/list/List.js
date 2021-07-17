@@ -21,7 +21,7 @@ function List({ fetchSources, sources, sourcesStatus }) {
     if (sourcesStatus.uninitialized) {
       fetchSources(Object.fromEntries(params));
     }
-  }, [params, sourcesStatus]);
+  }, [params, sourcesStatus, fetchSources]);
 
   const renderBody = () => {
     if (sourcesStatus.succeeded) {
