@@ -3,7 +3,11 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
+
 import { ACCURACY_COLORS, BIAS_COLORS } from "../../utils/colors";
+import pluralize from "../../utils/pluralize";
+
+import Filters from "./Filters";
 
 export default function SourcesTable({ sources }) {
   const [showRowAccuracyHighlights, setShowRowAccuracyHighlights] =
@@ -28,7 +32,7 @@ export default function SourcesTable({ sources }) {
     }
   };
 
-  const getRowColor = (evaluations) => {
+  const getColor = (evaluations) => {
     if ("mbfc" in evaluations) {
       if (showRowAccuracyHighlights) {
         const reliability = evaluations.mbfc.accuracy;
@@ -99,21 +103,20 @@ export default function SourcesTable({ sources }) {
       const cite_link = cite.id ? `${sources.url}#${cite.id}` : sources.url;
       const color =
         showRowAccuracyHighlights || showRowBiasHighlights
-          ? getRowColor(cite.evaluations)
+          ? getColor(cite.evaluations)
           : null;
       rows.push(
-        <tr
-          key={cite.id ? `${i}-${cite.id}` : i}
-          className={color ? `bg-${color}` : null}
-        >
+        <tr key={cite.id ? `${i}-${cite.id}` : i}>
           <td>
             <a href={cite_link} target="_blank" rel="noreferrer">
               [{i + 1}]
             </a>
           </td>
           <td style={{ width: "50%", maxWidth: "500px" }}>{cite.text}</td>
-          <td>{renderUsages(cite.usages, cite.evaluations)}</td>
-          <td>
+          {sources.total_usages > 0 ? (
+            <td>{renderUsages(cite.usages, cite.evaluations)}</td>
+          ) : null}
+          <td className={color ? `bg-${color}` : null}>
             {"mbfc" in cite.evaluations
               ? renderEvaluation(cite.evaluations.mbfc)
               : null}
@@ -124,50 +127,59 @@ export default function SourcesTable({ sources }) {
     return rows;
   };
 
+  const renderDisclaimer = () => {
+    if (sources.domain_usages.unknown.citations === 0) {
+      return "All sources were identified.";
+    } else {
+      let text;
+      const total_unidentified_citations =
+        sources.domain_usages.unknown.citations;
+      const percent_citations_unidentified = (
+        (total_unidentified_citations / sources.total) *
+        100
+      ).toFixed();
+      text = `${total_unidentified_citations} ${pluralize(
+        "citation",
+        total_unidentified_citations
+      )} 
+      (${percent_citations_unidentified}% of total citations) couldn't be identified.`;
+      if (sources.total_usages) {
+        const total_unidentified_usages = sources.domain_usages.unknown.usages;
+        const percent_usages_unidentified = (
+          (total_unidentified_usages / sources.total_usages) *
+          100
+        ).toFixed();
+        text += ` They make up ${total_unidentified_usages} ${pluralize(
+          "usage",
+          total_unidentified_usages
+        )} (${percent_usages_unidentified}% of total usages).`;
+      }
+      return text;
+    }
+  };
+
   return (
     <>
-      <div className="row row-cols-sm-auto align-items-center my-2">
-        <div className="col-auto">
-          <div className="form-check">
-            <input
-              className="form-check-input"
-              type="checkbox"
-              id="highlight-accuracy"
-              onChange={toggleCheckbox}
-              checked={showRowAccuracyHighlights}
-            />
-            <label className="form-check-label" htmlFor="highlight-accuracy">
-              Color-code by accuracy
-            </label>
-          </div>
-        </div>
-        <div className="col-auto">
-          <div className="form-check">
-            <input
-              className="form-check-input"
-              type="checkbox"
-              id="highlight-bias"
-              onChange={toggleCheckbox}
-              checked={showRowBiasHighlights}
-            />
-            <label className="form-check-label" htmlFor="highlight-bias">
-              Color-code by bias
-            </label>
-          </div>
-        </div>
-      </div>
+      <span>{renderDisclaimer()}</span>
+      <Filters
+        toggleCheckbox={toggleCheckbox}
+        showRowAccuracyHighlights={showRowAccuracyHighlights}
+        showRowBiasHighlights={showRowBiasHighlights}
+      />
       <table className="table table-bordered border-dark">
         <thead>
           <tr>
             <th>#</th>
             <th>Source</th>
-            <th>
-              Usages{" "}
-              <Link to="/faq#usages" target="_blank">
-                <FontAwesomeIcon icon={faQuestionCircle} />
-                <span className="visually-hidden">?</span>
-              </Link>
-            </th>
+            {sources.total_usages > 0 ? (
+              <th>
+                Usages{" "}
+                <Link to="/faq#usages" target="_blank">
+                  <FontAwesomeIcon icon={faQuestionCircle} />
+                  <span className="visually-hidden">?</span>
+                </Link>
+              </th>
+            ) : null}
             <th>MB/FC evaluation</th>
           </tr>
         </thead>

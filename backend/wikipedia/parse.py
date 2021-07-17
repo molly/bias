@@ -100,6 +100,8 @@ def parse_references(title, args):
 
         # Get text-only representation of this reference
         ref_text = ref.find(class_="reference-text")
+        if ref_text is None:
+            ref_text = ref
 
         # Add result to citations dict
         references["citations"][ind] = {

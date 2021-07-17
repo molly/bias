@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { useHistory } from "react-router-dom";
@@ -12,23 +12,40 @@ function Home({ fetchSources, sourcesStatus }) {
     title: "",
     references_section_name: "",
   });
+  const [clicked, setClicked] = useState(null);
 
-  const navigate = () => {
-    const queryString = Object.entries(formData)
-      .filter(([_, v]) => !!v)
-      .map(([k, v]) => `${k}=${v}`)
-      .join("&");
-    history.push(`/list?${queryString}`);
-  };
+  const navigate = useCallback(
+    (targetPage) => {
+      const queryString = Object.entries(formData)
+        .filter(([_, v]) => !!v)
+        .map(([k, v]) => `${k}=${v}`)
+        .join("&");
+      history.push(`/${targetPage}?${queryString}`);
+    },
+    [formData, history]
+  );
 
-  const evaluate = (e) => {
-    e.preventDefault();
-    if (!sourcesStatus.pending) {
-      fetchSources(formData)
-        .then(navigate)
-        .catch(() => {});
-    }
-  };
+  const evaluate = useCallback(
+    (e, targetPage) => {
+      e.preventDefault();
+      setClicked(targetPage);
+      if (!sourcesStatus.pending) {
+        fetchSources(formData)
+          .then(() => navigate(targetPage))
+          .catch(() => setClicked(null));
+      }
+    },
+    [fetchSources, sourcesStatus, formData, navigate]
+  );
+
+  const evaluateAndGoToList = useCallback(
+    (e) => evaluate(e, "list"),
+    [evaluate]
+  );
+  const evaluateAndGoToChart = useCallback(
+    (e) => evaluate(e, "chart"),
+    [evaluate]
+  );
 
   return (
     <div className="container form-block">
@@ -75,15 +92,33 @@ function Home({ fetchSources, sourcesStatus }) {
         </div>
         <APIError status={sourcesStatus} />
         <div className="col-md-12">
-          <button className="btn btn-primary" onClick={evaluate}>
-            {sourcesStatus.pending && (
+          <button
+            className="btn btn-primary me-2"
+            onClick={evaluateAndGoToList}
+            disabled={sourcesStatus.pending && clicked === "chart"}
+          >
+            {sourcesStatus.pending && clicked === "list" && (
+              <span
+                className="spinner-border spinner-border-sm me-2 "
+                role="status"
+                aria-hidden="true"
+              ></span>
+            )}
+            List results
+          </button>
+          <button
+            className="btn btn-primary"
+            onClick={evaluateAndGoToChart}
+            disabled={sourcesStatus.pending && clicked === "list"}
+          >
+            {sourcesStatus.pending && clicked === "chart" && (
               <span
                 className="spinner-border spinner-border-sm me-2"
                 role="status"
                 aria-hidden="true"
               ></span>
             )}
-            Evaluate
+            Chart results
           </button>
         </div>
       </form>
