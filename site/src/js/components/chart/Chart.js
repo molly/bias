@@ -1,27 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
+
 import SourcesPropType from "../../constants/SourcesPropType";
+
 import ScatterPlot from "./ScatterPlot";
+import ChartOptions from "./ChartOptions";
 
 export default function Chart({ sources }) {
+  const [options, setOptions] = useState({ showLogos: true });
+
   const getChartData = () =>
-    Object.values(sources.citations)
-      .filter(
-        (cite) =>
-          Object.prototype.hasOwnProperty.call(cite, "evaluations") &&
-          Object.prototype.hasOwnProperty.call(cite.evaluations, "mbfc") &&
-          typeof cite.evaluations.mbfc.bias === "number" &&
-          typeof cite.evaluations.mbfc.bias === "number"
-      )
-      .map((cite) => cite.evaluations.mbfc);
+    Object.values(sources.domains).filter(
+      (d) =>
+        Object.prototype.hasOwnProperty.call(d, "evaluations") &&
+        Object.prototype.hasOwnProperty.call(d.evaluations, "mbfc") &&
+        typeof d.evaluations.mbfc.bias === "number" &&
+        typeof d.evaluations.mbfc.accuracy === "number"
+    );
 
   return (
-    <div>
+    <div className="row gx-1">
       <ScatterPlot
+        data={sources && getChartData()}
+        sources={sources}
+        className="col-lg-10"
         width={800}
         height={600}
         margins={10}
-        data={sources && getChartData(sources.citations)}
-        sources={sources}
+        options={options}
+      />
+      <ChartOptions
+        options={options}
+        setOptions={setOptions}
+        className="col-lg-2"
       />
     </div>
   );

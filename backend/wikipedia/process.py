@@ -17,10 +17,11 @@ def process(args):
     references = parse_references(title, args)
     source_info = get_source_info(references["domains"])
     total_usages = 0
-    domain_usages = {"unknown": {"citations": 0, "usages": 0}}
+    domains = {"unknown": {"citations": 0, "usages": 0}}
 
     for key, cite in references["citations"].items():
-        references["citations"][key]["evaluations"] = {}
+        references["citations"][key]["key"] = key
+        evaluations = {}
         total_usages += references["citations"][key]["usages"]
 
         # Find evaluation for this source
@@ -32,32 +33,30 @@ def process(args):
 
         if evaluation:
             # Add to result
-            references["citations"][key]["evaluations"][
-                evaluation["rater"]
-            ] = evaluation
+            evaluations[evaluation["rater"]] = evaluation
 
             # Calculate domain usage
             domain = evaluation["source_url"]
-            references["citations"][key]["evaluations"][
-                evaluation["rater"]
-            ] = evaluation
-            if domain in domain_usages:
-                domain_usages[domain]["citations"] += 1
-                domain_usages[domain]["usages"] += references["citations"][key][
-                    "usages"
-                ]
+            evaluations[evaluation["rater"]] = evaluation
+            if domain in domains:
+                domains[domain]["citations"] += 1
+                domains[domain]["usages"] += references["citations"][key]["usages"]
             else:
-                domain_usages[domain] = {
+                domains[domain] = {
+                    "domain": domain,
                     "citations": 1,
                     "usages": references["citations"][key]["usages"],
+                    "evaluations": evaluations,
                 }
         else:
-            domain_usages["unknown"]["citations"] += 1
-            domain_usages["unknown"]["usages"] += references["citations"][key]["usages"]
+            domains["unknown"]["citations"] += 1
+            domains["unknown"]["usages"] += references["citations"][key]["usages"]
+
+        references["citations"][key]["evaluations"] = evaluations
 
     return {
         **omit(references, "domains"),
-        "domain_usages": domain_usages,
+        "domains": domains,
         "total": len(references["citations"]),
         "total_usages": total_usages,
     }

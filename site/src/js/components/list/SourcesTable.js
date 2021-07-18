@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
@@ -34,7 +33,7 @@ export default function SourcesTable({ sources }) {
   };
 
   const getColor = (evaluations) => {
-    if ("mbfc" in evaluations) {
+    if (Object.prototype.hasOwnProperty.call(evaluations, "mbfc")) {
       if (showRowAccuracyHighlights) {
         const reliability = evaluations.mbfc.accuracy_str;
         if (reliability in ACCURACY_COLORS) {
@@ -79,8 +78,8 @@ export default function SourcesTable({ sources }) {
     let source_usage;
     if ("mbfc" in evaluations) {
       const domain = evaluations.mbfc.source_url;
-      if (sources.domain_usages[domain]) {
-        const domain_usage = sources.domain_usages[domain];
+      if (sources.domains[domain]) {
+        const domain_usage = sources.domains[domain];
         if (domain_usage.citations == 1) {
           source_usage = `This is the only usage of ${evaluations.mbfc.display_name} in this article.`;
         } else {
@@ -129,12 +128,11 @@ export default function SourcesTable({ sources }) {
   };
 
   const renderDisclaimer = () => {
-    if (sources.domain_usages.unknown.citations === 0) {
+    if (sources.domains.unknown.citations === 0) {
       return "All sources were identified.";
     } else {
       let text;
-      const total_unidentified_citations =
-        sources.domain_usages.unknown.citations;
+      const total_unidentified_citations = sources.domains.unknown.citations;
       const percent_citations_unidentified = (
         (total_unidentified_citations / sources.total) *
         100
@@ -145,7 +143,7 @@ export default function SourcesTable({ sources }) {
       )} 
       (${percent_citations_unidentified}% of total citations) couldn't be identified.`;
       if (sources.total_usages) {
-        const total_unidentified_usages = sources.domain_usages.unknown.usages;
+        const total_unidentified_usages = sources.domains.unknown.usages;
         const percent_usages_unidentified = (
           (total_unidentified_usages / sources.total_usages) *
           100
