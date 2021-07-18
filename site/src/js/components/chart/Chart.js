@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import SourcesPropType from "../../constants/SourcesPropType";
 
+import Disclaimer from "../Disclaimer";
 import ScatterPlot from "./ScatterPlot";
 import ChartOptions from "./ChartOptions";
 
@@ -20,22 +21,27 @@ export default function Chart({ sources }) {
     );
 
   return (
-    <div className="row gx-1">
-      <ScatterPlot
-        data={sources && getChartData()}
-        sources={sources}
-        className="col-lg-9"
-        width={800}
-        height={600}
-        margins={10}
-        options={options}
-      />
-      <ChartOptions
-        options={options}
-        setOptions={setOptions}
-        className="col-lg-3"
-      />
-    </div>
+    <>
+      <div className="row">
+        <Disclaimer sources={sources} />
+      </div>
+      <div className="row gx-1">
+        <ScatterPlot
+          data={sources && getChartData()}
+          sources={sources}
+          className="col-lg-9"
+          width={800}
+          height={600}
+          margins={10}
+          options={options}
+        />
+        <ChartOptions
+          options={options}
+          setOptions={setOptions}
+          className="col-lg-3"
+        />
+      </div>
+    </>
   );
 }
 

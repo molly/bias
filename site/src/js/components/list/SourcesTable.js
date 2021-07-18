@@ -1,13 +1,13 @@
 import React, { useState } from "react";
+import SourcesPropType from "../../constants/SourcesPropType";
+import { ACCURACY_COLORS, BIAS_COLORS } from "../../utils/colors";
+
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
 
-import { ACCURACY_COLORS, BIAS_COLORS } from "../../utils/colors";
-import pluralize from "../../utils/pluralize";
-
+import Disclaimer from "../Disclaimer";
 import Filters from "./Filters";
-import SourcesPropType from "../../constants/SourcesPropType";
 
 export default function SourcesTable({ sources }) {
   const [showRowAccuracyHighlights, setShowRowAccuracyHighlights] =
@@ -127,39 +127,9 @@ export default function SourcesTable({ sources }) {
     return rows;
   };
 
-  const renderDisclaimer = () => {
-    if (sources.domains.unknown.citations === 0) {
-      return "All sources were identified.";
-    } else {
-      let text;
-      const total_unidentified_citations = sources.domains.unknown.citations;
-      const percent_citations_unidentified = (
-        (total_unidentified_citations / sources.total) *
-        100
-      ).toFixed();
-      text = `${total_unidentified_citations} ${pluralize(
-        "citation",
-        total_unidentified_citations
-      )} 
-      (${percent_citations_unidentified}% of total citations) couldn't be identified.`;
-      if (sources.total_usages) {
-        const total_unidentified_usages = sources.domains.unknown.usages;
-        const percent_usages_unidentified = (
-          (total_unidentified_usages / sources.total_usages) *
-          100
-        ).toFixed();
-        text += ` They make up ${total_unidentified_usages} ${pluralize(
-          "usage",
-          total_unidentified_usages
-        )} (${percent_usages_unidentified}% of total usages).`;
-      }
-      return text;
-    }
-  };
-
   return (
     <>
-      <span>{renderDisclaimer()}</span>
+      <Disclaimer sources={sources} />
       <Filters
         toggleCheckbox={toggleCheckbox}
         showRowAccuracyHighlights={showRowAccuracyHighlights}

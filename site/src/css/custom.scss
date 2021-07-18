@@ -16,3 +16,10 @@ $accent-color: #cedff2;
   padding: 3px;
   background-color: $accent-color;
 }
+
+.d3-tooltip {
+  background-color: #ffffff; 
+  position: absolute;
+  opacity: 0;
+  font-size: 80%;
+}

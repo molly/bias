@@ -1,3 +1,3 @@
-export default function pluralize(str, isPlural) {
-  return isPlural ? `${str}s` : str;
+export default function pluralize(str, num) {
+  return num === 1 ? str : `${str}s`;
 }

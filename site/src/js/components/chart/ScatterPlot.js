@@ -1,14 +1,14 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useCallback } from "react";
 import PropTypes from "prop-types";
 import * as d3 from "d3";
 import clone from "just-clone";
-
+import pluralize from "../../utils/pluralize";
 import SourcesPropType from "../../constants/SourcesPropType";
 
-const basePointSize = 2;
+const basePointSize = 4;
 const xMargin = 50;
 const yMargin = 25;
-const pointColor = "#555555";
+const pointColor = "#0d6efd";
 
 export default function ScatterPlot({
   data,
@@ -20,10 +20,20 @@ export default function ScatterPlot({
 }) {
   const svgRef = useRef(null);
 
+  const getHoverText = (pointData) => () => {
+    const mbfc = pointData.evaluations.mbfc;
+    return `<b>${mbfc.display_name}</b><br/>
+    Reliability: ${mbfc.accuracy_str}<br/>
+    Bias: ${mbfc.bias_str}<br/>
+    ${pointData.citations} ${pluralize("citation", pointData.citations)},
+    ${pointData.usages} ${pluralize("usage", pointData.usages)}
+    `;
+  };
+
   useEffect(() => {
     const plotHeight = height - yMargin * 2;
     const plotWidth = width - xMargin * 2;
-    const collisionR = options.sizeBasedOnUsage ? 2 : 0.25;
+    const collisionR = options.sizeBasedOnUsage ? 0.5 : -0.5;
     const dataCopy = clone(data);
 
     const svgEl = d3.select(svgRef.current);
@@ -33,6 +43,11 @@ export default function ScatterPlot({
     const svg = svgEl
       .append("g")
       .attr("transform", `translate(${xMargin},${yMargin})`);
+    svgEl.call(
+      d3.zoom().on("zoom", function () {
+        svgEl.attr("transform", d3.event.transform);
+      })
+    );
 
     // X axis
     const xScale = d3.scaleLinear().domain([-105, 105]).range([0, plotWidth]);
@@ -80,6 +95,9 @@ export default function ScatterPlot({
     }
     simulation.stop();
 
+    // Tooltip
+    const tooltip = d3.select(".d3-tooltip");
+
     // Data
     svg
       .append("g")
@@ -94,14 +112,30 @@ export default function ScatterPlot({
       .attr("opacity", 0.3)
       .attr("r", (d) => {
         return options.sizeBasedOnUsage
-          ? Math.max(Math.min(300 * (d.usages / sources.total_usages), 30), 1)
+          ? Math.max(
+              Math.min(300 * (d.usages / sources.total_usages), 30),
+              basePointSize
+            )
           : basePointSize;
+      })
+      .on("mouseover", function (e, pointData) {
+        d3.select(this).transition().duration(50).attr("opacity", 0.6);
+        tooltip
+          .html(getHoverText(pointData))
+          .style("left", `${e.pageX + 10}px`)
+          .style("top", `${e.pageY + 10}px`)
+          .style("opacity", 1);
+      })
+      .on("mouseout", function () {
+        d3.select(this).transition().duration(50).attr("opacity", 0.3);
+        tooltip.style("opacity", 0);
       });
-  }, [data, height, width, sources, options]);
+  }, [data, sources, options, height, width]);
 
   return (
-    <div className={className}>
+    <div className={className} id="container">
       <svg ref={svgRef} viewBox={`0 0 ${width} ${height}`} />
+      <div className="d3-tooltip border rounded p-2" />
     </div>
   );
 }
