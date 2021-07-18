@@ -18,12 +18,12 @@ export default function ChartOptions({ options, setOptions, className }) {
             <input
               className="form-check-input"
               type="checkbox"
-              id="show-source-logos"
-              checked={options.showLogos}
-              onChange={makeEventHandler("showLogos")}
+              id="sizeBasedOnUsage"
+              checked={options.sizeBasedOnUsage}
+              onChange={makeEventHandler("sizeBasedOnUsage")}
             />
-            <label className="form-check-label" htmlFor="show-source-logos">
-              Show source logos
+            <label className="form-check-label" htmlFor="sizeBasedOnUsage">
+              Show points sized proportionally to usage in article
             </label>
           </div>
         </div>

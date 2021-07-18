@@ -1,13 +1,14 @@
 import React, { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import * as d3 from "d3";
+import clone from "just-clone";
+
 import SourcesPropType from "../../constants/SourcesPropType";
 
 const basePointSize = 2;
-const baseLogoSize = 30;
 const xMargin = 50;
 const yMargin = 25;
-const pointColor = "#666666";
+const pointColor = "#555555";
 
 export default function ScatterPlot({
   data,
@@ -22,6 +23,8 @@ export default function ScatterPlot({
   useEffect(() => {
     const plotHeight = height - yMargin * 2;
     const plotWidth = width - xMargin * 2;
+    const collisionR = options.sizeBasedOnUsage ? 2 : 0.25;
+    const dataCopy = clone(data);
 
     const svgEl = d3.select(svgRef.current);
     svgEl.selectAll("*").remove(); // Clear
@@ -58,38 +61,42 @@ export default function ScatterPlot({
       .selectAll("path")
       .style("stroke", "#DDDDDD");
 
+    const simulation = d3
+      .forceSimulation(dataCopy)
+      .force(
+        "x",
+        d3.forceX((d) => xScale(d.evaluations.mbfc.bias))
+      )
+      .force(
+        "y",
+        d3.forceY((d) => yScale(d.evaluations.mbfc.accuracy))
+      )
+      .force(
+        "collide",
+        d3.forceCollide(basePointSize + collisionR).iterations(4)
+      );
+    for (let i = 0; i < 100; i++) {
+      simulation.tick();
+    }
+    simulation.stop();
+
     // Data
-    const points = svg
+    svg
       .append("g")
       .attr("stroke", pointColor)
-      .attr("stroke-width", 1.5)
-      .attr("fill", "none")
+      .attr("fill", pointColor)
       .selectAll(".point")
-      .data(data)
+      .data(dataCopy)
       .join("circle")
       .attr("class", "point")
-      .attr("cx", (d) => xScale(d.evaluations.mbfc.bias))
-      .attr("cy", (d) => yScale(d.evaluations.mbfc.accuracy));
-
-    if (options.showLogos) {
-      points.attr("r", basePointSize);
-      svg
-        .selectAll(".pointImage")
-        .data(data)
-        .join("image")
-        .attr("class", "pointImage")
-        .attr("xlink:href", (d) => `https://logo.clearbit.com/${d.domain}`)
-        .attr("x", (d) => xScale(d.evaluations.mbfc.bias) - baseLogoSize / 2)
-        .attr(
-          "y",
-          (d) => yScale(d.evaluations.mbfc.accuracy) - baseLogoSize / 2
-        )
-        .attr("width", baseLogoSize);
-    } else {
-      points.attr("r", (d) =>
-        Math.min(basePointSize + 100 * (d.usages / sources.total_usages), 50)
-      );
-    }
+      .attr("cx", (d) => d.x)
+      .attr("cy", (d) => d.y)
+      .attr("opacity", 0.3)
+      .attr("r", (d) => {
+        return options.sizeBasedOnUsage
+          ? Math.max(Math.min(300 * (d.usages / sources.total_usages), 30), 1)
+          : basePointSize;
+      });
   }, [data, height, width, sources, options]);
 
   return (

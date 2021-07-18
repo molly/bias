@@ -15,7 +15,7 @@ BIAS = {
 ACCURACY = {
     "very high": 100,
     "high": 50,
-    "mostly factual": 33,
+    "mostly factual": 25,
     "mixed": 0,
     "low": -50,
     "very low": -100,

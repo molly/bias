@@ -6,7 +6,9 @@ import ScatterPlot from "./ScatterPlot";
 import ChartOptions from "./ChartOptions";
 
 export default function Chart({ sources }) {
-  const [options, setOptions] = useState({ showLogos: true });
+  const [options, setOptions] = useState({
+    sizeBasedOnUsage: true,
+  });
 
   const getChartData = () =>
     Object.values(sources.domains).filter(
@@ -22,7 +24,7 @@ export default function Chart({ sources }) {
       <ScatterPlot
         data={sources && getChartData()}
         sources={sources}
-        className="col-lg-10"
+        className="col-lg-9"
         width={800}
         height={600}
         margins={10}
@@ -31,7 +33,7 @@ export default function Chart({ sources }) {
       <ChartOptions
         options={options}
         setOptions={setOptions}
-        className="col-lg-2"
+        className="col-lg-3"
       />
     </div>
   );

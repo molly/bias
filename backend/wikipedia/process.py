@@ -41,10 +41,12 @@ def process(args):
             if domain in domains:
                 domains[domain]["citations"] += 1
                 domains[domain]["usages"] += references["citations"][key]["usages"]
+                domains[domain]["citation_keys"].append(key)
             else:
                 domains[domain] = {
                     "domain": domain,
                     "citations": 1,
+                    "citation_keys": [key],
                     "usages": references["citations"][key]["usages"],
                     "evaluations": evaluations,
                 }
