@@ -35,7 +35,10 @@ class Database:
             return self.bulk_add(data)
 
     def get_last_updated(self, source):
-        self.database.metadata.find_one({"source": source})
+        result = self.database.metadata.find_one({"source": source})
+        if result:
+            return result["last_updated"]
+        return None
 
     def set_last_updated(self, source, timestamp):
         self.database.metadata.update(

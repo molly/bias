@@ -1,6 +1,7 @@
 from constants.misc import HEADERS
 from constants.urls import MBFC_API_URL
 from database.mbfc_source import validate_mbfc_source
+from utils import get_current_timestamp
 from time import time
 import logging
 import requests
@@ -13,15 +14,15 @@ def update(db, dry_run=False):
         try:
             req = requests.get(MBFC_API_URL, headers=HEADERS, timeout=10)
             sources = req.json()["sources"]
-            timestamp = int(time() * 1000)
+            timestamp = get_current_timestamp()
             db.set_last_updated("mbfc", timestamp)
             db.add_or_update_sources(
                 [validate_mbfc_source(source, timestamp) for source in sources]
             )
-            logger.info("Media Bias/Fact check update complete. {} sources updated.")
+            logger.info("Media Bias/Fact Check update complete. {} sources updated.")
         except requests.exceptions.Timeout:
             # This is a pretty slow endpoint, so it may time out. If it does, just try
             # again next time; no need for fancier error handling.
-            logger.info("Media Bias/Fact endpoint timed out. No updates made.")
+            logger.info("Media Bias/Fact Check endpoint timed out. No updates made.")
     else:
-        logger.info("Media Bias/Fact check update complete. 0 sources updated.")
+        logger.info("Media Bias/Fact Check update complete. 0 sources updated.")
