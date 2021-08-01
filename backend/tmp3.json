@@ -1,0 +1,6302 @@
+{
+  "112 Ukraine": {
+    "name": "112 Ukraine",
+    "parenthetical": null,
+    "link": "112_Ukraine",
+    "parent": "112 Ukraine",
+    "parent_link": "112_Ukraine",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "112_Ukraine",
+    "domain": "tv-ua.112.ua"
+  },
+  "ABC News": {
+    "name": "ABC News",
+    "parenthetical": null,
+    "link": "ABC_News",
+    "parent": "ABC News",
+    "parent_link": "ABC_News",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "ABC_News",
+    "domain": "abcnews.go.com"
+  },
+  "Ad Fontes Media": {
+    "name": "Ad Fontes Media",
+    "parenthetical": null,
+    "link": "Ad_Fontes_Media",
+    "parent": "Ad Fontes Media",
+    "parent_link": "Ad_Fontes_Media",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Ad_Fontes_Media",
+    "domain": "adfontesmedia.com"
+  },
+  "Advameg": {
+    "name": "Advameg",
+    "parenthetical": null,
+    "link": "Advameg",
+    "parent": "Advameg",
+    "parent_link": "Advameg",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "Advameg",
+    "domain": "advameg.com"
+  },
+  "City-Data": {
+    "parenthetical": null,
+    "parent": "Advameg",
+    "parent_link": "Advameg",
+    "name": "City-Data",
+    "link": "City-Data",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "Advameg",
+    "domain": "city-data.com"
+  },
+  "Agence France-Presse": {
+    "name": "Agence France-Presse",
+    "parenthetical": null,
+    "link": "Agence_France-Presse",
+    "parent": "Agence France-Presse",
+    "parent_link": "Agence_France-Presse",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Agence_France-Presse",
+    "domain": "afp.com"
+  },
+  "AFP": {
+    "parenthetical": null,
+    "parent": "Agence France-Presse",
+    "parent_link": "Agence_France-Presse",
+    "name": "AFP",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Agence_France-Presse",
+    "domain": "afp.com"
+  },
+  "Al Jazeera": {
+    "name": "Al Jazeera",
+    "parenthetical": null,
+    "link": "Al_Jazeera",
+    "parent": "Al Jazeera",
+    "parent_link": "Al_Jazeera",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Al_Jazeera",
+    "domain": "aljazeera.com"
+  },
+  "Al Jazeera English": {
+    "parenthetical": null,
+    "parent": "Al Jazeera",
+    "parent_link": "Al_Jazeera",
+    "name": "Al Jazeera English",
+    "link": "Al_Jazeera_English",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Al_Jazeera",
+    "domain": "aljazeera.com"
+  },
+  "Aljazeera.com": {
+    "parenthetical": null,
+    "parent": "Al Jazeera",
+    "parent_link": "Al_Jazeera",
+    "name": "Aljazeera.com",
+    "link": "Aljazeera.com",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Al_Jazeera",
+    "domain": "aljazeera.com"
+  },
+  "AlterNet": {
+    "name": "AlterNet",
+    "parenthetical": null,
+    "link": "AlterNet",
+    "parent": "AlterNet",
+    "parent_link": "AlterNet",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "AlterNet",
+    "domain": "alternet.org"
+  },
+  "Amazon": {
+    "name": "Amazon",
+    "parenthetical": null,
+    "link": "Amazon_(company)",
+    "parent": "Amazon",
+    "parent_link": "Amazon_(company)",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Amazon",
+    "domain": "amazon.com"
+  },
+  "The American Conservative": {
+    "name": "The American Conservative",
+    "parenthetical": null,
+    "link": "The_American_Conservative",
+    "parent": "The American Conservative",
+    "parent_link": "The_American_Conservative",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "The_American_Conservative",
+    "domain": "theamericanconservative.com"
+  },
+  "TAC": {
+    "parenthetical": null,
+    "parent": "The American Conservative",
+    "parent_link": "The_American_Conservative",
+    "name": "TAC",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "The_American_Conservative",
+    "domain": "theamericanconservative.com"
+  },
+  "An Phoblacht": {
+    "name": "An Phoblacht",
+    "parenthetical": null,
+    "link": "An_Phoblacht",
+    "parent": "An Phoblacht",
+    "parent_link": "An_Phoblacht",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "An_Phoblacht",
+    "domain": "anphoblacht.com"
+  },
+  "Anadolu Agency": {
+    "name": "Anadolu Agency",
+    "parenthetical": "general topics",
+    "link": "Anadolu_Agency",
+    "parent": "Anadolu Agency",
+    "parent_link": "Anadolu_Agency",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Anadolu_Agency",
+    "domain": "aa.com.tr"
+  },
+  "AA": {
+    "parenthetical": "general topics",
+    "parent": "Anadolu Agency",
+    "parent_link": "Anadolu_Agency",
+    "name": "AA",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Anadolu_Agency",
+    "domain": "aa.com.tr"
+  },
+  "Anadolu Agency (controversial topics, international politics)": {
+    "name": "Anadolu Agency",
+    "parenthetical": "controversial topics, international politics",
+    "link": "Anadolu_Agency",
+    "parent": "Anadolu Agency",
+    "parent_link": "Anadolu_Agency",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Anadolu_Agency_(controversial_topics)",
+    "domain": "aa.com.tr"
+  },
+  "AA (controversial topics, international politics)": {
+    "parenthetical": "controversial topics, international politics",
+    "parent": "Anadolu Agency",
+    "parent_link": "Anadolu_Agency",
+    "name": "AA",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Anadolu_Agency_(controversial_topics)",
+    "domain": "aa.com.tr"
+  },
+  "Ancestry.com": {
+    "name": "Ancestry.com",
+    "parenthetical": null,
+    "link": "Ancestry.com",
+    "parent": "Ancestry.com",
+    "parent_link": "Ancestry.com",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Ancestry.com",
+    "domain": "ancestry.com"
+  },
+  "Answers.com": {
+    "name": "Answers.com",
+    "parenthetical": null,
+    "link": "Answers.com",
+    "parent": "Answers.com",
+    "parent_link": "Answers.com",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Answers.com",
+    "domain": "answers.com"
+  },
+  "WikiAnswers": {
+    "parenthetical": null,
+    "parent": "Answers.com",
+    "parent_link": "Answers.com",
+    "name": "WikiAnswers",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Answers.com",
+    "domain": "answers.com"
+  },
+  "Anti-Defamation League": {
+    "name": "Anti-Defamation League",
+    "parenthetical": null,
+    "link": "Anti-Defamation_League",
+    "parent": "Anti-Defamation League",
+    "parent_link": "Anti-Defamation_League",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Anti-Defamation_League",
+    "domain": "adl.org"
+  },
+  "ADL": {
+    "parenthetical": null,
+    "parent": "Anti-Defamation League",
+    "parent_link": "Anti-Defamation_League",
+    "name": "ADL",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Anti-Defamation_League",
+    "domain": "adl.org"
+  },
+  "Apple Daily": {
+    "name": "Apple Daily",
+    "parenthetical": null,
+    "link": "Apple_Daily",
+    "parent": "Apple Daily",
+    "parent_link": "Apple_Daily",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Apple_Daily",
+    "domain": "hk.appledaily.com"
+  },
+  "Asian News International": {
+    "name": "Asian News International",
+    "parenthetical": null,
+    "link": "Asian_News_International",
+    "parent": "Asian News International",
+    "parent_link": "Asian_News_International",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Asian_News_International",
+    "domain": "aniin.com"
+  },
+  "ANI": {
+    "parenthetical": null,
+    "parent": "Asian News International",
+    "parent_link": "Asian_News_International",
+    "name": "ANI",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Asian_News_International",
+    "domain": "aniin.com"
+  },
+  "Arab News": {
+    "name": "Arab News",
+    "parenthetical": null,
+    "link": "Arab_News",
+    "parent": "Arab News",
+    "parent_link": "Arab_News",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Arab_News",
+    "domain": "arabnews.com"
+  },
+  "Ars Technica": {
+    "name": "Ars Technica",
+    "parenthetical": null,
+    "link": "Ars_Technica",
+    "parent": "Ars Technica",
+    "parent_link": "Ars_Technica",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Ars_Technica",
+    "domain": "arstechnica.com"
+  },
+  "arXiv": {
+    "name": "arXiv",
+    "parenthetical": null,
+    "link": "ArXiv",
+    "parent": "arXiv",
+    "parent_link": "ArXiv",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "arXiv",
+    "domain": "arxiv.org"
+  },
+  "AskMen": {
+    "name": "AskMen",
+    "parenthetical": null,
+    "link": "AskMen",
+    "parent": "AskMen",
+    "parent_link": "AskMen",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "AskMen",
+    "domain": "askmen.com"
+  },
+  "Associated Press": {
+    "name": "Associated Press",
+    "parenthetical": null,
+    "link": "Associated_Press",
+    "parent": "Associated Press",
+    "parent_link": "Associated_Press",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Associated_Press",
+    "domain": "ap.org"
+  },
+  "AP": {
+    "parenthetical": null,
+    "parent": "Associated Press",
+    "parent_link": "Associated_Press",
+    "name": "AP",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Associated_Press",
+    "domain": "ap.org"
+  },
+  "The Atlantic": {
+    "name": "The Atlantic",
+    "parenthetical": null,
+    "link": "The_Atlantic",
+    "parent": "The Atlantic",
+    "parent_link": "The_Atlantic",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Atlantic",
+    "domain": "theatlantic.com"
+  },
+  "The Atlantic Monthly": {
+    "parenthetical": null,
+    "parent": "The Atlantic",
+    "parent_link": "The_Atlantic",
+    "name": "The Atlantic Monthly",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Atlantic",
+    "domain": "theatlantic.com"
+  },
+  "The Australian": {
+    "name": "The Australian",
+    "parenthetical": null,
+    "link": "The_Australian",
+    "parent": "The Australian",
+    "parent_link": "The_Australian",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Australian",
+    "domain": "theaustralian.com.au"
+  },
+  "The A.V. Club": {
+    "name": "The A.V. Club",
+    "parenthetical": null,
+    "link": "The_A.V._Club",
+    "parent": "The A.V. Club",
+    "parent_link": "The_A.V._Club",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_A.V._Club",
+    "domain": "avclub.com"
+  },
+  "Axios": {
+    "name": "Axios",
+    "parenthetical": null,
+    "link": "Axios_(website)",
+    "parent": "Axios",
+    "parent_link": "Axios_(website)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Axios",
+    "domain": "axios.com"
+  },
+  "Baidu Baike": {
+    "name": "Baidu Baike",
+    "parenthetical": null,
+    "link": "Baidu_Baike",
+    "parent": "Baidu Baike",
+    "parent_link": "Baidu_Baike",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Baidu_Baike",
+    "domain": "baike.baidu.com"
+  },
+  "Ballotpedia": {
+    "name": "Ballotpedia",
+    "parenthetical": null,
+    "link": "Ballotpedia",
+    "parent": "Ballotpedia",
+    "parent_link": "Ballotpedia",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Ballotpedia",
+    "domain": "ballotpedia.org"
+  },
+  "BBC": {
+    "name": "BBC",
+    "parenthetical": null,
+    "link": "BBC",
+    "parent": "BBC",
+    "parent_link": "BBC",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "BBC",
+    "domain": "bbc.com"
+  },
+  "British Broadcasting Corporation": {
+    "parenthetical": null,
+    "parent": "BBC",
+    "parent_link": "BBC",
+    "name": "British Broadcasting Corporation",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "BBC",
+    "domain": "bbc.com"
+  },
+  "Bellingcat": {
+    "name": "Bellingcat",
+    "parenthetical": null,
+    "link": "Bellingcat",
+    "parent": "Bellingcat",
+    "parent_link": "Bellingcat",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Bellingcat",
+    "domain": "bellingcat.com"
+  },
+  "bestgore.com": {
+    "name": "bestgore.com",
+    "parenthetical": null,
+    "link": "Bestgore.com",
+    "parent": "bestgore.com",
+    "parent_link": "Bestgore.com",
+    "ratings": [
+      "Blacklisted",
+      "Deprecated"
+    ],
+    "row_id": "bestgore.com",
+    "domain": "bestgore.com"
+  },
+  "Bild": {
+    "name": "Bild",
+    "parenthetical": null,
+    "link": "Bild",
+    "parent": "Bild",
+    "parent_link": "Bild",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Bild",
+    "domain": "bild.de"
+  },
+  "Biography.com": {
+    "name": "Biography.com",
+    "parenthetical": null,
+    "link": "Biography.com",
+    "parent": "Biography.com",
+    "parent_link": "Biography.com",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Biography.com",
+    "domain": "biography.com"
+  },
+  "Blaze Media": {
+    "name": "Blaze Media",
+    "parenthetical": null,
+    "link": "Blaze_Media",
+    "parent": "Blaze Media",
+    "parent_link": "Blaze_Media",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Blaze_Media",
+    "domain": "theblaze.com"
+  },
+  "BlazeTV": {
+    "parenthetical": null,
+    "parent": "Blaze Media",
+    "parent_link": "Blaze_Media",
+    "name": "BlazeTV",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Blaze_Media",
+    "domain": "theblaze.com"
+  },
+  "Conservative Review": {
+    "parenthetical": null,
+    "parent": "Blaze Media",
+    "parent_link": "Blaze_Media",
+    "name": "Conservative Review",
+    "link": "Conservative_Review",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Blaze_Media",
+    "domain": "conservativereview.com"
+  },
+  "CRTV": {
+    "parenthetical": null,
+    "parent": "Blaze Media",
+    "parent_link": "Blaze_Media",
+    "name": "CRTV",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Blaze_Media",
+    "domain": "theblaze.com"
+  },
+  "TheBlaze": {
+    "parenthetical": null,
+    "parent": "Blaze Media",
+    "parent_link": "Blaze_Media",
+    "name": "TheBlaze",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Blaze_Media",
+    "domain": "theblaze.com"
+  },
+  "Blogger": {
+    "name": "Blogger",
+    "parenthetical": null,
+    "link": "Blogger_(service)",
+    "parent": "Blogger",
+    "parent_link": "Blogger_(service)",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Blogger",
+    "domain": "blogger.com"
+  },
+  "blogspot.com": {
+    "parenthetical": null,
+    "parent": "Blogger",
+    "parent_link": "Blogger_(service)",
+    "name": "blogspot.com",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Blogger",
+    "domain": "blogger.com"
+  },
+  "Bloomberg": {
+    "name": "Bloomberg",
+    "parenthetical": null,
+    "link": "Bloomberg_L.P.",
+    "parent": "Bloomberg",
+    "parent_link": "Bloomberg_L.P.",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Bloomberg",
+    "domain": "bloomberg.com"
+  },
+  "Bloomberg News": {
+    "parenthetical": null,
+    "parent": "Bloomberg",
+    "parent_link": "Bloomberg_L.P.",
+    "name": "Bloomberg News",
+    "link": "Bloomberg_News",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Bloomberg",
+    "domain": "bloomberg.com"
+  },
+  "Bloomberg Businessweek": {
+    "parenthetical": null,
+    "parent": "Bloomberg",
+    "parent_link": "Bloomberg_L.P.",
+    "name": "Bloomberg Businessweek",
+    "link": "Bloomberg_Businessweek",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Bloomberg",
+    "domain": "bloomberg.com"
+  },
+  "Bloomberg profiles": {
+    "name": "Bloomberg profiles",
+    "parenthetical": null,
+    "link": "Bloomberg_L.P.",
+    "parent": "Bloomberg profiles",
+    "parent_link": "Bloomberg_L.P.",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Bloomberg_profiles",
+    "domain": "bloomberg.com"
+  },
+  "Boing Boing": {
+    "name": "Boing Boing",
+    "parenthetical": null,
+    "link": "Boing_Boing",
+    "parent": "Boing Boing",
+    "parent_link": "Boing_Boing",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Boing_Boing",
+    "domain": "boingboing.net"
+  },
+  "Breitbart News": {
+    "name": "Breitbart News",
+    "parenthetical": null,
+    "link": "Breitbart_News",
+    "parent": "Breitbart News",
+    "parent_link": "Breitbart_News",
+    "ratings": [
+      "Blacklisted",
+      "Deprecated"
+    ],
+    "row_id": "Breitbart_News",
+    "domain": "breitbart.com"
+  },
+  "Burke's Peerage": {
+    "name": "Burke's Peerage",
+    "parenthetical": null,
+    "link": "Burke%27s_Peerage",
+    "parent": "Burke's Peerage",
+    "parent_link": "Burke%27s_Peerage",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Burke's_Peerage",
+    "domain": "burkespeerage.com"
+  },
+  "Business Insider": {
+    "name": "Business Insider",
+    "parenthetical": null,
+    "link": "Business_Insider",
+    "parent": "Business Insider",
+    "parent_link": "Business_Insider",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Business_Insider",
+    "domain": "businessinsider.com"
+  },
+  "Insider": {
+    "parenthetical": null,
+    "parent": "Business Insider",
+    "parent_link": "Business_Insider",
+    "name": "Insider",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Business_Insider",
+    "domain": "businessinsider.com"
+  },
+  "Markets Insider": {
+    "parenthetical": null,
+    "parent": "Business Insider",
+    "parent_link": "Business_Insider",
+    "name": "Markets Insider",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Business_Insider",
+    "domain": "businessinsider.com"
+  },
+  "Tech Insider": {
+    "parenthetical": null,
+    "parent": "Business Insider",
+    "parent_link": "Business_Insider",
+    "name": "Tech Insider",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Business_Insider",
+    "domain": "businessinsider.com"
+  },
+  "Bustle": {
+    "name": "Bustle",
+    "parenthetical": null,
+    "link": "Bustle_(magazine)",
+    "parent": "Bustle",
+    "parent_link": "Bustle_(magazine)",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Bustle",
+    "domain": "bustle.com"
+  },
+  "BuzzFeed": {
+    "name": "BuzzFeed",
+    "parenthetical": null,
+    "link": "BuzzFeed",
+    "parent": "BuzzFeed",
+    "parent_link": "BuzzFeed",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "BuzzFeed",
+    "domain": "buzzfeed.com"
+  },
+  "BuzzFeed News": {
+    "name": "BuzzFeed News",
+    "parenthetical": null,
+    "link": "BuzzFeed_News",
+    "parent": "BuzzFeed News",
+    "parent_link": "BuzzFeed_News",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "BuzzFeed_News",
+    "domain": "buzzfeednews.com"
+  },
+  "The California Globe": {
+    "name": "The California Globe",
+    "parenthetical": null,
+    "link": null,
+    "parent": "The California Globe",
+    "parent_link": null,
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "The_California_Globe",
+    "domain": "californiaglobe.com"
+  },
+  "The Canary": {
+    "name": "The Canary",
+    "parenthetical": null,
+    "link": "The_Canary_(website)",
+    "parent": "The Canary",
+    "parent_link": "The_Canary_(website)",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "The_Canary",
+    "domain": "thecanary.co"
+  },
+  "Cato Institute": {
+    "name": "Cato Institute",
+    "parenthetical": null,
+    "link": "Cato_Institute",
+    "parent": "Cato Institute",
+    "parent_link": "Cato_Institute",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Cato_Institute",
+    "domain": "cato.org"
+  },
+  "CelebrityNetWorth": {
+    "name": "CelebrityNetWorth",
+    "parenthetical": null,
+    "link": "CelebrityNetWorth",
+    "parent": "CelebrityNetWorth",
+    "parent_link": "CelebrityNetWorth",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "CelebrityNetWorth",
+    "domain": "celebritynetworth.com"
+  },
+  "Center for Economic and Policy Research": {
+    "name": "Center for Economic and Policy Research",
+    "parenthetical": null,
+    "link": "Center_for_Economic_and_Policy_Research",
+    "parent": "Center for Economic and Policy Research",
+    "parent_link": "Center_for_Economic_and_Policy_Research",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Center_for_Economic_and_Policy_Research",
+    "domain": "cepr.net"
+  },
+  "CEPR": {
+    "parenthetical": null,
+    "parent": "Center for Economic and Policy Research",
+    "parent_link": "Center_for_Economic_and_Policy_Research",
+    "name": "CEPR",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Center_for_Economic_and_Policy_Research",
+    "domain": "cepr.net"
+  },
+  "Centre for Research on Globalisation": {
+    "name": "Centre for Research on Globalisation",
+    "parenthetical": null,
+    "link": "Centre_for_Research_on_Globalisation",
+    "parent": "Centre for Research on Globalisation",
+    "parent_link": "Centre_for_Research_on_Globalisation",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "Centre_for_Research_on_Globalization",
+    "domain": "globalresearch.ca"
+  },
+  "CRG": {
+    "parenthetical": null,
+    "parent": "Centre for Research on Globalisation",
+    "parent_link": "Centre_for_Research_on_Globalisation",
+    "name": "CRG",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "Centre_for_Research_on_Globalization",
+    "domain": "globalresearch.ca"
+  },
+  "Global Research": {
+    "parenthetical": null,
+    "parent": "Centre for Research on Globalisation",
+    "parent_link": "Centre_for_Research_on_Globalisation",
+    "name": "Global Research",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "Centre_for_Research_on_Globalization",
+    "domain": "globalresearch.ca"
+  },
+  "globalresearch.ca": {
+    "parenthetical": null,
+    "parent": "Centre for Research on Globalisation",
+    "parent_link": "Centre_for_Research_on_Globalisation",
+    "name": "globalresearch.ca",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "Centre_for_Research_on_Globalization",
+    "domain": "globalresearch.ca"
+  },
+  "CESNUR": {
+    "name": "CESNUR",
+    "parenthetical": null,
+    "link": "CESNUR",
+    "parent": "CESNUR",
+    "parent_link": "CESNUR",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "CESNUR",
+    "domain": "cesnur.org"
+  },
+  "Center for Studies on New Religions": {
+    "parenthetical": null,
+    "parent": "CESNUR",
+    "parent_link": "CESNUR",
+    "name": "Center for Studies on New Religions",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "CESNUR",
+    "domain": "cesnur.org"
+  },
+  "Centro Studi sulle Nuove Religioni": {
+    "parenthetical": null,
+    "parent": "CESNUR",
+    "parent_link": "CESNUR",
+    "name": "Centro Studi sulle Nuove Religioni",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "CESNUR",
+    "domain": "cesnur.org"
+  },
+  "China Daily": {
+    "name": "China Daily",
+    "parenthetical": null,
+    "link": "China_Daily",
+    "parent": "China Daily",
+    "parent_link": "China_Daily",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "China_Daily",
+    "domain": "chinadaily.com.cn"
+  },
+  "China Global Television Network": {
+    "name": "China Global Television Network",
+    "parenthetical": null,
+    "link": "China_Global_Television_Network",
+    "parent": "China Global Television Network",
+    "parent_link": "China_Global_Television_Network",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "China_Global_Television_Network",
+    "domain": "cgtn.com"
+  },
+  "CGTN": {
+    "parenthetical": null,
+    "parent": "China Global Television Network",
+    "parent_link": "China_Global_Television_Network",
+    "name": "CGTN",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "China_Global_Television_Network",
+    "domain": "cgtn.com"
+  },
+  "CCTV International": {
+    "parenthetical": null,
+    "parent": "China Global Television Network",
+    "parent_link": "China_Global_Television_Network",
+    "name": "CCTV International",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "China_Global_Television_Network",
+    "domain": "cgtn.com"
+  },
+  "The Christian Science Monitor": {
+    "name": "The Christian Science Monitor",
+    "parenthetical": null,
+    "link": "The_Christian_Science_Monitor",
+    "parent": "The Christian Science Monitor",
+    "parent_link": "The_Christian_Science_Monitor",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Christian_Science_Monitor",
+    "domain": "csmonitor.com"
+  },
+  "CSM": {
+    "parenthetical": null,
+    "parent": "The Christian Science Monitor",
+    "parent_link": "The_Christian_Science_Monitor",
+    "name": "CSM",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Christian_Science_Monitor",
+    "domain": "csmonitor.com"
+  },
+  "CS Monitor": {
+    "parenthetical": null,
+    "parent": "The Christian Science Monitor",
+    "parent_link": "The_Christian_Science_Monitor",
+    "name": "CS Monitor",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Christian_Science_Monitor",
+    "domain": "csmonitor.com"
+  },
+  "CliffsNotes": {
+    "name": "CliffsNotes",
+    "parenthetical": null,
+    "link": "CliffsNotes",
+    "parent": "CliffsNotes",
+    "parent_link": "CliffsNotes",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "CliffsNotes",
+    "domain": "cliffsnotes.com"
+  },
+  "Climate Feedback": {
+    "name": "Climate Feedback",
+    "parenthetical": null,
+    "link": "Climate_Feedback",
+    "parent": "Climate Feedback",
+    "parent_link": "Climate_Feedback",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Climate_Feedback",
+    "domain": "climatefeedback.org"
+  },
+  "CNET": {
+    "name": "CNET",
+    "parenthetical": null,
+    "link": "CNET",
+    "parent": "CNET",
+    "parent_link": "CNET",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "CNET",
+    "domain": "cnet.com"
+  },
+  "Computer Network": {
+    "parenthetical": null,
+    "parent": "CNET",
+    "parent_link": "CNET",
+    "name": "Computer Network",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "CNET",
+    "domain": "cnet.com"
+  },
+  "CNN": {
+    "name": "CNN",
+    "parenthetical": null,
+    "link": "CNN",
+    "parent": "CNN",
+    "parent_link": "CNN",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "CNN",
+    "domain": "cnn.com"
+  },
+  "Cable News Network": {
+    "parenthetical": null,
+    "parent": "CNN",
+    "parent_link": "CNN",
+    "name": "Cable News Network",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "CNN",
+    "domain": "cnn.com"
+  },
+  "Coda Media": {
+    "name": "Coda Media",
+    "parenthetical": null,
+    "link": "Coda_Media",
+    "parent": "Coda Media",
+    "parent_link": "Coda_Media",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Coda_Media",
+    "domain": "codastory.com"
+  },
+  "Coda Story": {
+    "parenthetical": null,
+    "parent": "Coda Media",
+    "parent_link": "Coda_Media",
+    "name": "Coda Story",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Coda_Media",
+    "domain": "codastory.com"
+  },
+  "CoinDesk": {
+    "name": "CoinDesk",
+    "parenthetical": null,
+    "link": "CoinDesk",
+    "parent": "CoinDesk",
+    "parent_link": "CoinDesk",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "CoinDesk",
+    "domain": "coindesk.com"
+  },
+  "Common Sense Media": {
+    "name": "Common Sense Media",
+    "parenthetical": null,
+    "link": "Common_Sense_Media",
+    "parent": "Common Sense Media",
+    "parent_link": "Common_Sense_Media",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Common_Sense_Media",
+    "domain": "commonsensemedia.org"
+  },
+  "CSM [1]": {
+    "parenthetical": null,
+    "parent": "Common Sense Media",
+    "parent_link": "Common_Sense_Media",
+    "name": "CSM",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Common_Sense_Media",
+    "domain": "commonsensemedia.org"
+  },
+  "The Conversation": {
+    "name": "The Conversation",
+    "parenthetical": null,
+    "link": "The_Conversation_(website)",
+    "parent": "The Conversation",
+    "parent_link": "The_Conversation_(website)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Conversation",
+    "domain": "theconversation.com"
+  },
+  "Cosmopolitan": {
+    "name": "Cosmopolitan",
+    "parenthetical": null,
+    "link": "Cosmopolitan_(magazine)",
+    "parent": "Cosmopolitan",
+    "parent_link": "Cosmopolitan_(magazine)",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Cosmopolitan",
+    "domain": "cosmopolitan.com"
+  },
+  "CounterPunch": {
+    "name": "CounterPunch",
+    "parenthetical": null,
+    "link": "CounterPunch",
+    "parent": "CounterPunch",
+    "parent_link": "CounterPunch",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "CounterPunch",
+    "domain": "counterpunch.org"
+  },
+  "Cracked.com": {
+    "name": "Cracked.com",
+    "parenthetical": null,
+    "link": "Cracked.com",
+    "parent": "Cracked.com",
+    "parent_link": "Cracked.com",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Cracked.com",
+    "domain": "cracked.com"
+  },
+  "Crunchbase": {
+    "name": "Crunchbase",
+    "parenthetical": null,
+    "link": "Crunchbase",
+    "parent": "Crunchbase",
+    "parent_link": "Crunchbase",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Crunchbase",
+    "domain": "crunchbase.com"
+  },
+  "The Daily Beast": {
+    "name": "The Daily Beast",
+    "parenthetical": null,
+    "link": "The_Daily_Beast",
+    "parent": "The Daily Beast",
+    "parent_link": "The_Daily_Beast",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Daily_Beast",
+    "domain": "thedailybeast.com"
+  },
+  "The Daily Caller": {
+    "name": "The Daily Caller",
+    "parenthetical": null,
+    "link": "The_Daily_Caller",
+    "parent": "The Daily Caller",
+    "parent_link": "The_Daily_Caller",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "The_Daily_Caller",
+    "domain": "dailycaller.com"
+  },
+  "The Daily Dot": {
+    "name": "The Daily Dot",
+    "parenthetical": null,
+    "link": "The_Daily_Dot",
+    "parent": "The Daily Dot",
+    "parent_link": "The_Daily_Dot",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Daily_Dot",
+    "domain": "dailydot.com"
+  },
+  "Daily Express": {
+    "name": "Daily Express",
+    "parenthetical": null,
+    "link": "Daily_Express",
+    "parent": "Daily Express",
+    "parent_link": "Daily_Express",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Daily_Express",
+    "domain": "express.co.uk"
+  },
+  "Daily Kos": {
+    "name": "Daily Kos",
+    "parenthetical": null,
+    "link": "Daily_Kos",
+    "parent": "Daily Kos",
+    "parent_link": "Daily_Kos",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Daily_Kos",
+    "domain": "dailykos.com"
+  },
+  "Daily Mail": {
+    "name": "Daily Mail",
+    "parenthetical": null,
+    "link": "Daily_Mail",
+    "parent": "Daily Mail",
+    "parent_link": "Daily_Mail",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Daily_Mail",
+    "domain": "dailymail.co.uk"
+  },
+  "MailOnline": {
+    "parenthetical": null,
+    "parent": "Daily Mail",
+    "parent_link": "Daily_Mail",
+    "name": "MailOnline",
+    "link": "MailOnline",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Daily_Mail",
+    "domain": "dailymail.co.uk"
+  },
+  "Daily Mirror": {
+    "name": "Daily Mirror",
+    "parenthetical": null,
+    "link": "Daily_Mirror",
+    "parent": "Daily Mirror",
+    "parent_link": "Daily_Mirror",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Daily_Mirror",
+    "domain": "mirror.co.uk"
+  },
+  "Mirror": {
+    "parenthetical": null,
+    "parent": "Daily Mirror",
+    "parent_link": "Daily_Mirror",
+    "name": "Mirror",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Daily_Mirror",
+    "domain": "mirror.co.uk"
+  },
+  "Daily Star": {
+    "name": "Daily Star",
+    "parenthetical": null,
+    "link": "Daily_Star_(United_Kingdom)",
+    "parent": "Daily Star",
+    "parent_link": "Daily_Star_(United_Kingdom)",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Daily_Star",
+    "domain": "dailystar.co.uk"
+  },
+  "The Daily Telegraph": {
+    "name": "The Daily Telegraph",
+    "parenthetical": null,
+    "link": "The_Daily_Telegraph",
+    "parent": "The Daily Telegraph",
+    "parent_link": "The_Daily_Telegraph",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Daily_Telegraph",
+    "domain": "telegraph.co.uk"
+  },
+  "The Telegraph": {
+    "parenthetical": null,
+    "parent": "The Daily Telegraph",
+    "parent_link": "The_Daily_Telegraph",
+    "name": "The Telegraph",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Daily_Telegraph",
+    "domain": "telegraph.co.uk"
+  },
+  "The Daily Wire": {
+    "name": "The Daily Wire",
+    "parenthetical": null,
+    "link": "The_Daily_Wire",
+    "parent": "The Daily Wire",
+    "parent_link": "The_Daily_Wire",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "The_Daily_Wire",
+    "domain": "dailywire.com"
+  },
+  "Deadline Hollywood": {
+    "name": "Deadline Hollywood",
+    "parenthetical": null,
+    "link": "Deadline_Hollywood",
+    "parent": "Deadline Hollywood",
+    "parent_link": "Deadline_Hollywood",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Deadline_Hollywood",
+    "domain": "deadline.com"
+  },
+  "Debrett's": {
+    "name": "Debrett's",
+    "parenthetical": null,
+    "link": "Debrett%27s",
+    "parent": "Debrett's",
+    "parent_link": "Debrett%27s",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Debrett's",
+    "domain": "debretts.com"
+  },
+  "Democracy Now!": {
+    "name": "Democracy Now!",
+    "parenthetical": null,
+    "link": "Democracy_Now!",
+    "parent": "Democracy Now!",
+    "parent_link": "Democracy_Now!",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Democracy_Now!",
+    "domain": "democracynow.org"
+  },
+  "Deseret News": {
+    "name": "Deseret News",
+    "parenthetical": null,
+    "link": "Deseret_News",
+    "parent": "Deseret News",
+    "parent_link": "Deseret_News",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Deseret_News",
+    "domain": "deseretnews.com"
+  },
+  "Digital Spy": {
+    "name": "Digital Spy",
+    "parenthetical": null,
+    "link": "Digital_Spy",
+    "parent": "Digital Spy",
+    "parent_link": "Digital_Spy",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Digital_Spy",
+    "domain": "digitalspy.co.uk"
+  },
+  "The Diplomat": {
+    "name": "The Diplomat",
+    "parenthetical": null,
+    "link": "The_Diplomat",
+    "parent": "The Diplomat",
+    "parent_link": "The_Diplomat",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Diplomat",
+    "domain": "thediplomat.com"
+  },
+  "Discogs": {
+    "name": "Discogs",
+    "parenthetical": null,
+    "link": "Discogs",
+    "parent": "Discogs",
+    "parent_link": "Discogs",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Discogs",
+    "domain": "discogs.com"
+  },
+  "Dotdash": {
+    "name": "Dotdash",
+    "parenthetical": null,
+    "link": "Dotdash",
+    "parent": "Dotdash",
+    "parent_link": "Dotdash",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Dotdash",
+    "domain": "dotdash.com"
+  },
+  "About.com": {
+    "parenthetical": null,
+    "parent": "Dotdash",
+    "parent_link": "Dotdash",
+    "name": "About.com",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Dotdash",
+    "domain": "dotdash.com"
+  },
+  "The Balance": {
+    "parenthetical": null,
+    "parent": "Dotdash",
+    "parent_link": "Dotdash",
+    "name": "The Balance",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Dotdash",
+    "domain": "dotdash.com"
+  },
+  "Lifewire": {
+    "parenthetical": null,
+    "parent": "Dotdash",
+    "parent_link": "Dotdash",
+    "name": "Lifewire",
+    "link": "Lifewire",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Dotdash",
+    "domain": "lifewire.com"
+  },
+  "The Spruce": {
+    "parenthetical": null,
+    "parent": "Dotdash",
+    "parent_link": "Dotdash",
+    "name": "The Spruce",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Dotdash",
+    "domain": "dotdash.com"
+  },
+  "ThoughtCo": {
+    "parenthetical": null,
+    "parent": "Dotdash",
+    "parent_link": "Dotdash",
+    "name": "ThoughtCo",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Dotdash",
+    "domain": "dotdash.com"
+  },
+  "TripSavvy": {
+    "parenthetical": null,
+    "parent": "Dotdash",
+    "parent_link": "Dotdash",
+    "name": "TripSavvy",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Dotdash",
+    "domain": "dotdash.com"
+  },
+  "Verywell": {
+    "parenthetical": null,
+    "parent": "Dotdash",
+    "parent_link": "Dotdash",
+    "name": "Verywell",
+    "link": "Verywell",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Dotdash",
+    "domain": "verywell.com"
+  },
+  "The Economist": {
+    "name": "The Economist",
+    "parenthetical": null,
+    "link": "The_Economist",
+    "parent": "The Economist",
+    "parent_link": "The_Economist",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Economist",
+    "domain": "economist.com"
+  },
+  "The Electronic Intifada": {
+    "name": "The Electronic Intifada",
+    "parenthetical": null,
+    "link": "The_Electronic_Intifada",
+    "parent": "The Electronic Intifada",
+    "parent_link": "The_Electronic_Intifada",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "The_Electronic_Intifada",
+    "domain": "electronicintifada.net"
+  },
+  "EI": {
+    "parenthetical": null,
+    "parent": "The Electronic Intifada",
+    "parent_link": "The_Electronic_Intifada",
+    "name": "EI",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "The_Electronic_Intifada",
+    "domain": "electronicintifada.net"
+  },
+  "Encyclop\u00e6dia Britannica": {
+    "name": "Encyclop\u00e6dia Britannica",
+    "parenthetical": null,
+    "link": "Encyclop%C3%A6dia_Britannica",
+    "parent": "Encyclop\u00e6dia Britannica",
+    "parent_link": "Encyclop%C3%A6dia_Britannica",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Encyclop\u00e6dia_Britannica",
+    "domain": "britannica.com"
+  },
+  "Encyclop\u00e6dia Britannica Online": {
+    "parenthetical": null,
+    "parent": "Encyclop\u00e6dia Britannica",
+    "parent_link": "Encyclop%C3%A6dia_Britannica",
+    "name": "Encyclop\u00e6dia Britannica Online",
+    "link": "Encyclop%C3%A6dia_Britannica_Online",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Encyclop\u00e6dia_Britannica",
+    "domain": "britannica.com"
+  },
+  "Encyclop\u00e6dia Iranica": {
+    "name": "Encyclop\u00e6dia Iranica",
+    "parenthetical": null,
+    "link": "Encyclop%C3%A6dia_Iranica",
+    "parent": "Encyclop\u00e6dia Iranica",
+    "parent_link": "Encyclop%C3%A6dia_Iranica",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Encyclop\u00e6dia_Iranica",
+    "domain": "iranicaonline.org"
+  },
+  "Encyclopaedia Metallum": {
+    "name": "Encyclopaedia Metallum",
+    "parenthetical": null,
+    "link": "Encyclopaedia_Metallum",
+    "parent": "Encyclopaedia Metallum",
+    "parent_link": "Encyclopaedia_Metallum",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Encyclopaedia_Metallum",
+    "domain": "metal-archives.com"
+  },
+  "Metal Archives": {
+    "parenthetical": null,
+    "parent": "Encyclopaedia Metallum",
+    "parent_link": "Encyclopaedia_Metallum",
+    "name": "Metal Archives",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Encyclopaedia_Metallum",
+    "domain": "metal-archives.com"
+  },
+  "MA": {
+    "parenthetical": null,
+    "parent": "Encyclopaedia Metallum",
+    "parent_link": "Encyclopaedia_Metallum",
+    "name": "MA",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Encyclopaedia_Metallum",
+    "domain": "metal-archives.com"
+  },
+  "Engadget": {
+    "name": "Engadget",
+    "parenthetical": null,
+    "link": "Engadget",
+    "parent": "Engadget",
+    "parent_link": "Engadget",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Engadget",
+    "domain": "engadget.com"
+  },
+  "Entertainment Weekly": {
+    "name": "Entertainment Weekly",
+    "parenthetical": null,
+    "link": "Entertainment_Weekly",
+    "parent": "Entertainment Weekly",
+    "parent_link": "Entertainment_Weekly",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Entertainment_Weekly",
+    "domain": "ew.com"
+  },
+  "EW": {
+    "parenthetical": null,
+    "parent": "Entertainment Weekly",
+    "parent_link": "Entertainment_Weekly",
+    "name": "EW",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Entertainment_Weekly",
+    "domain": "ew.com"
+  },
+  "Entrepreneur": {
+    "name": "Entrepreneur",
+    "parenthetical": null,
+    "link": "Entrepreneur_(magazine)",
+    "parent": "Entrepreneur",
+    "parent_link": "Entrepreneur_(magazine)",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Entrepreneur",
+    "domain": "entrepreneur.com"
+  },
+  "Entrepreneur India": {
+    "parenthetical": null,
+    "parent": "Entrepreneur",
+    "parent_link": "Entrepreneur_(magazine)",
+    "name": "Entrepreneur India",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Entrepreneur",
+    "domain": "entrepreneur.com"
+  },
+  "The Epoch Times": {
+    "name": "The Epoch Times",
+    "parenthetical": null,
+    "link": "The_Epoch_Times",
+    "parent": "The Epoch Times",
+    "parent_link": "The_Epoch_Times",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "The_Epoch_Times",
+    "domain": "epochtimes.com"
+  },
+  "Evening Standard": {
+    "name": "Evening Standard",
+    "parenthetical": null,
+    "link": "Evening_Standard",
+    "parent": "Evening Standard",
+    "parent_link": "Evening_Standard",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Evening_Standard",
+    "domain": "standard.co.uk"
+  },
+  "London Evening Standard": {
+    "parenthetical": null,
+    "parent": "Evening Standard",
+    "parent_link": "Evening_Standard",
+    "name": "London Evening Standard",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Evening_Standard",
+    "domain": "standard.co.uk"
+  },
+  "Examiner.com": {
+    "name": "Examiner.com",
+    "parenthetical": null,
+    "link": "Examiner.com",
+    "parent": "Examiner.com",
+    "parent_link": "Examiner.com",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "Examiner.com",
+    "domain": "examiner.com"
+  },
+  "Facebook": {
+    "name": "Facebook",
+    "parenthetical": null,
+    "link": "Facebook",
+    "parent": "Facebook",
+    "parent_link": "Facebook",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Facebook",
+    "domain": "facebook.com"
+  },
+  "Fairness and Accuracy in Reporting": {
+    "name": "Fairness and Accuracy in Reporting",
+    "parenthetical": null,
+    "link": "Fairness_%26_Accuracy_in_Reporting",
+    "parent": "Fairness and Accuracy in Reporting",
+    "parent_link": "Fairness_%26_Accuracy_in_Reporting",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Fairness_and_Accuracy_in_Reporting",
+    "domain": "fair.org"
+  },
+  "FAIR": {
+    "parenthetical": null,
+    "parent": "Fairness and Accuracy in Reporting",
+    "parent_link": "Fairness_%26_Accuracy_in_Reporting",
+    "name": "FAIR",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Fairness_and_Accuracy_in_Reporting",
+    "domain": "fair.org"
+  },
+  "FamilySearch": {
+    "name": "FamilySearch",
+    "parenthetical": null,
+    "link": "FamilySearch",
+    "parent": "FamilySearch",
+    "parent_link": "FamilySearch",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "FamilySearch",
+    "domain": "familysearch.org"
+  },
+  "Famous Birthdays": {
+    "name": "Famous Birthdays",
+    "parenthetical": null,
+    "link": "Famous_Birthdays",
+    "parent": "Famous Birthdays",
+    "parent_link": "Famous_Birthdays",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "Famous_Birthdays",
+    "domain": "famousbirthdays.com"
+  },
+  "Fandom wikis": {
+    "name": "Fandom wikis",
+    "parenthetical": null,
+    "link": "Fandom_(website)",
+    "parent": "Fandom wikis",
+    "parent_link": "Fandom_(website)",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Fandom",
+    "domain": "fandom.com"
+  },
+  "Wikia": {
+    "parenthetical": null,
+    "parent": "Fandom wikis",
+    "parent_link": "Fandom_(website)",
+    "name": "Wikia",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Fandom",
+    "domain": "fandom.com"
+  },
+  "Wikicities": {
+    "parenthetical": null,
+    "parent": "Fandom wikis",
+    "parent_link": "Fandom_(website)",
+    "name": "Wikicities",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Fandom",
+    "domain": "fandom.com"
+  },
+  "The Federalist": {
+    "name": "The Federalist",
+    "parenthetical": null,
+    "link": "The_Federalist_(website)",
+    "parent": "The Federalist",
+    "parent_link": "The_Federalist_(website)",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "The_Federalist",
+    "domain": "thefederalist.com"
+  },
+  "Financial Times": {
+    "name": "Financial Times",
+    "parenthetical": null,
+    "link": "Financial_Times",
+    "parent": "Financial Times",
+    "parent_link": "Financial_Times",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Financial_Times",
+    "domain": "ft.com"
+  },
+  "Find a Grave": {
+    "name": "Find a Grave",
+    "parenthetical": null,
+    "link": "Find_a_Grave",
+    "parent": "Find a Grave",
+    "parent_link": "Find_a_Grave",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Find_a_Grave",
+    "domain": "findagrave.com"
+  },
+  "Findmypast": {
+    "name": "Findmypast",
+    "parenthetical": null,
+    "link": "Findmypast",
+    "parent": "Findmypast",
+    "parent_link": "Findmypast",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Findmypast",
+    "domain": "findmypast.com"
+  },
+  "Flickr": {
+    "name": "Flickr",
+    "parenthetical": null,
+    "link": "Flickr",
+    "parent": "Flickr",
+    "parent_link": "Flickr",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Flickr",
+    "domain": "flickr.com"
+  },
+  "Forbes": {
+    "name": "Forbes",
+    "parenthetical": null,
+    "link": "Forbes",
+    "parent": "Forbes",
+    "parent_link": "Forbes",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Forbes",
+    "domain": "forbes.com"
+  },
+  "Forbes.com contributors": {
+    "name": "Forbes.com contributors",
+    "parenthetical": null,
+    "link": "Forbes.com",
+    "parent": "Forbes.com contributors",
+    "parent_link": "Forbes.com",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Forbes.com_contributors",
+    "domain": "forbes.com"
+  },
+  "Fox News[o]": {
+    "name": "Fox News[o]",
+    "parenthetical": "news excluding politics and science",
+    "link": "Fox_News",
+    "parent": "Fox News[o]",
+    "parent_link": "Fox_News",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Fox_News",
+    "domain": "foxnews.com"
+  },
+  "Fox News[o] (politics and science)": {
+    "name": "Fox News[o]",
+    "parenthetical": "politics and science",
+    "link": "Fox_News",
+    "parent": "Fox News[o]",
+    "parent_link": "Fox_News",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Fox_News_(politics_and_science)",
+    "domain": "foxnews.com"
+  },
+  "Fox News[o] (talk shows)": {
+    "name": "Fox News[o]",
+    "parenthetical": "talk shows",
+    "link": "Fox_News",
+    "parent": "Fox News[o]",
+    "parent_link": "Fox_News",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Fox_News_(talk_shows)",
+    "domain": "foxnews.com"
+  },
+  "FrontPage Magazine": {
+    "name": "FrontPage Magazine",
+    "parenthetical": null,
+    "link": "FrontPage_Magazine",
+    "parent": "FrontPage Magazine",
+    "parent_link": "FrontPage_Magazine",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "FrontPage_Magazine",
+    "domain": "frontpagemag.com"
+  },
+  "FPM": {
+    "parenthetical": null,
+    "parent": "FrontPage Magazine",
+    "parent_link": "FrontPage_Magazine",
+    "name": "FPM",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "FrontPage_Magazine",
+    "domain": "frontpagemag.com"
+  },
+  "FrontPageMag.com": {
+    "parenthetical": null,
+    "parent": "FrontPage Magazine",
+    "parent_link": "FrontPage_Magazine",
+    "name": "FrontPageMag.com",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "FrontPage_Magazine",
+    "domain": "frontpagemag.com"
+  },
+  "Gamasutra": {
+    "name": "Gamasutra",
+    "parenthetical": null,
+    "link": "Gamasutra",
+    "parent": "Gamasutra",
+    "parent_link": "Gamasutra",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Gamasutra",
+    "domain": "gamasutra.com"
+  },
+  "Game Informer": {
+    "name": "Game Informer",
+    "parenthetical": null,
+    "link": "Game_Informer",
+    "parent": "Game Informer",
+    "parent_link": "Game_Informer",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Game_Informer",
+    "domain": "gameinformer.com"
+  },
+  "The Gateway Pundit": {
+    "name": "The Gateway Pundit",
+    "parenthetical": null,
+    "link": "The_Gateway_Pundit",
+    "parent": "The Gateway Pundit",
+    "parent_link": "The_Gateway_Pundit",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "The_Gateway_Pundit",
+    "domain": "thegatewaypundit.com"
+  },
+  "TGP": {
+    "parenthetical": null,
+    "parent": "The Gateway Pundit",
+    "parent_link": "The_Gateway_Pundit",
+    "name": "TGP",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "The_Gateway_Pundit",
+    "domain": "thegatewaypundit.com"
+  },
+  "Gawker": {
+    "name": "Gawker",
+    "parenthetical": null,
+    "link": "Gawker",
+    "parent": "Gawker",
+    "parent_link": "Gawker",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Gawker",
+    "domain": "gawker.com"
+  },
+  "Geni.com": {
+    "name": "Geni.com",
+    "parenthetical": null,
+    "link": "Geni.com",
+    "parent": "Geni.com",
+    "parent_link": "Geni.com",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Geni.com",
+    "domain": "geni.com"
+  },
+  "Genius": {
+    "name": "Genius",
+    "parenthetical": null,
+    "link": "Genius_(website)",
+    "parent": "Genius",
+    "parent_link": "Genius_(website)",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Genius",
+    "domain": "genius.com"
+  },
+  "Rap Genius": {
+    "parenthetical": null,
+    "parent": "Genius",
+    "parent_link": "Genius_(website)",
+    "name": "Rap Genius",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Genius",
+    "domain": "genius.com"
+  },
+  "Gizmodo": {
+    "name": "Gizmodo",
+    "parenthetical": null,
+    "link": "Gizmodo",
+    "parent": "Gizmodo",
+    "parent_link": "Gizmodo",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "ABC_News",
+    "domain": "gizmodo.com"
+  },
+  "Global Times": {
+    "name": "Global Times",
+    "parenthetical": null,
+    "link": "Global_Times",
+    "parent": "Global Times",
+    "parent_link": "Global_Times",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Global_Times",
+    "domain": "globaltimes.cn"
+  },
+  "Huanqiu Shibao": {
+    "parenthetical": null,
+    "parent": "Global Times",
+    "parent_link": "Global_Times",
+    "name": "Huanqiu Shibao",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Global_Times",
+    "domain": "globaltimes.cn"
+  },
+  "GlobalSecurity.org": {
+    "name": "GlobalSecurity.org",
+    "parenthetical": null,
+    "link": "GlobalSecurity.org",
+    "parent": "GlobalSecurity.org",
+    "parent_link": "GlobalSecurity.org",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "GlobalSecurity.org",
+    "domain": "globalsecurity.org"
+  },
+  "The Globe and Mail": {
+    "name": "The Globe and Mail",
+    "parenthetical": null,
+    "link": "The_Globe_and_Mail",
+    "parent": "The Globe and Mail",
+    "parent_link": "The_Globe_and_Mail",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Globe_and_Mail",
+    "domain": "theglobeandmail.com"
+  },
+  "Goodreads": {
+    "name": "Goodreads",
+    "parenthetical": null,
+    "link": "Goodreads",
+    "parent": "Goodreads",
+    "parent_link": "Goodreads",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Goodreads",
+    "domain": "goodreads.com"
+  },
+  "Google Maps": {
+    "name": "Google Maps",
+    "parenthetical": null,
+    "link": "Google_Maps",
+    "parent": "Google Maps",
+    "parent_link": "Google_Maps",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Google_Maps",
+    "domain": "maps.google.com"
+  },
+  "Google Street View": {
+    "parenthetical": null,
+    "parent": "Google Maps",
+    "parent_link": "Google_Maps",
+    "name": "Google Street View",
+    "link": "Google_Street_View",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Google_Maps",
+    "domain": "google.com"
+  },
+  "The Grayzone": {
+    "name": "The Grayzone",
+    "parenthetical": null,
+    "link": "The_Grayzone",
+    "parent": "The Grayzone",
+    "parent_link": "The_Grayzone",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "The_Grayzone",
+    "domain": "thegrayzone.com"
+  },
+  "The Green Papers": {
+    "name": "The Green Papers",
+    "parenthetical": null,
+    "link": "The_Green_Papers",
+    "parent": "The Green Papers",
+    "parent_link": "The_Green_Papers",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "The_Green_Papers",
+    "domain": "thegreenpapers.com"
+  },
+  "The Guardian": {
+    "name": "The Guardian",
+    "parenthetical": null,
+    "link": "The_Guardian",
+    "parent": "The Guardian",
+    "parent_link": "The_Guardian",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Guardian",
+    "domain": "theguardian.com"
+  },
+  "TheGuardian.com": {
+    "parenthetical": null,
+    "parent": "The Guardian",
+    "parent_link": "The_Guardian",
+    "name": "TheGuardian.com",
+    "link": "TheGuardian.com",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Guardian",
+    "domain": "guardianunlimited.co.uk"
+  },
+  "The Manchester Guardian": {
+    "parenthetical": null,
+    "parent": "The Guardian",
+    "parent_link": "The_Guardian",
+    "name": "The Manchester Guardian",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Guardian",
+    "domain": "theguardian.com"
+  },
+  "The Observer": {
+    "parenthetical": null,
+    "parent": "The Guardian",
+    "parent_link": "The_Guardian",
+    "name": "The Observer",
+    "link": "The_Observer",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Guardian",
+    "domain": "observer.theguardian.com"
+  },
+  "The Guardian blogs": {
+    "name": "The Guardian blogs",
+    "parenthetical": null,
+    "link": "The_Guardian",
+    "parent": "The Guardian blogs",
+    "parent_link": "The_Guardian",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "The_Guardian_blogs",
+    "domain": "theguardian.com"
+  },
+  "Guido Fawkes": {
+    "name": "Guido Fawkes",
+    "parenthetical": null,
+    "link": "Guido_Fawkes_(website)",
+    "parent": "Guido Fawkes",
+    "parent_link": "Guido_Fawkes_(website)",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Guido_Fawkes",
+    "domain": "order-order.com"
+  },
+  "Guinness World Records": {
+    "name": "Guinness World Records",
+    "parenthetical": null,
+    "link": "Guinness_World_Records",
+    "parent": "Guinness World Records",
+    "parent_link": "Guinness_World_Records",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Guinness_World_Records",
+    "domain": "guinnessworldrecords.com"
+  },
+  "Haaretz": {
+    "name": "Haaretz",
+    "parenthetical": null,
+    "link": "Haaretz",
+    "parent": "Haaretz",
+    "parent_link": "Haaretz",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Haaretz",
+    "domain": "haaretz.com"
+  },
+  "\u1e24adashot Ha'aretz": {
+    "parenthetical": null,
+    "parent": "Haaretz",
+    "parent_link": "Haaretz",
+    "name": "\u1e24adashot Ha'aretz",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Haaretz",
+    "domain": "haaretz.com"
+  },
+  "Hansard": {
+    "name": "Hansard",
+    "parenthetical": null,
+    "link": "Hansard",
+    "parent": "Hansard",
+    "parent_link": "Hansard",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Hansard",
+    "domain": "hansard.parliament.uk"
+  },
+  "UK Parliament": {
+    "parenthetical": null,
+    "parent": "Hansard",
+    "parent_link": "Hansard",
+    "name": "UK Parliament",
+    "link": "UK_Parliament",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Hansard",
+    "domain": "parliament.uk"
+  },
+  " transcripts": {
+    "parenthetical": null,
+    "parent": "Hansard",
+    "parent_link": "Hansard",
+    "name": " transcripts",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Hansard",
+    "domain": "hansard.parliament.uk"
+  },
+  "House of Commons": {
+    "parenthetical": null,
+    "parent": "Hansard",
+    "parent_link": "Hansard",
+    "name": "House of Commons",
+    "link": "House_of_Commons",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Hansard",
+    "domain": "hansard.parliament.uk"
+  },
+  "House of Lords": {
+    "parenthetical": null,
+    "parent": "Hansard",
+    "parent_link": "Hansard",
+    "name": "House of Lords",
+    "link": "House_of_Lords",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Hansard",
+    "domain": "parliament.uk"
+  },
+  "Heat Street": {
+    "name": "Heat Street",
+    "parenthetical": null,
+    "link": "Heat_Street",
+    "parent": "Heat Street",
+    "parent_link": "Heat_Street",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Heat_Street",
+    "domain": "heatst.com"
+  },
+  "Heavy.com": {
+    "name": "Heavy.com",
+    "parenthetical": null,
+    "link": "Heavy.com",
+    "parent": "Heavy.com",
+    "parent_link": "Heavy.com",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Heavy.com",
+    "domain": "heavy.com"
+  },
+  "The Hill": {
+    "name": "The Hill",
+    "parenthetical": null,
+    "link": "The_Hill_(newspaper)",
+    "parent": "The Hill",
+    "parent_link": "The_Hill_(newspaper)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Hill",
+    "domain": "thehill.com"
+  },
+  "The Hindu": {
+    "name": "The Hindu",
+    "parenthetical": null,
+    "link": "The_Hindu",
+    "parent": "The Hindu",
+    "parent_link": "The_Hindu",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Hindu",
+    "domain": "thehindu.com"
+  },
+  "HispanTV": {
+    "name": "HispanTV",
+    "parenthetical": null,
+    "link": "HispanTV",
+    "parent": "HispanTV",
+    "parent_link": "HispanTV",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "HispanTV",
+    "domain": "hispantv.com"
+  },
+  "History": {
+    "name": "History",
+    "parenthetical": null,
+    "link": "History_(American_TV_network)",
+    "parent": "History",
+    "parent_link": "History_(American_TV_network)",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "History",
+    "domain": "history.com"
+  },
+  "The History Channel": {
+    "parenthetical": null,
+    "parent": "History",
+    "parent_link": "History_(American_TV_network)",
+    "name": "The History Channel",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "History",
+    "domain": "history.com"
+  },
+  "The Hollywood Reporter": {
+    "name": "The Hollywood Reporter",
+    "parenthetical": null,
+    "link": "The_Hollywood_Reporter",
+    "parent": "The Hollywood Reporter",
+    "parent_link": "The_Hollywood_Reporter",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Hollywood_Reporter",
+    "domain": "hollywoodreporter.com"
+  },
+  "THR": {
+    "parenthetical": null,
+    "parent": "The Hollywood Reporter",
+    "parent_link": "The_Hollywood_Reporter",
+    "name": "THR",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Hollywood_Reporter",
+    "domain": "hollywoodreporter.com"
+  },
+  "Hope not Hate": {
+    "name": "Hope not Hate",
+    "parenthetical": null,
+    "link": "Hope_not_Hate",
+    "parent": "Hope not Hate",
+    "parent_link": "Hope_not_Hate",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Hope_not_Hate",
+    "domain": "hopenothate.org.uk"
+  },
+  "Searchlight": {
+    "parenthetical": null,
+    "parent": "Hope not Hate",
+    "parent_link": "Hope_not_Hate",
+    "name": "Searchlight",
+    "link": "Searchlight_(magazine)",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Hope_not_Hate",
+    "domain": "searchlightmagazine.com"
+  },
+  "HuffPost": {
+    "name": "HuffPost",
+    "parenthetical": "excluding politics",
+    "link": "HuffPost",
+    "parent": "HuffPost",
+    "parent_link": "HuffPost",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "HuffPost",
+    "domain": "huffpost.com"
+  },
+  "The Huffington Post": {
+    "parenthetical": "excluding politics",
+    "parent": "HuffPost",
+    "parent_link": "HuffPost",
+    "name": "The Huffington Post",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "HuffPost",
+    "domain": "huffpost.com"
+  },
+  "HuffPost (politics)": {
+    "name": "HuffPost",
+    "parenthetical": "politics",
+    "link": "HuffPost",
+    "parent": "HuffPost",
+    "parent_link": "HuffPost",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "HuffPost_(politics)",
+    "domain": "huffpost.com"
+  },
+  "The Huffington Post (politics)": {
+    "parenthetical": "politics",
+    "parent": "HuffPost",
+    "parent_link": "HuffPost",
+    "name": "The Huffington Post",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "HuffPost_(politics)",
+    "domain": "huffpost.com"
+  },
+  "HuffPost contributors": {
+    "name": "HuffPost contributors",
+    "parenthetical": null,
+    "link": "HuffPost",
+    "parent": "HuffPost contributors",
+    "parent_link": "HuffPost",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "HuffPost_contributors",
+    "domain": "huffpost.com"
+  },
+  "The Huffington Post [1]": {
+    "parenthetical": null,
+    "parent": "HuffPost contributors",
+    "parent_link": "HuffPost",
+    "name": "The Huffington Post",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "HuffPost_contributors",
+    "domain": "huffpost.com"
+  },
+  "Human Events": {
+    "name": "Human Events",
+    "parenthetical": null,
+    "link": "Human_Events",
+    "parent": "Human Events",
+    "parent_link": "Human_Events",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Human_Events",
+    "domain": "humanevents.com"
+  },
+  "Idolator": {
+    "name": "Idolator",
+    "parenthetical": null,
+    "link": "Idolator_(website)",
+    "parent": "Idolator",
+    "parent_link": "Idolator_(website)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Idolator",
+    "domain": "idolator.com"
+  },
+  "IGN": {
+    "name": "IGN",
+    "parenthetical": null,
+    "link": "IGN",
+    "parent": "IGN",
+    "parent_link": "IGN",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "IGN",
+    "domain": "ign.com"
+  },
+  "Imagine Games Network": {
+    "parenthetical": null,
+    "parent": "IGN",
+    "parent_link": "IGN",
+    "name": "Imagine Games Network",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "IGN",
+    "domain": "ign.com"
+  },
+  "IMDb": {
+    "name": "IMDb",
+    "parenthetical": null,
+    "link": "IMDb",
+    "parent": "IMDb",
+    "parent_link": "IMDb",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "IMDb",
+    "domain": "imdb.com"
+  },
+  "Internet Movie Database": {
+    "parenthetical": null,
+    "parent": "IMDb",
+    "parent_link": "IMDb",
+    "name": "Internet Movie Database",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "IMDb",
+    "domain": "imdb.com"
+  },
+  "The Independent": {
+    "name": "The Independent",
+    "parenthetical": null,
+    "link": "The_Independent",
+    "parent": "The Independent",
+    "parent_link": "The_Independent",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Independent",
+    "domain": "independent.co.uk"
+  },
+  "Independent Journal Review": {
+    "name": "Independent Journal Review",
+    "parenthetical": null,
+    "link": "Independent_Journal_Review",
+    "parent": "Independent Journal Review",
+    "parent_link": "Independent_Journal_Review",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Independent_Journal_Review",
+    "domain": "ijr.org"
+  },
+  "IJR": {
+    "parenthetical": null,
+    "parent": "Independent Journal Review",
+    "parent_link": "Independent_Journal_Review",
+    "name": "IJR",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Independent_Journal_Review",
+    "domain": "ijr.org"
+  },
+  "Independent Media Center": {
+    "name": "Independent Media Center",
+    "parenthetical": null,
+    "link": "Independent_Media_Center",
+    "parent": "Independent Media Center",
+    "parent_link": "Independent_Media_Center",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Independent_Media_Center",
+    "domain": "indymedia.org"
+  },
+  "Indymedia": {
+    "parenthetical": null,
+    "parent": "Independent Media Center",
+    "parent_link": "Independent_Media_Center",
+    "name": "Indymedia",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Independent_Media_Center",
+    "domain": "indymedia.org"
+  },
+  "IMC": {
+    "parenthetical": null,
+    "parent": "Independent Media Center",
+    "parent_link": "Independent_Media_Center",
+    "name": "IMC",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Independent_Media_Center",
+    "domain": "indymedia.org"
+  },
+  "The Indian Express": {
+    "name": "The Indian Express",
+    "parenthetical": null,
+    "link": "The_Indian_Express",
+    "parent": "The Indian Express",
+    "parent_link": "The_Indian_Express",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Indian_Express",
+    "domain": "indianexpress.com"
+  },
+  "InfoWars": {
+    "name": "InfoWars",
+    "parenthetical": null,
+    "link": "InfoWars",
+    "parent": "InfoWars",
+    "parent_link": "InfoWars",
+    "ratings": [
+      "Blacklisted",
+      "Deprecated"
+    ],
+    "row_id": "InfoWars",
+    "domain": "infowars.com"
+  },
+  "NewsWars": {
+    "parenthetical": null,
+    "parent": "InfoWars",
+    "parent_link": "InfoWars",
+    "name": "NewsWars",
+    "ratings": [
+      "Blacklisted",
+      "Deprecated"
+    ],
+    "row_id": "InfoWars",
+    "domain": "infowars.com"
+  },
+  "Inter Press Service": {
+    "name": "Inter Press Service",
+    "parenthetical": null,
+    "link": "Inter_Press_Service",
+    "parent": "Inter Press Service",
+    "parent_link": "Inter_Press_Service",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Inter_Press_Service",
+    "domain": "ips.org"
+  },
+  "IPS": {
+    "parenthetical": null,
+    "parent": "Inter Press Service",
+    "parent_link": "Inter_Press_Service",
+    "name": "IPS",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Inter_Press_Service",
+    "domain": "ips.org"
+  },
+  "The Intercept": {
+    "name": "The Intercept",
+    "parenthetical": null,
+    "link": "The_Intercept",
+    "parent": "The Intercept",
+    "parent_link": "The_Intercept",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Intercept",
+    "domain": "theintercept.com"
+  },
+  "International Business Times": {
+    "name": "International Business Times",
+    "parenthetical": null,
+    "link": "International_Business_Times",
+    "parent": "International Business Times",
+    "parent_link": "International_Business_Times",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "International_Business_Times",
+    "domain": "ibtimes.com"
+  },
+  "IBT": {
+    "parenthetical": null,
+    "parent": "International Business Times",
+    "parent_link": "International_Business_Times",
+    "name": "IBT",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "International_Business_Times",
+    "domain": "ibtimes.com"
+  },
+  "IBTimes": {
+    "parenthetical": null,
+    "parent": "International Business Times",
+    "parent_link": "International_Business_Times",
+    "name": "IBTimes",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "International_Business_Times",
+    "domain": "ibtimes.com"
+  },
+  "International Fact-Checking Network": {
+    "name": "International Fact-Checking Network",
+    "parenthetical": null,
+    "link": "International_Fact-Checking_Network",
+    "parent": "International Fact-Checking Network",
+    "parent_link": "International_Fact-Checking_Network",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "International_Fact-Checking_Network",
+    "domain": "ifcncodeofprinciples.poynter.org"
+  },
+  "IFCN": {
+    "parenthetical": null,
+    "parent": "International Fact-Checking Network",
+    "parent_link": "International_Fact-Checking_Network",
+    "name": "IFCN",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "International_Fact-Checking_Network",
+    "domain": "ifcncodeofprinciples.poynter.org"
+  },
+  "Investopedia": {
+    "name": "Investopedia",
+    "parenthetical": null,
+    "link": "Investopedia",
+    "parent": "Investopedia",
+    "parent_link": "Investopedia",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Investopedia",
+    "domain": "investopedia.com"
+  },
+  "JAMA": {
+    "name": "JAMA",
+    "parenthetical": null,
+    "link": "JAMA",
+    "parent": "JAMA",
+    "parent_link": "JAMA",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "JAMA",
+    "domain": "jamanetwork.com"
+  },
+  "American Medical Association": {
+    "parenthetical": null,
+    "parent": "JAMA",
+    "parent_link": "JAMA",
+    "name": "American Medical Association",
+    "link": "American_Medical_Association",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "JAMA",
+    "domain": "ama-assn.org"
+  },
+  "The Jewish Chronicle": {
+    "name": "The Jewish Chronicle",
+    "parenthetical": null,
+    "link": "The_Jewish_Chronicle",
+    "parent": "The Jewish Chronicle",
+    "parent_link": "The_Jewish_Chronicle",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Jewish_Chronicle",
+    "domain": "thejc.com"
+  },
+  "The JC": {
+    "parenthetical": null,
+    "parent": "The Jewish Chronicle",
+    "parent_link": "The_Jewish_Chronicle",
+    "name": "The JC",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Jewish_Chronicle",
+    "domain": "thejc.com"
+  },
+  "Jewish Virtual Library": {
+    "name": "Jewish Virtual Library",
+    "parenthetical": null,
+    "link": "Jewish_Virtual_Library",
+    "parent": "Jewish Virtual Library",
+    "parent_link": "Jewish_Virtual_Library",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Jewish_Virtual_Library",
+    "domain": "jewishvirtuallibrary.org"
+  },
+  "JVL": {
+    "parenthetical": null,
+    "parent": "Jewish Virtual Library",
+    "parent_link": "Jewish_Virtual_Library",
+    "name": "JVL",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Jewish_Virtual_Library",
+    "domain": "jewishvirtuallibrary.org"
+  },
+  "Jezebel": {
+    "name": "Jezebel",
+    "parenthetical": null,
+    "link": "Jezebel_(website)",
+    "parent": "Jezebel",
+    "parent_link": "Jezebel_(website)",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Jezebel",
+    "domain": "jezebel.com"
+  },
+  "Jihad Watch": {
+    "name": "Jihad Watch",
+    "parenthetical": null,
+    "link": "Jihad_Watch",
+    "parent": "Jihad Watch",
+    "parent_link": "Jihad_Watch",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Jihad_Watch",
+    "domain": "jihadwatch.org"
+  },
+  "Know Your Meme": {
+    "name": "Know Your Meme",
+    "parenthetical": null,
+    "link": "Know_Your_Meme",
+    "parent": "Know Your Meme",
+    "parent_link": "Know_Your_Meme",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Know_Your_Meme",
+    "domain": "knowyourmeme.com"
+  },
+  "KYM": {
+    "parenthetical": null,
+    "parent": "Know Your Meme",
+    "parent_link": "Know_Your_Meme",
+    "name": "KYM",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Know_Your_Meme",
+    "domain": "knowyourmeme.com"
+  },
+  "Kommersant": {
+    "name": "Kommersant",
+    "parenthetical": null,
+    "link": "Kommersant",
+    "parent": "Kommersant",
+    "parent_link": "Kommersant",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Kommersant",
+    "domain": "kommersant.ru"
+  },
+  "\u041a\u043e\u043c\u043c\u0435\u0440\u0441\u0430\u0301\u043d\u0442\u044a": {
+    "parenthetical": null,
+    "parent": "Kommersant",
+    "parent_link": "Kommersant",
+    "name": "\u041a\u043e\u043c\u043c\u0435\u0440\u0441\u0430\u0301\u043d\u0442\u044a",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Kommersant",
+    "domain": "kommersant.ru"
+  },
+  "Last.fm": {
+    "name": "Last.fm",
+    "parenthetical": null,
+    "link": "Last.fm",
+    "parent": "Last.fm",
+    "parent_link": "Last.fm",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Last.fm",
+    "domain": "last.fm"
+  },
+  "Lenta.ru": {
+    "name": "Lenta.ru",
+    "parenthetical": "12 March 2014\u2013present",
+    "link": "Lenta.ru",
+    "parent": "Lenta.ru",
+    "parent_link": "Lenta.ru",
+    "ratings": [
+      "Blacklisted",
+      "Deprecated"
+    ],
+    "row_id": "Lenta.ru",
+    "domain": "lenta.ru"
+  },
+  "LifeSiteNews": {
+    "name": "LifeSiteNews",
+    "parenthetical": null,
+    "link": "LifeSiteNews",
+    "parent": "LifeSiteNews",
+    "parent_link": "LifeSiteNews",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "LifeSiteNews",
+    "domain": "lifesitenews.com"
+  },
+  "Campaign Life Coalition": {
+    "parenthetical": null,
+    "parent": "LifeSiteNews",
+    "parent_link": "LifeSiteNews",
+    "name": "Campaign Life Coalition",
+    "link": "Campaign_Life_Coalition",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "LifeSiteNews",
+    "domain": "campaignlifecoalition.com"
+  },
+  "LinkedIn": {
+    "name": "LinkedIn",
+    "parenthetical": null,
+    "link": "LinkedIn",
+    "parent": "LinkedIn",
+    "parent_link": "LinkedIn",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "LinkedIn",
+    "domain": "linkedin.com"
+  },
+  "LinkedIn Pulse": {
+    "parenthetical": null,
+    "parent": "LinkedIn",
+    "parent_link": "LinkedIn",
+    "name": "LinkedIn Pulse",
+    "link": "LinkedIn_Pulse",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "LinkedIn",
+    "domain": "linkedin.com"
+  },
+  "LiveJournal": {
+    "name": "LiveJournal",
+    "parenthetical": null,
+    "link": "LiveJournal",
+    "parent": "LiveJournal",
+    "parent_link": "LiveJournal",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "LiveJournal",
+    "domain": "livejournal.com"
+  },
+  "LiveLeak": {
+    "name": "LiveLeak",
+    "parenthetical": null,
+    "link": "LiveLeak",
+    "parent": "LiveLeak",
+    "parent_link": "LiveLeak",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "LiveLeak",
+    "domain": "liveleak.com"
+  },
+  "Los Angeles Times": {
+    "name": "Los Angeles Times",
+    "parenthetical": null,
+    "link": "Los_Angeles_Times",
+    "parent": "Los Angeles Times",
+    "parent_link": "Los_Angeles_Times",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Los_Angeles_Times",
+    "domain": "latimes.com"
+  },
+  "Lulu.com": {
+    "name": "Lulu.com",
+    "parenthetical": null,
+    "link": "Lulu.com",
+    "parent": "Lulu.com",
+    "parent_link": "Lulu.com",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "Lulu.com",
+    "domain": "lulu.com"
+  },
+  "Lulu Press": {
+    "parenthetical": null,
+    "parent": "Lulu.com",
+    "parent_link": "Lulu.com",
+    "name": "Lulu Press",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "Lulu.com",
+    "domain": "lulu.com"
+  },
+  "The Mail on Sunday": {
+    "name": "The Mail on Sunday",
+    "parenthetical": null,
+    "link": "The_Mail_on_Sunday",
+    "parent": "The Mail on Sunday",
+    "parent_link": "The_Mail_on_Sunday",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "The_Mail_on_Sunday",
+    "domain": "mailonsunday.co.uk"
+  },
+  "Marquis Who's Who": {
+    "name": "Marquis Who's Who",
+    "parenthetical": null,
+    "link": "Marquis_Who%27s_Who",
+    "parent": "Marquis Who's Who",
+    "parent_link": "Marquis_Who%27s_Who",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Marquis_Who's_Who",
+    "domain": "marquiswhoswho.com"
+  },
+  "Who's Who in America": {
+    "parenthetical": null,
+    "parent": "Marquis Who's Who",
+    "parent_link": "Marquis_Who%27s_Who",
+    "name": "Who's Who in America",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Marquis_Who's_Who",
+    "domain": "marquiswhoswho.com"
+  },
+  "Mashable": {
+    "name": "Mashable",
+    "parenthetical": "non-sponsored content",
+    "link": "Mashable",
+    "parent": "Mashable",
+    "parent_link": "Mashable",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Mashable",
+    "domain": "mashable.com"
+  },
+  "Mashable (sponsored content)": {
+    "name": "Mashable",
+    "parenthetical": "sponsored content",
+    "link": "Mashable",
+    "parent": "Mashable",
+    "parent_link": "Mashable",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Mashable_sponsored_content",
+    "domain": "mashable.com"
+  },
+  "The Mary Sue": {
+    "name": "The Mary Sue",
+    "parenthetical": null,
+    "link": "The_Mary_Sue",
+    "parent": "The Mary Sue",
+    "parent_link": "The_Mary_Sue",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "The_Mary_Sue",
+    "domain": "themarysue.com"
+  },
+  "MDPI": {
+    "name": "MDPI",
+    "parenthetical": null,
+    "link": "MDPI",
+    "parent": "MDPI",
+    "parent_link": "MDPI",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "MDPI",
+    "domain": "mdpi.com"
+  },
+  "Multidisciplinary Digital Publishing Institute": {
+    "parenthetical": null,
+    "parent": "MDPI",
+    "parent_link": "MDPI",
+    "name": "Multidisciplinary Digital Publishing Institute",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "MDPI",
+    "domain": "mdpi.com"
+  },
+  "MEAWW": {
+    "name": "MEAWW",
+    "parenthetical": null,
+    "link": null,
+    "parent": "MEAWW",
+    "parent_link": null,
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Meaww",
+    "domain": "meaww.com"
+  },
+  "Media": {
+    "parenthetical": null,
+    "parent": "MEAWW",
+    "parent_link": null,
+    "name": "Media",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Meaww",
+    "domain": "meaww.com"
+  },
+  "Entertainment": {
+    "parenthetical": null,
+    "parent": "MEAWW",
+    "parent_link": null,
+    "name": "Entertainment",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Meaww",
+    "domain": "meaww.com"
+  },
+  "Arts WorldWide": {
+    "parenthetical": null,
+    "parent": "MEAWW",
+    "parent_link": null,
+    "name": "Arts WorldWide",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Meaww",
+    "domain": "meaww.com"
+  },
+  "Media Bias/Fact Check": {
+    "name": "Media Bias/Fact Check",
+    "parenthetical": null,
+    "link": "Media_Bias/Fact_Check",
+    "parent": "Media Bias/Fact Check",
+    "parent_link": "Media_Bias/Fact_Check",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Media_Bias/Fact_Check",
+    "domain": "mediabiasfactcheck.com"
+  },
+  "MBFC": {
+    "parenthetical": null,
+    "parent": "Media Bias/Fact Check",
+    "parent_link": "Media_Bias/Fact_Check",
+    "name": "MBFC",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Media_Bias/Fact_Check",
+    "domain": "mediabiasfactcheck.com"
+  },
+  "Media Matters for America": {
+    "name": "Media Matters for America",
+    "parenthetical": null,
+    "link": "Media_Matters_for_America",
+    "parent": "Media Matters for America",
+    "parent_link": "Media_Matters_for_America",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Media_Matters_for_America",
+    "domain": "mediamatters.org"
+  },
+  "MMfA": {
+    "parenthetical": null,
+    "parent": "Media Matters for America",
+    "parent_link": "Media_Matters_for_America",
+    "name": "MMfA",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Media_Matters_for_America",
+    "domain": "mediamatters.org"
+  },
+  "Media Research Center": {
+    "name": "Media Research Center",
+    "parenthetical": null,
+    "link": "Media_Research_Center",
+    "parent": "Media Research Center",
+    "parent_link": "Media_Research_Center",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Media_Research_Center",
+    "domain": "mediaresearch.org"
+  },
+  "MRC": {
+    "parenthetical": null,
+    "parent": "Media Research Center",
+    "parent_link": "Media_Research_Center",
+    "name": "MRC",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Media_Research_Center",
+    "domain": "mediaresearch.org"
+  },
+  "CNSNews.com": {
+    "parenthetical": null,
+    "parent": "Media Research Center",
+    "parent_link": "Media_Research_Center",
+    "name": "CNSNews.com",
+    "link": "CNSNews.com",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Media_Research_Center",
+    "domain": "cnsnews.com"
+  },
+  "Cybercast News Service": {
+    "parenthetical": null,
+    "parent": "Media Research Center",
+    "parent_link": "Media_Research_Center",
+    "name": "Cybercast News Service",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Media_Research_Center",
+    "domain": "mediaresearch.org"
+  },
+  "MRCTV": {
+    "parenthetical": null,
+    "parent": "Media Research Center",
+    "parent_link": "Media_Research_Center",
+    "name": "MRCTV",
+    "link": "MRCTV",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Media_Research_Center",
+    "domain": "mrctv.org"
+  },
+  "NewsBusters": {
+    "parenthetical": null,
+    "parent": "Media Research Center",
+    "parent_link": "Media_Research_Center",
+    "name": "NewsBusters",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Media_Research_Center",
+    "domain": "mediaresearch.org"
+  },
+  "Mediaite": {
+    "name": "Mediaite",
+    "parenthetical": null,
+    "link": "Mediaite",
+    "parent": "Mediaite",
+    "parent_link": "Mediaite",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Mediaite",
+    "domain": "mediaite.com"
+  },
+  "Medium": {
+    "name": "Medium",
+    "parenthetical": null,
+    "link": "Medium_(website)",
+    "parent": "Medium",
+    "parent_link": "Medium_(website)",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Medium",
+    "domain": "medium.com"
+  },
+  "Metacritic": {
+    "name": "Metacritic",
+    "parenthetical": null,
+    "link": "Metacritic",
+    "parent": "Metacritic",
+    "parent_link": "Metacritic",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Metacritic",
+    "domain": "metacritic.com"
+  },
+  "GameRankings": {
+    "parenthetical": null,
+    "parent": "Metacritic",
+    "parent_link": "Metacritic",
+    "name": "GameRankings",
+    "link": "GameRankings",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Metacritic",
+    "domain": "gamerankings.com"
+  },
+  "Metal-experience.com": {
+    "name": "Metal-experience.com",
+    "parenthetical": null,
+    "link": null,
+    "parent": "Metal-experience.com",
+    "parent_link": null,
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "metal-experience",
+    "domain": "metal-experience.com"
+  },
+  "MetalSucks": {
+    "name": "MetalSucks",
+    "parenthetical": null,
+    "link": "MetalSucks",
+    "parent": "MetalSucks",
+    "parent_link": "MetalSucks",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "MetalSucks",
+    "domain": "metalsucks.com"
+  },
+  "Metro": {
+    "name": "Metro",
+    "parenthetical": null,
+    "link": "Metro_(British_newspaper)",
+    "parent": "Metro",
+    "parent_link": "Metro_(British_newspaper)",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Metro",
+    "domain": "metro.co.uk"
+  },
+  "Middle East Media Research Institute": {
+    "name": "Middle East Media Research Institute",
+    "parenthetical": null,
+    "link": "Middle_East_Media_Research_Institute",
+    "parent": "Middle East Media Research Institute",
+    "parent_link": "Middle_East_Media_Research_Institute",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Middle_East_Media_Research_Institute",
+    "domain": "memri.org"
+  },
+  "MEMRI": {
+    "parenthetical": null,
+    "parent": "Middle East Media Research Institute",
+    "parent_link": "Middle_East_Media_Research_Institute",
+    "name": "MEMRI",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Middle_East_Media_Research_Institute",
+    "domain": "memri.org"
+  },
+  "MintPress News": {
+    "name": "MintPress News",
+    "parenthetical": null,
+    "link": "MintPress_News",
+    "parent": "MintPress News",
+    "parent_link": "MintPress_News",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "MintPress_News",
+    "domain": "mintpressnews.com"
+  },
+  "Le Monde diplomatique": {
+    "name": "Le Monde diplomatique",
+    "parenthetical": null,
+    "link": "Le_Monde_diplomatique",
+    "parent": "Le Monde diplomatique",
+    "parent_link": "Le_Monde_diplomatique",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Le_Monde_diplomatique",
+    "domain": "monde-diplomatique.fr"
+  },
+  "Mondoweiss": {
+    "name": "Mondoweiss",
+    "parenthetical": null,
+    "link": "Mondoweiss",
+    "parent": "Mondoweiss",
+    "parent_link": "Mondoweiss",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Mondoweiss",
+    "domain": "mondoweiss.net"
+  },
+  "Morning Star": {
+    "name": "Morning Star",
+    "parenthetical": null,
+    "link": "Morning_Star_(British_newspaper)",
+    "parent": "Morning Star",
+    "parent_link": "Morning_Star_(British_newspaper)",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Morning_Star",
+    "domain": "morningstaronline.co.uk"
+  },
+  "Mother Jones": {
+    "name": "Mother Jones",
+    "parenthetical": null,
+    "link": "Mother_Jones_(magazine)",
+    "parent": "Mother Jones",
+    "parent_link": "Mother_Jones_(magazine)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Mother_Jones",
+    "domain": "motherjones.com"
+  },
+  "MoJo": {
+    "parenthetical": null,
+    "parent": "Mother Jones",
+    "parent_link": "Mother_Jones_(magazine)",
+    "name": "MoJo",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Mother_Jones",
+    "domain": "motherjones.com"
+  },
+  "MSNBC": {
+    "name": "MSNBC",
+    "parenthetical": null,
+    "link": "MSNBC",
+    "parent": "MSNBC",
+    "parent_link": "MSNBC",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "MSNBC",
+    "domain": "msnbc.com"
+  },
+  "MyLife": {
+    "name": "MyLife",
+    "parenthetical": null,
+    "link": "MyLife",
+    "parent": "MyLife",
+    "parent_link": "MyLife",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "MyLife",
+    "domain": "mylife.com"
+  },
+  "Reunion.com": {
+    "parenthetical": null,
+    "parent": "MyLife",
+    "parent_link": "MyLife",
+    "name": "Reunion.com",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "MyLife",
+    "domain": "mylife.com"
+  },
+  "The Nation": {
+    "name": "The Nation",
+    "parenthetical": null,
+    "link": "The_Nation",
+    "parent": "The Nation",
+    "parent_link": "The_Nation",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Nation",
+    "domain": "thenation.com"
+  },
+  "National Enquirer": {
+    "name": "National Enquirer",
+    "parenthetical": null,
+    "link": "National_Enquirer",
+    "parent": "National Enquirer",
+    "parent_link": "National_Enquirer",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "National_Enquirer",
+    "domain": "nationalenquirer.com"
+  },
+  "National Geographic": {
+    "name": "National Geographic",
+    "parenthetical": null,
+    "link": "National_Geographic",
+    "parent": "National Geographic",
+    "parent_link": "National_Geographic",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "National_Geographic",
+    "domain": "nationalgeographic.com"
+  },
+  "National Review": {
+    "name": "National Review",
+    "parenthetical": null,
+    "link": "National_Review",
+    "parent": "National Review",
+    "parent_link": "National_Review",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "National_Review",
+    "domain": "nationalreview.com"
+  },
+  "NR": {
+    "parenthetical": null,
+    "parent": "National Review",
+    "parent_link": "National_Review",
+    "name": "NR",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "National_Review",
+    "domain": "nationalreview.com"
+  },
+  "Natural News": {
+    "name": "Natural News",
+    "parenthetical": null,
+    "link": "Natural_News",
+    "parent": "Natural News",
+    "parent_link": "Natural_News",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "Natural_News",
+    "domain": "naturalnews.com"
+  },
+  "NewsTarget": {
+    "parenthetical": null,
+    "parent": "Natural News",
+    "parent_link": "Natural_News",
+    "name": "NewsTarget",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "Natural_News",
+    "domain": "naturalnews.com"
+  },
+  "NBC News": {
+    "name": "NBC News",
+    "parenthetical": null,
+    "link": "NBC_News",
+    "parent": "NBC News",
+    "parent_link": "NBC_News",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "NBC_News",
+    "domain": "nbcnews.com"
+  },
+  "The Needle Drop": {
+    "name": "The Needle Drop",
+    "parenthetical": null,
+    "link": "The_Needle_Drop",
+    "parent": "The Needle Drop",
+    "parent_link": "The_Needle_Drop",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "The_Needle_Drop",
+    "domain": "theneedledrop.com"
+  },
+  "The New American": {
+    "name": "The New American",
+    "parenthetical": null,
+    "link": "The_New_American",
+    "parent": "The New American",
+    "parent_link": "The_New_American",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "The_New_American",
+    "domain": "thenewamerican.com"
+  },
+  "The New Republic": {
+    "name": "The New Republic",
+    "parenthetical": null,
+    "link": "The_New_Republic",
+    "parent": "The New Republic",
+    "parent_link": "The_New_Republic",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_New_Republic",
+    "domain": "newrepublic.com"
+  },
+  "New Scientist": {
+    "name": "New Scientist",
+    "parenthetical": null,
+    "link": "New_Scientist",
+    "parent": "New Scientist",
+    "parent_link": "New_Scientist",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "New_Scientist",
+    "domain": "newscientist.com"
+  },
+  "New York": {
+    "name": "New York",
+    "parenthetical": null,
+    "link": "New_York_(magazine)",
+    "parent": "New York",
+    "parent_link": "New_York_(magazine)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "New_York",
+    "domain": "nymag.com"
+  },
+  "Vulture": {
+    "parenthetical": null,
+    "parent": "New York",
+    "parent_link": "New_York_(magazine)",
+    "name": "Vulture",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "New_York",
+    "domain": "nymag.com"
+  },
+  "The Cut": {
+    "parenthetical": null,
+    "parent": "New York",
+    "parent_link": "New_York_(magazine)",
+    "name": "The Cut",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "New_York",
+    "domain": "nymag.com"
+  },
+  "Grub Street": {
+    "parenthetical": null,
+    "parent": "New York",
+    "parent_link": "New_York_(magazine)",
+    "name": "Grub Street",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "New_York",
+    "domain": "nymag.com"
+  },
+  "Daily Intelligencer": {
+    "parenthetical": null,
+    "parent": "New York",
+    "parent_link": "New_York_(magazine)",
+    "name": "Daily Intelligencer",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "New_York",
+    "domain": "nymag.com"
+  },
+  "New York Daily News": {
+    "name": "New York Daily News",
+    "parenthetical": null,
+    "link": "New_York_Daily_News",
+    "parent": "New York Daily News",
+    "parent_link": "New_York_Daily_News",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "New_York_Daily_News",
+    "domain": "nydailynews.com"
+  },
+  "Illustrated Daily News": {
+    "parenthetical": null,
+    "parent": "New York Daily News",
+    "parent_link": "New_York_Daily_News",
+    "name": "Illustrated Daily News",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "New_York_Daily_News",
+    "domain": "nydailynews.com"
+  },
+  "New York Post": {
+    "name": "New York Post",
+    "parenthetical": null,
+    "link": "New_York_Post",
+    "parent": "New York Post",
+    "parent_link": "New_York_Post",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "New_York_Post",
+    "domain": "nypost.com"
+  },
+  "New York Evening Post": {
+    "parenthetical": null,
+    "parent": "New York Post",
+    "parent_link": "New_York_Post",
+    "name": "New York Evening Post",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "New_York_Post",
+    "domain": "nypost.com"
+  },
+  "Page Six": {
+    "parenthetical": null,
+    "parent": "New York Post",
+    "parent_link": "New_York_Post",
+    "name": "Page Six",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "New_York_Post",
+    "domain": "nypost.com"
+  },
+  "The New York Times": {
+    "name": "The New York Times",
+    "parenthetical": null,
+    "link": "The_New_York_Times",
+    "parent": "The New York Times",
+    "parent_link": "The_New_York_Times",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_New_York_Times",
+    "domain": "nytimes.com"
+  },
+  "NYT": {
+    "parenthetical": null,
+    "parent": "The New York Times",
+    "parent_link": "The_New_York_Times",
+    "name": "NYT",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_New_York_Times",
+    "domain": "nytimes.com"
+  },
+  "The New Yorker": {
+    "name": "The New Yorker",
+    "parenthetical": null,
+    "link": "The_New_Yorker",
+    "parent": "The New Yorker",
+    "parent_link": "The_New_Yorker",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_New_Yorker",
+    "domain": "newyorker.com"
+  },
+  "News Break": {
+    "name": "News Break",
+    "parenthetical": null,
+    "link": "News_Break",
+    "parent": "News Break",
+    "parent_link": "News_Break",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "News_Break",
+    "domain": "newsbreak.com"
+  },
+  "News of the World": {
+    "name": "News of the World",
+    "parenthetical": null,
+    "link": "News_of_the_World",
+    "parent": "News of the World",
+    "parent_link": "News_of_the_World",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "News_of_the_World",
+    "domain": "newsoftheworld.co.uk"
+  },
+  "Newsmax": {
+    "name": "Newsmax",
+    "parenthetical": null,
+    "link": "Newsmax",
+    "parent": "Newsmax",
+    "parent_link": "Newsmax",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Newsmax",
+    "domain": "newsmax.com"
+  },
+  "Newsweek": {
+    "name": "Newsweek",
+    "parenthetical": "pre-2013",
+    "link": "Newsweek",
+    "parent": "Newsweek",
+    "parent_link": "Newsweek",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Newsweek_(pre-2013)",
+    "domain": "newsweek.com"
+  },
+  "Newsweek (2013\u2013present)": {
+    "name": "Newsweek",
+    "parenthetical": "2013\u2013present",
+    "link": "Newsweek",
+    "parent": "Newsweek",
+    "parent_link": "Newsweek",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Newsweek_(2013-present)",
+    "domain": "newsweek.com"
+  },
+  "The Next Web": {
+    "name": "The Next Web",
+    "parenthetical": null,
+    "link": "The_Next_Web",
+    "parent": "The Next Web",
+    "parent_link": "The_Next_Web",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "The_Next_Web",
+    "domain": "thenextweb.com"
+  },
+  "TNW": {
+    "parenthetical": null,
+    "parent": "The Next Web",
+    "parent_link": "The_Next_Web",
+    "name": "TNW",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "The_Next_Web",
+    "domain": "thenextweb.com"
+  },
+  "NNDB": {
+    "name": "NNDB",
+    "parenthetical": null,
+    "link": "NNDB",
+    "parent": "NNDB",
+    "parent_link": "NNDB",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "NNDB",
+    "domain": "nndb.com"
+  },
+  "Notable Names Database": {
+    "parenthetical": null,
+    "parent": "NNDB",
+    "parent_link": "NNDB",
+    "name": "Notable Names Database",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "NNDB",
+    "domain": "nndb.com"
+  },
+  "NPR": {
+    "name": "NPR",
+    "parenthetical": null,
+    "link": "NPR",
+    "parent": "NPR",
+    "parent_link": "NPR",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "NPR",
+    "domain": "npr.org"
+  },
+  "National Public Radio": {
+    "parenthetical": null,
+    "parent": "NPR",
+    "parent_link": "NPR",
+    "name": "National Public Radio",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "NPR",
+    "domain": "npr.org"
+  },
+  "Occupy Democrats": {
+    "name": "Occupy Democrats",
+    "parenthetical": null,
+    "link": "Occupy_Democrats",
+    "parent": "Occupy Democrats",
+    "parent_link": "Occupy_Democrats",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Occupy_Democrats",
+    "domain": "occupydemocrats.com"
+  },
+  "One America News Network": {
+    "name": "One America News Network",
+    "parenthetical": null,
+    "link": "One_America_News_Network",
+    "parent": "One America News Network",
+    "parent_link": "One_America_News_Network",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "One_America_News_Network",
+    "domain": "oann.com"
+  },
+  "OANN": {
+    "parenthetical": null,
+    "parent": "One America News Network",
+    "parent_link": "One_America_News_Network",
+    "name": "OANN",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "One_America_News_Network",
+    "domain": "oann.com"
+  },
+  "The Onion": {
+    "name": "The Onion",
+    "parenthetical": null,
+    "link": "The_Onion",
+    "parent": "The Onion",
+    "parent_link": "The_Onion",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "The_Onion",
+    "domain": "theonion.com"
+  },
+  "OpIndia": {
+    "name": "OpIndia",
+    "parenthetical": null,
+    "link": "OpIndia",
+    "parent": "OpIndia",
+    "parent_link": "OpIndia",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "OpIndia",
+    "domain": "opindia.com"
+  },
+  "Our Campaigns": {
+    "name": "Our Campaigns",
+    "parenthetical": null,
+    "link": null,
+    "parent": "Our Campaigns",
+    "parent_link": null,
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Our_Campaigns",
+    "domain": "ourcampaigns.com"
+  },
+  "PanAm Post": {
+    "name": "PanAm Post",
+    "parenthetical": null,
+    "link": "PanAm_Post",
+    "parent": "PanAm Post",
+    "parent_link": "PanAm_Post",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "PanAm_Post",
+    "domain": "panampost.com"
+  },
+  "Patheos": {
+    "name": "Patheos",
+    "parenthetical": null,
+    "link": "Patheos",
+    "parent": "Patheos",
+    "parent_link": "Patheos",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Patheos",
+    "domain": "patheos.com"
+  },
+  "Peerage websites": {
+    "name": "Peerage websites",
+    "parenthetical": "self-published",
+    "link": "Peerage",
+    "parent": "Peerage websites",
+    "parent_link": "Peerage",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Peerage_websites"
+  },
+  "People": {
+    "name": "People",
+    "parenthetical": null,
+    "link": "People_(magazine)",
+    "parent": "People",
+    "parent_link": "People_(magazine)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "People",
+    "domain": "people.com"
+  },
+  "Pew Research Center": {
+    "name": "Pew Research Center",
+    "parenthetical": null,
+    "link": "Pew_Research_Center",
+    "parent": "Pew Research Center",
+    "parent_link": "Pew_Research_Center",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Pew_Research_Center",
+    "domain": "pewresearch.org"
+  },
+  "PinkNews": {
+    "name": "PinkNews",
+    "parenthetical": null,
+    "link": "PinkNews",
+    "parent": "PinkNews",
+    "parent_link": "PinkNews",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "PinkNews",
+    "domain": "pinknews.co.uk"
+  },
+  "Playboy": {
+    "name": "Playboy",
+    "parenthetical": null,
+    "link": "Playboy",
+    "parent": "Playboy",
+    "parent_link": "Playboy",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Playboy",
+    "domain": "playboyenterprises.com"
+  },
+  "The Points Guy": {
+    "name": "The Points Guy",
+    "parenthetical": "news and reviews",
+    "link": "The_Points_Guy",
+    "parent": "The Points Guy",
+    "parent_link": "The_Points_Guy",
+    "ratings": [
+      "Blacklisted",
+      "No consensus"
+    ],
+    "row_id": "The_Points_Guy",
+    "domain": "thepointsguy.com"
+  },
+  "TPG": {
+    "parenthetical": "news and reviews",
+    "parent": "The Points Guy",
+    "parent_link": "The_Points_Guy",
+    "name": "TPG",
+    "ratings": [
+      "Blacklisted",
+      "No consensus"
+    ],
+    "row_id": "The_Points_Guy",
+    "domain": "thepointsguy.com"
+  },
+  "The Points Guy (sponsored content)": {
+    "name": "The Points Guy",
+    "parenthetical": "sponsored content",
+    "link": "The_Points_Guy",
+    "parent": "The Points Guy",
+    "parent_link": "The_Points_Guy",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "The_Points_Guy_(sponsored_content)",
+    "domain": "thepointsguy.com"
+  },
+  "TPG (sponsored content)": {
+    "parenthetical": "sponsored content",
+    "parent": "The Points Guy",
+    "parent_link": "The_Points_Guy",
+    "name": "TPG",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "The_Points_Guy_(sponsored_content)",
+    "domain": "thepointsguy.com"
+  },
+  "Politico": {
+    "name": "Politico",
+    "parenthetical": null,
+    "link": "Politico",
+    "parent": "Politico",
+    "parent_link": "Politico",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Politico",
+    "domain": "politico.com"
+  },
+  "PolitiFact": {
+    "name": "PolitiFact",
+    "parenthetical": null,
+    "link": "PolitiFact",
+    "parent": "PolitiFact",
+    "parent_link": "PolitiFact",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "PolitiFact",
+    "domain": "politifact.com"
+  },
+  "PunditFact": {
+    "parenthetical": null,
+    "parent": "PolitiFact",
+    "parent_link": "PolitiFact",
+    "name": "PunditFact",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "PolitiFact",
+    "domain": "politifact.com"
+  },
+  "Polygon": {
+    "name": "Polygon",
+    "parenthetical": null,
+    "link": "Polygon_(website)",
+    "parent": "Polygon",
+    "parent_link": "Polygon_(website)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Polygon",
+    "domain": "polygon.com"
+  },
+  "The Post Millennial": {
+    "name": "The Post Millennial",
+    "parenthetical": null,
+    "link": "The_Post_Millennial",
+    "parent": "The Post Millennial",
+    "parent_link": "The_Post_Millennial",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "The_Post_Millennial",
+    "domain": "thepostmillennial.com"
+  },
+  "PR Newswire": {
+    "name": "PR Newswire",
+    "parenthetical": null,
+    "link": "PR_Newswire",
+    "parent": "PR Newswire",
+    "parent_link": "PR_Newswire",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "PR_Newswire",
+    "domain": "prnewswire.com"
+  },
+  "Press TV": {
+    "name": "Press TV",
+    "parenthetical": null,
+    "link": "Press_TV",
+    "parent": "Press TV",
+    "parent_link": "Press_TV",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Press_TV",
+    "domain": "presstv.ir"
+  },
+  "Pride.com": {
+    "name": "Pride.com",
+    "parenthetical": null,
+    "link": "Pride.com",
+    "parent": "Pride.com",
+    "parent_link": "Pride.com",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Pride.com",
+    "domain": "pride.com"
+  },
+  "Project Veritas": {
+    "name": "Project Veritas",
+    "parenthetical": null,
+    "link": "Project_Veritas",
+    "parent": "Project Veritas",
+    "parent_link": "Project_Veritas",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Project_Veritas",
+    "domain": "projectveritas.com"
+  },
+  "ProPublica": {
+    "name": "ProPublica",
+    "parenthetical": null,
+    "link": "ProPublica",
+    "parent": "ProPublica",
+    "parent_link": "ProPublica",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "ProPublica",
+    "domain": "propublica.org"
+  },
+  "Quackwatch": {
+    "name": "Quackwatch",
+    "parenthetical": null,
+    "link": "Quackwatch",
+    "parent": "Quackwatch",
+    "parent_link": "Quackwatch",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Quackwatch",
+    "domain": "quackwatch.org"
+  },
+  "Quadrant": {
+    "name": "Quadrant",
+    "parenthetical": null,
+    "link": "Quadrant_(magazine)",
+    "parent": "Quadrant",
+    "parent_link": "Quadrant_(magazine)",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Quadrant",
+    "domain": "quadrant.org.au"
+  },
+  "Quartz": {
+    "name": "Quartz",
+    "parenthetical": null,
+    "link": "Quartz_(website)",
+    "parent": "Quartz",
+    "parent_link": "Quartz_(website)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Quartz",
+    "domain": "qz.com"
+  },
+  "Quillette": {
+    "name": "Quillette",
+    "parenthetical": null,
+    "link": "Quillette",
+    "parent": "Quillette",
+    "parent_link": "Quillette",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Quillette",
+    "domain": "quillette.com"
+  },
+  "Quora": {
+    "name": "Quora",
+    "parenthetical": null,
+    "link": "Quora",
+    "parent": "Quora",
+    "parent_link": "Quora",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Quora",
+    "domain": "quora.com"
+  },
+  "Radio Free Asia": {
+    "name": "Radio Free Asia",
+    "parenthetical": null,
+    "link": "Radio_Free_Asia",
+    "parent": "Radio Free Asia",
+    "parent_link": "Radio_Free_Asia",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Radio_Free_Asia",
+    "domain": "rfa.org"
+  },
+  "RFA": {
+    "parenthetical": null,
+    "parent": "Radio Free Asia",
+    "parent_link": "Radio_Free_Asia",
+    "name": "RFA",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Radio_Free_Asia",
+    "domain": "rfa.org"
+  },
+  "Rappler": {
+    "name": "Rappler",
+    "parenthetical": null,
+    "link": "Rappler",
+    "parent": "Rappler",
+    "parent_link": "Rappler",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Rappler",
+    "domain": "rappler.com"
+  },
+  "Rate Your Music": {
+    "name": "Rate Your Music",
+    "parenthetical": null,
+    "link": "Rate_Your_Music",
+    "parent": "Rate Your Music",
+    "parent_link": "Rate_Your_Music",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Rate_Your_Music",
+    "domain": "rateyourmusic.com"
+  },
+  "RYM": {
+    "parenthetical": null,
+    "parent": "Rate Your Music",
+    "parent_link": "Rate_Your_Music",
+    "name": "RYM",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Rate_Your_Music",
+    "domain": "rateyourmusic.com"
+  },
+  "Cinemos": {
+    "parenthetical": null,
+    "parent": "Rate Your Music",
+    "parent_link": "Rate_Your_Music",
+    "name": "Cinemos",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Rate_Your_Music",
+    "domain": "rateyourmusic.com"
+  },
+  "Glitchwave": {
+    "parenthetical": null,
+    "parent": "Rate Your Music",
+    "parent_link": "Rate_Your_Music",
+    "name": "Glitchwave",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Rate_Your_Music",
+    "domain": "rateyourmusic.com"
+  },
+  "Sonemic": {
+    "parenthetical": null,
+    "parent": "Rate Your Music",
+    "parent_link": "Rate_Your_Music",
+    "name": "Sonemic",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Rate_Your_Music",
+    "domain": "rateyourmusic.com"
+  },
+  "The Raw Story": {
+    "name": "The Raw Story",
+    "parenthetical": null,
+    "link": "The_Raw_Story",
+    "parent": "The Raw Story",
+    "parent_link": "The_Raw_Story",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Daily_Kos",
+    "domain": "rawstory.com"
+  },
+  "RealClearPolitics": {
+    "name": "RealClearPolitics",
+    "parenthetical": null,
+    "link": "RealClearPolitics",
+    "parent": "RealClearPolitics",
+    "parent_link": "RealClearPolitics",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "RealClearPolitics",
+    "domain": "realclearpolitics.com"
+  },
+  "RCP": {
+    "parenthetical": null,
+    "parent": "RealClearPolitics",
+    "parent_link": "RealClearPolitics",
+    "name": "RCP",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "RealClearPolitics",
+    "domain": "realclearpolitics.com"
+  },
+  "RealClearInvestigations": {
+    "parenthetical": null,
+    "parent": "RealClearPolitics",
+    "parent_link": "RealClearPolitics",
+    "name": "RealClearInvestigations",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "RealClearPolitics",
+    "domain": "realclearpolitics.com"
+  },
+  "Reason": {
+    "name": "Reason",
+    "parenthetical": null,
+    "link": "Reason_(magazine)",
+    "parent": "Reason",
+    "parent_link": "Reason_(magazine)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Reason",
+    "domain": "reason.com"
+  },
+  "Reddit": {
+    "name": "Reddit",
+    "parenthetical": null,
+    "link": "Reddit",
+    "parent": "Reddit",
+    "parent_link": "Reddit",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Reddit",
+    "domain": "reddit.com"
+  },
+  "RedState": {
+    "name": "RedState",
+    "parenthetical": null,
+    "link": "RedState",
+    "parent": "RedState",
+    "parent_link": "RedState",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "RedState",
+    "domain": "redstate.com"
+  },
+  "The Register": {
+    "name": "The Register",
+    "parenthetical": null,
+    "link": "The_Register",
+    "parent": "The Register",
+    "parent_link": "The_Register",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Register",
+    "domain": "theregister.com"
+  },
+  "\"El Reg\"": {
+    "parenthetical": null,
+    "parent": "The Register",
+    "parent_link": "The_Register",
+    "name": "\"El Reg\"",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Register",
+    "domain": "theregister.com"
+  },
+  "Religion News Service": {
+    "name": "Religion News Service",
+    "parenthetical": null,
+    "link": "Religion_News_Service",
+    "parent": "Religion News Service",
+    "parent_link": "Religion_News_Service",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Religion_News_Service",
+    "domain": "religionnews.com"
+  },
+  "RNS": {
+    "parenthetical": null,
+    "parent": "Religion News Service",
+    "parent_link": "Religion_News_Service",
+    "name": "RNS",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Religion_News_Service",
+    "domain": "religionnews.com"
+  },
+  "ResearchGate": {
+    "name": "ResearchGate",
+    "parenthetical": null,
+    "link": "ResearchGate",
+    "parent": "ResearchGate",
+    "parent_link": "ResearchGate",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "ResearchGate",
+    "domain": "researchgate.net"
+  },
+  "Republic TV": {
+    "name": "Republic TV",
+    "parenthetical": null,
+    "link": "Republic_TV",
+    "parent": "Republic TV",
+    "parent_link": "Republic_TV",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Republic_TV",
+    "domain": "republicworld.com"
+  },
+  "Reuters": {
+    "name": "Reuters",
+    "parenthetical": null,
+    "link": "Reuters",
+    "parent": "Reuters",
+    "parent_link": "Reuters",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Reuters",
+    "domain": "reuters.com"
+  },
+  "RhythmOne": {
+    "name": "RhythmOne",
+    "parenthetical": null,
+    "link": "RhythmOne",
+    "parent": "RhythmOne",
+    "parent_link": "RhythmOne",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "RhythmOne",
+    "domain": "blinkx.com"
+  },
+  "AllMusic": {
+    "parenthetical": null,
+    "parent": "RhythmOne",
+    "parent_link": "RhythmOne",
+    "name": "AllMusic",
+    "link": "AllMusic",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "RhythmOne",
+    "domain": "allmusic.com"
+  },
+  "AllMovie": {
+    "parenthetical": null,
+    "parent": "RhythmOne",
+    "parent_link": "RhythmOne",
+    "name": "AllMovie",
+    "link": "AllMovie",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "RhythmOne",
+    "domain": "allmovie.com"
+  },
+  "AllGame": {
+    "parenthetical": null,
+    "parent": "RhythmOne",
+    "parent_link": "RhythmOne",
+    "name": "AllGame",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "RhythmOne",
+    "domain": "blinkx.com"
+  },
+  "All Media Guide": {
+    "parenthetical": null,
+    "parent": "RhythmOne",
+    "parent_link": "RhythmOne",
+    "name": "All Media Guide",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "RhythmOne",
+    "domain": "blinkx.com"
+  },
+  "AllRovi": {
+    "parenthetical": null,
+    "parent": "RhythmOne",
+    "parent_link": "RhythmOne",
+    "name": "AllRovi",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "RhythmOne",
+    "domain": "blinkx.com"
+  },
+  "RIA Novosti": {
+    "name": "RIA Novosti",
+    "parenthetical": null,
+    "link": "RIA_Novosti",
+    "parent": "RIA Novosti",
+    "parent_link": "RIA_Novosti",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "RIA_Novosti",
+    "domain": "ria.ru"
+  },
+  "Rolling Stone": {
+    "name": "Rolling Stone",
+    "parenthetical": null,
+    "link": "Rolling_Stone",
+    "parent": "Rolling Stone",
+    "parent_link": "Rolling_Stone",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Rolling_Stone",
+    "domain": "rollingstone.com"
+  },
+  "Rotten Tomatoes": {
+    "name": "Rotten Tomatoes",
+    "parenthetical": null,
+    "link": "Rotten_Tomatoes",
+    "parent": "Rotten Tomatoes",
+    "parent_link": "Rotten_Tomatoes",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Rotten_Tomatoes",
+    "domain": "rottentomatoes.com"
+  },
+  "RT": {
+    "name": "RT",
+    "parenthetical": null,
+    "link": "RT_(TV_network)",
+    "parent": "RT",
+    "parent_link": "RT_(TV_network)",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "RT",
+    "domain": "rt.com"
+  },
+  "Russia Today": {
+    "parenthetical": null,
+    "parent": "RT",
+    "parent_link": "RT_(TV_network)",
+    "name": "Russia Today",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "RT",
+    "domain": "rt.com"
+  },
+  "Salon": {
+    "name": "Salon",
+    "parenthetical": null,
+    "link": "Salon_(website)",
+    "parent": "Salon",
+    "parent_link": "Salon_(website)",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Salon",
+    "domain": "salon.com"
+  },
+  "Science-Based Medicine": {
+    "name": "Science-Based Medicine",
+    "parenthetical": null,
+    "link": "Science-Based_Medicine",
+    "parent": "Science-Based Medicine",
+    "parent_link": "Science-Based_Medicine",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Science-Based_Medicine",
+    "domain": "sciencebasedmedicine.org"
+  },
+  "ScienceBlogs": {
+    "name": "ScienceBlogs",
+    "parenthetical": null,
+    "link": "ScienceBlogs",
+    "parent": "ScienceBlogs",
+    "parent_link": "ScienceBlogs",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "ScienceBlogs",
+    "domain": "scienceblogs.com"
+  },
+  "Scientific American": {
+    "name": "Scientific American",
+    "parenthetical": null,
+    "link": "Scientific_American",
+    "parent": "Scientific American",
+    "parent_link": "Scientific_American",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Scientific_American",
+    "domain": "scientificamerican.com"
+  },
+  "SA": {
+    "parenthetical": null,
+    "parent": "Scientific American",
+    "parent_link": "Scientific_American",
+    "name": "SA",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Scientific_American",
+    "domain": "scientificamerican.com"
+  },
+  "SciAm": {
+    "parenthetical": null,
+    "parent": "Scientific American",
+    "parent_link": "Scientific_American",
+    "name": "SciAm",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Scientific_American",
+    "domain": "scientificamerican.com"
+  },
+  "SCOTUSblog": {
+    "name": "SCOTUSblog",
+    "parenthetical": null,
+    "link": "SCOTUSblog",
+    "parent": "SCOTUSblog",
+    "parent_link": "SCOTUSblog",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "SCOTUSblog",
+    "domain": "scotusblog.com"
+  },
+  "Screen Rant": {
+    "name": "Screen Rant",
+    "parenthetical": null,
+    "link": "Screen_Rant",
+    "parent": "Screen Rant",
+    "parent_link": "Screen_Rant",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Screen_Rant",
+    "domain": "screenrant.com"
+  },
+  "Scribd": {
+    "name": "Scribd",
+    "parenthetical": null,
+    "link": "Scribd",
+    "parent": "Scribd",
+    "parent_link": "Scribd",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Scribd",
+    "domain": "scribd.com"
+  },
+  "Scriptural texts": {
+    "name": "Scriptural texts",
+    "parenthetical": null,
+    "link": "Scriptural_texts",
+    "parent": "Scriptural texts",
+    "parent_link": "Scriptural_texts",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Scriptural_texts"
+  },
+  "Bible": {
+    "parenthetical": null,
+    "parent": "Scriptural texts",
+    "parent_link": "Scriptural_texts",
+    "name": "Bible",
+    "link": "Bible",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Scriptural_texts"
+  },
+  "Quran": {
+    "parenthetical": null,
+    "parent": "Scriptural texts",
+    "parent_link": "Scriptural_texts",
+    "name": "Quran",
+    "link": "Quran",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Scriptural_texts"
+  },
+  "Sherdog": {
+    "name": "Sherdog",
+    "parenthetical": null,
+    "link": "Sherdog",
+    "parent": "Sherdog",
+    "parent_link": "Sherdog",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Sherdog",
+    "domain": "sherdog.com"
+  },
+  "Sixth Tone": {
+    "name": "Sixth Tone",
+    "parenthetical": "general topics",
+    "link": "Sixth_Tone",
+    "parent": "Sixth Tone",
+    "parent_link": "Sixth_Tone",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Sixth_Tone",
+    "domain": "sixthtone.com"
+  },
+  "Sixth Tone (politics)": {
+    "name": "Sixth Tone",
+    "parenthetical": "politics",
+    "link": "Sixth_Tone",
+    "parent": "Sixth Tone",
+    "parent_link": "Sixth_Tone",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Sixth_Tone_(politics)",
+    "domain": "sixthtone.com"
+  },
+  "The Skeptic's Dictionary": {
+    "name": "The Skeptic's Dictionary",
+    "parenthetical": null,
+    "link": "The_Skeptic%27s_Dictionary",
+    "parent": "The Skeptic's Dictionary",
+    "parent_link": "The_Skeptic%27s_Dictionary",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "The_Skeptic's_Dictionary",
+    "domain": "skepdic.com"
+  },
+  "The Skwawkbox": {
+    "name": "The Skwawkbox",
+    "parenthetical": null,
+    "link": "The_Skwawkbox",
+    "parent": "The Skwawkbox",
+    "parent_link": "The_Skwawkbox",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "The_Skwawkbox",
+    "domain": "skwawkbox.org"
+  },
+  "Slate": {
+    "name": "Slate",
+    "parenthetical": null,
+    "link": "Slate_(magazine)",
+    "parent": "Slate",
+    "parent_link": "Slate_(magazine)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Slate",
+    "domain": "slate.com"
+  },
+  "Snopes": {
+    "name": "Snopes",
+    "parenthetical": null,
+    "link": "Snopes",
+    "parent": "Snopes",
+    "parent_link": "Snopes",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Snopes",
+    "domain": "snopes.com"
+  },
+  "Softpedia": {
+    "name": "Softpedia",
+    "parenthetical": null,
+    "link": "Softpedia",
+    "parent": "Softpedia",
+    "parent_link": "Softpedia",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Softpedia",
+    "domain": "softpedia.com"
+  },
+  "SourceWatch": {
+    "name": "SourceWatch",
+    "parenthetical": null,
+    "link": "SourceWatch",
+    "parent": "SourceWatch",
+    "parent_link": "SourceWatch",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "SourceWatch",
+    "domain": "sourcewatch.org"
+  },
+  "South China Morning Post": {
+    "name": "South China Morning Post",
+    "parenthetical": null,
+    "link": "South_China_Morning_Post",
+    "parent": "South China Morning Post",
+    "parent_link": "South_China_Morning_Post",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "SCMP",
+    "domain": "scmp.com"
+  },
+  "SCMP": {
+    "parenthetical": null,
+    "parent": "South China Morning Post",
+    "parent_link": "South_China_Morning_Post",
+    "name": "SCMP",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "SCMP",
+    "domain": "scmp.com"
+  },
+  "Sunday Morning Post": {
+    "parenthetical": null,
+    "parent": "South China Morning Post",
+    "parent_link": "South_China_Morning_Post",
+    "name": "Sunday Morning Post",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "SCMP",
+    "domain": "scmp.com"
+  },
+  "Southern Poverty Law Center": {
+    "name": "Southern Poverty Law Center",
+    "parenthetical": null,
+    "link": "Southern_Poverty_Law_Center",
+    "parent": "Southern Poverty Law Center",
+    "parent_link": "Southern_Poverty_Law_Center",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Southern_Poverty_Law_Center",
+    "domain": "splcenter.org"
+  },
+  "SPLC": {
+    "parenthetical": null,
+    "parent": "Southern Poverty Law Center",
+    "parent_link": "Southern_Poverty_Law_Center",
+    "name": "SPLC",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Southern_Poverty_Law_Center",
+    "domain": "splcenter.org"
+  },
+  "Spirit of Metal": {
+    "name": "Spirit of Metal",
+    "parenthetical": null,
+    "link": "Spirit_of_Metal",
+    "parent": "Spirit of Metal",
+    "parent_link": "Spirit_of_Metal",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Spirit_of_Metal",
+    "domain": "spirit-of-metal.com"
+  },
+  "SparkNotes": {
+    "name": "SparkNotes",
+    "parenthetical": null,
+    "link": "SparkNotes",
+    "parent": "SparkNotes",
+    "parent_link": "SparkNotes",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "SparkNotes",
+    "domain": "sparknotes.com"
+  },
+  "The Spectator": {
+    "name": "The Spectator",
+    "parenthetical": null,
+    "link": "The_Spectator",
+    "parent": "The Spectator",
+    "parent_link": "The_Spectator",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "The_Spectator",
+    "domain": "spectator.co.uk"
+  },
+  "Der Spiegel": {
+    "name": "Der Spiegel",
+    "parenthetical": null,
+    "link": "Der_Spiegel",
+    "parent": "Der Spiegel",
+    "parent_link": "Der_Spiegel",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Der_Spiegel",
+    "domain": "spiegel.de"
+  },
+  "Spiegel Online": {
+    "parenthetical": null,
+    "parent": "Der Spiegel",
+    "parent_link": "Der_Spiegel",
+    "name": "Spiegel Online",
+    "link": "Spiegel_Online",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Der_Spiegel",
+    "domain": "spiegel.de"
+  },
+  "SPON": {
+    "parenthetical": null,
+    "parent": "Der Spiegel",
+    "parent_link": "Der_Spiegel",
+    "name": "SPON",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Der_Spiegel",
+    "domain": "spiegel.de"
+  },
+  "Sputnik": {
+    "name": "Sputnik",
+    "parenthetical": null,
+    "link": "Sputnik_(news_agency)",
+    "parent": "Sputnik",
+    "parent_link": "Sputnik_(news_agency)",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Sputnik",
+    "domain": "sputniknews.com"
+  },
+  "Stack Exchange": {
+    "name": "Stack Exchange",
+    "parenthetical": null,
+    "link": "Stack_Exchange",
+    "parent": "Stack Exchange",
+    "parent_link": "Stack_Exchange",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Stack_Exchange",
+    "domain": "stackexchange.com"
+  },
+  "Stack Overflow": {
+    "parenthetical": null,
+    "parent": "Stack Exchange",
+    "parent_link": "Stack_Exchange",
+    "name": "Stack Overflow",
+    "link": "Stack_Overflow",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Stack_Exchange",
+    "domain": "stackoverflow.com"
+  },
+  "MathOverflow": {
+    "parenthetical": null,
+    "parent": "Stack Exchange",
+    "parent_link": "Stack_Exchange",
+    "name": "MathOverflow",
+    "link": "MathOverflow",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Stack_Exchange",
+    "domain": "mathoverflow.net"
+  },
+  "Ask Ubuntu": {
+    "parenthetical": null,
+    "parent": "Stack Exchange",
+    "parent_link": "Stack_Exchange",
+    "name": "Ask Ubuntu",
+    "link": "Ask_Ubuntu",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Stack_Exchange",
+    "domain": "askubuntu.com"
+  },
+  "StarsUnfolded": {
+    "name": "StarsUnfolded",
+    "parenthetical": null,
+    "link": null,
+    "parent": "StarsUnfolded",
+    "parent_link": null,
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "starsunfolded.com",
+    "domain": "starsunfolded.com"
+  },
+  "The Sun": {
+    "name": "The Sun",
+    "parenthetical": null,
+    "link": "The_Sun_(United_Kingdom)",
+    "parent": "The Sun",
+    "parent_link": "The_Sun_(United_Kingdom)",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "The_Sun",
+    "domain": "thesun.co.uk"
+  },
+  "The Sun on Sunday": {
+    "parenthetical": null,
+    "parent": "The Sun",
+    "parent_link": "The_Sun_(United_Kingdom)",
+    "name": "The Sun on Sunday",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "The_Sun",
+    "domain": "thesun.co.uk"
+  },
+  "The Irish Sun": {
+    "parenthetical": null,
+    "parent": "The Sun",
+    "parent_link": "The_Sun_(United_Kingdom)",
+    "name": "The Irish Sun",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "The_Sun",
+    "domain": "thesun.co.uk"
+  },
+  "The Scottish Sun": {
+    "parenthetical": null,
+    "parent": "The Sun",
+    "parent_link": "The_Sun_(United_Kingdom)",
+    "name": "The Scottish Sun",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "The_Sun",
+    "domain": "thesun.co.uk"
+  },
+  "Swarajya": {
+    "name": "Swarajya",
+    "parenthetical": null,
+    "link": "Swarajya_(magazine)",
+    "parent": "Swarajya",
+    "parent_link": "Swarajya_(magazine)",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "Swarajya",
+    "domain": "swarajyamag.com"
+  },
+  "Taki's Magazine": {
+    "name": "Taki's Magazine",
+    "parenthetical": null,
+    "link": "Taki%27s_Magazine",
+    "parent": "Taki's Magazine",
+    "parent_link": "Taki%27s_Magazine",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Taki's_Magazine",
+    "domain": "takimag.com"
+  },
+  "Takimag": {
+    "parenthetical": null,
+    "parent": "Taki's Magazine",
+    "parent_link": "Taki%27s_Magazine",
+    "name": "Takimag",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Taki's_Magazine",
+    "domain": "takimag.com"
+  },
+  "Taki's Top Drawer": {
+    "parenthetical": null,
+    "parent": "Taki's Magazine",
+    "parent_link": "Taki%27s_Magazine",
+    "name": "Taki's Top Drawer",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Taki's_Magazine",
+    "domain": "takimag.com"
+  },
+  "TASS": {
+    "name": "TASS",
+    "parenthetical": null,
+    "link": "TASS",
+    "parent": "TASS",
+    "parent_link": "TASS",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "TASS",
+    "domain": "tass.ru"
+  },
+  "\u0422\u0410\u0421\u0421": {
+    "parenthetical": null,
+    "parent": "TASS",
+    "parent_link": "TASS",
+    "name": "\u0422\u0410\u0421\u0421",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "TASS",
+    "domain": "tass.ru"
+  },
+  "ITAR-TASS": {
+    "parenthetical": null,
+    "parent": "TASS",
+    "parent_link": "TASS",
+    "name": "ITAR-TASS",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "TASS",
+    "domain": "tass.ru"
+  },
+  "Telegraph Agency of the Soviet Union": {
+    "parenthetical": null,
+    "parent": "TASS",
+    "parent_link": "TASS",
+    "name": "Telegraph Agency of the Soviet Union",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "TASS",
+    "domain": "tass.ru"
+  },
+  "TechCrunch": {
+    "name": "TechCrunch",
+    "parenthetical": null,
+    "link": "TechCrunch",
+    "parent": "TechCrunch",
+    "parent_link": "TechCrunch",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "TechCrunch",
+    "domain": "techcrunch.com"
+  },
+  "Telesur": {
+    "name": "Telesur",
+    "parenthetical": null,
+    "link": "Telesur",
+    "parent": "Telesur",
+    "parent_link": "Telesur",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Telesur",
+    "domain": "telesurtv.net"
+  },
+  "TheWrap": {
+    "name": "TheWrap",
+    "parenthetical": null,
+    "link": "TheWrap",
+    "parent": "TheWrap",
+    "parent_link": "TheWrap",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "TheWrap",
+    "domain": "thewrap.com"
+  },
+  "ThinkProgress": {
+    "name": "ThinkProgress",
+    "parenthetical": null,
+    "link": "ThinkProgress",
+    "parent": "ThinkProgress",
+    "parent_link": "ThinkProgress",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "ThinkProgress",
+    "domain": "thinkprogress.org"
+  },
+  "Time": {
+    "name": "Time",
+    "parenthetical": null,
+    "link": "Time_(magazine)",
+    "parent": "Time",
+    "parent_link": "Time_(magazine)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Time",
+    "domain": "time.com"
+  },
+  "The Times": {
+    "name": "The Times",
+    "parenthetical": null,
+    "link": "The_Times",
+    "parent": "The Times",
+    "parent_link": "The_Times",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Times",
+    "domain": "thetimes.co.uk"
+  },
+  "The Sunday Times": {
+    "parenthetical": null,
+    "parent": "The Times",
+    "parent_link": "The_Times",
+    "name": "The Sunday Times",
+    "link": "The_Sunday_Times",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Times",
+    "domain": "thesundaytimes.co.uk"
+  },
+  "The Times of London": {
+    "parenthetical": null,
+    "parent": "The Times",
+    "parent_link": "The_Times",
+    "name": "The Times of London",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Times",
+    "domain": "thetimes.co.uk"
+  },
+  "The Times of India": {
+    "name": "The Times of India",
+    "parenthetical": null,
+    "link": "The_Times_of_India",
+    "parent": "The Times of India",
+    "parent_link": "The_Times_of_India",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "The_Times_of_India",
+    "domain": "timesofindia.indiatimes.com"
+  },
+  "TOI": {
+    "parenthetical": null,
+    "parent": "The Times of India",
+    "parent_link": "The_Times_of_India",
+    "name": "TOI",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "The_Times_of_India",
+    "domain": "timesofindia.indiatimes.com"
+  },
+  "TMZ": {
+    "name": "TMZ",
+    "parenthetical": null,
+    "link": "TMZ",
+    "parent": "TMZ",
+    "parent_link": "TMZ",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "TMZ",
+    "domain": "tmz.com"
+  },
+  "TorrentFreak": {
+    "name": "TorrentFreak",
+    "parenthetical": null,
+    "link": "TorrentFreak",
+    "parent": "TorrentFreak",
+    "parent_link": "TorrentFreak",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "TorrentFreak",
+    "domain": "torrentfreak.com"
+  },
+  "TF": {
+    "parenthetical": null,
+    "parent": "TorrentFreak",
+    "parent_link": "TorrentFreak",
+    "name": "TF",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "TorrentFreak",
+    "domain": "torrentfreak.com"
+  },
+  "Townhall": {
+    "name": "Townhall",
+    "parenthetical": null,
+    "link": "Townhall",
+    "parent": "Townhall",
+    "parent_link": "Townhall",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Townhall",
+    "domain": "townhall.com"
+  },
+  "TRT World": {
+    "name": "TRT World",
+    "parenthetical": null,
+    "link": "TRT_World",
+    "parent": "TRT World",
+    "parent_link": "TRT_World",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "TRT_World",
+    "domain": "trtworld.com"
+  },
+  "The Truth About Guns": {
+    "name": "The Truth About Guns",
+    "parenthetical": null,
+    "link": "The_Truth_About_Guns",
+    "parent": "The Truth About Guns",
+    "parent_link": "The_Truth_About_Guns",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "The_Truth_About_Guns",
+    "domain": "thetruthaboutguns.com"
+  },
+  "TTAG": {
+    "parenthetical": null,
+    "parent": "The Truth About Guns",
+    "parent_link": "The_Truth_About_Guns",
+    "name": "TTAG",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "The_Truth_About_Guns",
+    "domain": "thetruthaboutguns.com"
+  },
+  "TV.com": {
+    "name": "TV.com",
+    "parenthetical": null,
+    "link": "TV.com",
+    "parent": "TV.com",
+    "parent_link": "TV.com",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "TV.com",
+    "domain": "tv.com"
+  },
+  "TV Guide": {
+    "name": "TV Guide",
+    "parenthetical": null,
+    "link": "TV_Guide",
+    "parent": "TV Guide",
+    "parent_link": "TV_Guide",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "TV_Guide",
+    "domain": "tvguidemagazine.com"
+  },
+  "TV Tropes": {
+    "name": "TV Tropes",
+    "parenthetical": null,
+    "link": "TV_Tropes",
+    "parent": "TV Tropes",
+    "parent_link": "TV_Tropes",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "TV_Tropes",
+    "domain": "tvtropes.org"
+  },
+  "Twitter": {
+    "name": "Twitter",
+    "parenthetical": null,
+    "link": "Twitter",
+    "parent": "Twitter",
+    "parent_link": "Twitter",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Twitter",
+    "domain": "twitter.com"
+  },
+  "Urban Dictionary": {
+    "name": "Urban Dictionary",
+    "parenthetical": null,
+    "link": "Urban_Dictionary",
+    "parent": "Urban Dictionary",
+    "parent_link": "Urban_Dictionary",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Urban_Dictionary",
+    "domain": "urbandictionary.com"
+  },
+  "U.S. News & World Report": {
+    "name": "U.S. News & World Report",
+    "parenthetical": null,
+    "link": "U.S._News_%26_World_Report",
+    "parent": "U.S. News & World Report",
+    "parent_link": "U.S._News_%26_World_Report",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "U.S._News_&_World_Report",
+    "domain": "usnews.com"
+  },
+  "Us Weekly": {
+    "name": "Us Weekly",
+    "parenthetical": null,
+    "link": "Us_Weekly",
+    "parent": "Us Weekly",
+    "parent_link": "Us_Weekly",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Us_Weekly",
+    "domain": "usmagazine.com"
+  },
+  "USA Today": {
+    "name": "USA Today",
+    "parenthetical": null,
+    "link": "USA_Today",
+    "parent": "USA Today",
+    "parent_link": "USA_Today",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "USA_Today",
+    "domain": "usatoday.com"
+  },
+  "Vanity Fair": {
+    "name": "Vanity Fair",
+    "parenthetical": null,
+    "link": "Vanity_Fair_(magazine)",
+    "parent": "Vanity Fair",
+    "parent_link": "Vanity_Fair_(magazine)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Vanity_Fair",
+    "domain": "vanityfair.com"
+  },
+  "Variety": {
+    "name": "Variety",
+    "parenthetical": null,
+    "link": "Variety_(magazine)",
+    "parent": "Variety",
+    "parent_link": "Variety_(magazine)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Variety",
+    "domain": "variety.com"
+  },
+  "VDARE": {
+    "name": "VDARE",
+    "parenthetical": null,
+    "link": "VDARE",
+    "parent": "VDARE",
+    "parent_link": "VDARE",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "VDARE",
+    "domain": "vdare.com"
+  },
+  "Venezuelanalysis": {
+    "name": "Venezuelanalysis",
+    "parenthetical": null,
+    "link": "Venezuelanalysis",
+    "parent": "Venezuelanalysis",
+    "parent_link": "Venezuelanalysis",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Venezuelanalysis",
+    "domain": "venezuelanalysis.com"
+  },
+  "VentureBeat": {
+    "name": "VentureBeat",
+    "parenthetical": null,
+    "link": "VentureBeat",
+    "parent": "VentureBeat",
+    "parent_link": "VentureBeat",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "VentureBeat",
+    "domain": "venturebeat.com"
+  },
+  "The Verge": {
+    "name": "The Verge",
+    "parenthetical": null,
+    "link": "The_Verge",
+    "parent": "The Verge",
+    "parent_link": "The_Verge",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Verge",
+    "domain": "theverge.com"
+  },
+  "Veterans Today": {
+    "name": "Veterans Today",
+    "parenthetical": null,
+    "link": "Veterans_Today",
+    "parent": "Veterans Today",
+    "parent_link": "Veterans_Today",
+    "ratings": [
+      "Blacklisted",
+      "Deprecated"
+    ],
+    "row_id": "Veterans_Today",
+    "domain": "veteranstoday.com"
+  },
+  "VGChartz": {
+    "name": "VGChartz",
+    "parenthetical": null,
+    "link": "VGChartz",
+    "parent": "VGChartz",
+    "parent_link": "VGChartz",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "VGChartz",
+    "domain": "vgchartz.com"
+  },
+  "Vice Media": {
+    "name": "Vice Media",
+    "parenthetical": null,
+    "link": "Vice_Media",
+    "parent": "Vice Media",
+    "parent_link": "Vice_Media",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Vice_Media",
+    "domain": "vice.com"
+  },
+  "Garage": {
+    "parenthetical": null,
+    "parent": "Vice Media",
+    "parent_link": "Vice_Media",
+    "name": "Garage",
+    "link": "Garage_Magazine",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Vice_Media",
+    "domain": "garage.vice.com"
+  },
+  "i-D": {
+    "parenthetical": null,
+    "parent": "Vice Media",
+    "parent_link": "Vice_Media",
+    "name": "i-D",
+    "link": "I-D",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Vice_Media",
+    "domain": "i-d.vice.com"
+  },
+  "Refinery29": {
+    "parenthetical": null,
+    "parent": "Vice Media",
+    "parent_link": "Vice_Media",
+    "name": "Refinery29",
+    "link": "Refinery29",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Vice_Media",
+    "domain": "refinery29.com"
+  },
+  "Vice": {
+    "parenthetical": null,
+    "parent": "Vice Media",
+    "parent_link": "Vice_Media",
+    "name": "Vice",
+    "link": "Vice_(magazine)",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Vice_Media",
+    "domain": "vice.com"
+  },
+  "Vice News": {
+    "parenthetical": null,
+    "parent": "Vice Media",
+    "parent_link": "Vice_Media",
+    "name": "Vice News",
+    "link": "Vice_News",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Vice_Media",
+    "domain": "news.vice.com"
+  },
+  "Motherboard": {
+    "parenthetical": null,
+    "parent": "Vice Media",
+    "parent_link": "Vice_Media",
+    "name": "Motherboard",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Vice_Media",
+    "domain": "vice.com"
+  },
+  "Vogue": {
+    "name": "Vogue",
+    "parenthetical": null,
+    "link": "Vogue_(magazine)",
+    "parent": "Vogue",
+    "parent_link": "Vogue_(magazine)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Vogue",
+    "domain": "vogue.com"
+  },
+  "Voltaire Network": {
+    "name": "Voltaire Network",
+    "parenthetical": null,
+    "link": "Voltaire_Network",
+    "parent": "Voltaire Network",
+    "parent_link": "Voltaire_Network",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Voltaire_Network",
+    "domain": "voltairenet.org"
+  },
+  "Vox": {
+    "name": "Vox",
+    "parenthetical": null,
+    "link": "Vox_(website)",
+    "parent": "Vox",
+    "parent_link": "Vox_(website)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Vox",
+    "domain": "vox.com"
+  },
+  "Recode": {
+    "parenthetical": null,
+    "parent": "Vox",
+    "parent_link": "Vox_(website)",
+    "name": "Recode",
+    "link": "Recode",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Vox",
+    "domain": "recode.net"
+  },
+  "The Wall Street Journal": {
+    "name": "The Wall Street Journal",
+    "parenthetical": null,
+    "link": "The_Wall_Street_Journal",
+    "parent": "The Wall Street Journal",
+    "parent_link": "The_Wall_Street_Journal",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Wall_Street_Journal",
+    "domain": "wsj.com"
+  },
+  "WSJ": {
+    "parenthetical": null,
+    "parent": "The Wall Street Journal",
+    "parent_link": "The_Wall_Street_Journal",
+    "name": "WSJ",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Wall_Street_Journal",
+    "domain": "wsj.com"
+  },
+  "Washington Examiner": {
+    "name": "Washington Examiner",
+    "parenthetical": null,
+    "link": "Washington_Examiner",
+    "parent": "Washington Examiner",
+    "parent_link": "Washington_Examiner",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Washington_Examiner",
+    "domain": "washingtonexaminer.com"
+  },
+  "The Washington Post": {
+    "name": "The Washington Post",
+    "parenthetical": null,
+    "link": "The_Washington_Post",
+    "parent": "The Washington Post",
+    "parent_link": "The_Washington_Post",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Washington_Post",
+    "domain": "washingtonpost.com"
+  },
+  "WaPo": {
+    "parenthetical": null,
+    "parent": "The Washington Post",
+    "parent_link": "The_Washington_Post",
+    "name": "WaPo",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Washington_Post",
+    "domain": "washingtonpost.com"
+  },
+  "The Washington Times": {
+    "name": "The Washington Times",
+    "parenthetical": null,
+    "link": "The_Washington_Times",
+    "parent": "The Washington Times",
+    "parent_link": "The_Washington_Times",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "The_Washington_Times",
+    "domain": "washingtontimes.com"
+  },
+  "Weather2Travel.com": {
+    "name": "Weather2Travel.com",
+    "parenthetical": null,
+    "link": null,
+    "parent": "Weather2Travel.com",
+    "parent_link": null,
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Weather2Travel",
+    "domain": "weather2travel.com"
+  },
+  "The Weekly Standard": {
+    "name": "The Weekly Standard",
+    "parenthetical": null,
+    "link": "The_Weekly_Standard",
+    "parent": "The Weekly Standard",
+    "parent_link": "The_Weekly_Standard",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "The_Weekly_Standard",
+    "domain": "weeklystandard.com"
+  },
+  "The Western Journal": {
+    "name": "The Western Journal",
+    "parenthetical": null,
+    "link": "The_Western_Journal",
+    "parent": "The Western Journal",
+    "parent_link": "The_Western_Journal",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "The_Western_Journal",
+    "domain": "westernjournal.com"
+  },
+  "Western Journalism": {
+    "parenthetical": null,
+    "parent": "The Western Journal",
+    "parent_link": "The_Western_Journal",
+    "name": "Western Journalism",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "The_Western_Journal",
+    "domain": "westernjournal.com"
+  },
+  "We Got This Covered": {
+    "name": "We Got This Covered",
+    "parenthetical": null,
+    "link": "https://en.wikipedia.org/w/index.php?title=Wikipedia:WEGOTTHISCOVERED&redirect=no",
+    "parent": "We Got This Covered",
+    "parent_link": "https://en.wikipedia.org/w/index.php?title=Wikipedia:WEGOTTHISCOVERED&redirect=no",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "We_Got_This_Covered",
+    "domain": "wegotthiscovered.com"
+  },
+  "WhatCulture": {
+    "name": "WhatCulture",
+    "parenthetical": null,
+    "link": "WhatCulture",
+    "parent": "WhatCulture",
+    "parent_link": "WhatCulture",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "WhatCulture",
+    "domain": "whatculture.com"
+  },
+  "Who's Who": {
+    "name": "Who's Who",
+    "parenthetical": null,
+    "link": "Who%27s_Who_(UK)",
+    "parent": "Who's Who",
+    "parent_link": "Who%27s_Who_(UK)",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Who's_Who_(UK)",
+    "domain": "ukwhoswho.com"
+  },
+  "WhoSampled": {
+    "name": "WhoSampled",
+    "parenthetical": null,
+    "link": "WhoSampled",
+    "parent": "WhoSampled",
+    "parent_link": "WhoSampled",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "WhoSampled",
+    "domain": "whosampled.com"
+  },
+  "Wikidata": {
+    "name": "Wikidata",
+    "parenthetical": null,
+    "link": "Wikidata",
+    "parent": "Wikidata",
+    "parent_link": "Wikidata",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Wikidata",
+    "domain": "wikidata.org"
+  },
+  "Wikidata transcluded statements": {
+    "name": "Wikidata transcluded statements",
+    "parenthetical": null,
+    "link": "Wikidata",
+    "parent": "Wikidata transcluded statements",
+    "parent_link": "Wikidata",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Wikidata_transcluded_statements",
+    "domain": "wikidata.org"
+  },
+  "WikiLeaks": {
+    "name": "WikiLeaks",
+    "parenthetical": null,
+    "link": "WikiLeaks",
+    "parent": "WikiLeaks",
+    "parent_link": "WikiLeaks",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "WikiLeaks",
+    "domain": "wikileaks.org"
+  },
+  "Wikinews": {
+    "name": "Wikinews",
+    "parenthetical": null,
+    "link": "Wikinews",
+    "parent": "Wikinews",
+    "parent_link": "Wikinews",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Wikinews",
+    "domain": "wikinews.org"
+  },
+  "Wikipedia": {
+    "name": "Wikipedia",
+    "parenthetical": null,
+    "link": "Wikipedia",
+    "parent": "Wikipedia",
+    "parent_link": "Wikipedia",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Wikipedia",
+    "domain": "wikipedia.org"
+  },
+  "The Signpost": {
+    "parenthetical": null,
+    "parent": "Wikipedia",
+    "parent_link": "Wikipedia",
+    "name": "The Signpost",
+    "link": "The_Signpost",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Wikipedia",
+    "domain": "en.wikipedia.org"
+  },
+  "Wired": {
+    "name": "Wired",
+    "parenthetical": null,
+    "link": "Wired_(magazine)",
+    "parent": "Wired",
+    "parent_link": "Wired_(magazine)",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Wired",
+    "domain": "wired.com"
+  },
+  "Wired UK": {
+    "parenthetical": null,
+    "parent": "Wired",
+    "parent_link": "Wired_(magazine)",
+    "name": "Wired UK",
+    "link": "Wired_UK",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "Wired",
+    "domain": "wired.co.uk"
+  },
+  "WordPress.com": {
+    "name": "WordPress.com",
+    "parenthetical": null,
+    "link": "WordPress.com",
+    "parent": "WordPress.com",
+    "parent_link": "WordPress.com",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "WordPress.com",
+    "domain": "wordpress.com"
+  },
+  "WorldNetDaily": {
+    "name": "WorldNetDaily",
+    "parenthetical": null,
+    "link": "WorldNetDaily",
+    "parent": "WorldNetDaily",
+    "parent_link": "WorldNetDaily",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "WorldNetDaily",
+    "domain": "wnd.com"
+  },
+  "WND": {
+    "parenthetical": null,
+    "parent": "WorldNetDaily",
+    "parent_link": "WorldNetDaily",
+    "name": "WND",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "WorldNetDaily",
+    "domain": "wnd.com"
+  },
+  "Worldometer": {
+    "name": "Worldometer",
+    "parenthetical": null,
+    "link": "Worldometer",
+    "parent": "Worldometer",
+    "parent_link": "Worldometer",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Worldometer",
+    "domain": "worldometers.info"
+  },
+  "Worldometers": {
+    "parenthetical": null,
+    "parent": "Worldometer",
+    "parent_link": "Worldometer",
+    "name": "Worldometers",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "Worldometer",
+    "domain": "worldometers.info"
+  },
+  "Xinhua News Agency": {
+    "name": "Xinhua News Agency",
+    "parenthetical": null,
+    "link": "Xinhua_News_Agency",
+    "parent": "Xinhua News Agency",
+    "parent_link": "Xinhua_News_Agency",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Xinhua_News_Agency",
+    "domain": "xinhuanet.com"
+  },
+  "New China News Agency": {
+    "parenthetical": null,
+    "parent": "Xinhua News Agency",
+    "parent_link": "Xinhua_News_Agency",
+    "name": "New China News Agency",
+    "ratings": [
+      "No consensus"
+    ],
+    "row_id": "Xinhua_News_Agency",
+    "domain": "xinhuanet.com"
+  },
+  "YouTube": {
+    "name": "YouTube",
+    "parenthetical": null,
+    "link": "YouTube",
+    "parent": "YouTube",
+    "parent_link": "YouTube",
+    "ratings": [
+      "Generally unreliable"
+    ],
+    "row_id": "YouTube",
+    "domain": "youtube.com"
+  },
+  "ZDNet": {
+    "name": "ZDNet",
+    "parenthetical": null,
+    "link": "ZDNet",
+    "parent": "ZDNet",
+    "parent_link": "ZDNet",
+    "ratings": [
+      "Generally reliable"
+    ],
+    "row_id": "ZDNet",
+    "domain": "zdnet.com"
+  },
+  "Zero Hedge": {
+    "name": "Zero Hedge",
+    "parenthetical": null,
+    "link": "Zero_Hedge",
+    "parent": "Zero Hedge",
+    "parent_link": "Zero_Hedge",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Zero_Hedge",
+    "domain": "zerohedge.com"
+  },
+  "ZH": {
+    "parenthetical": null,
+    "parent": "Zero Hedge",
+    "parent_link": "Zero_Hedge",
+    "name": "ZH",
+    "ratings": [
+      "Deprecated"
+    ],
+    "row_id": "Zero_Hedge",
+    "domain": "zerohedge.com"
+  },
+  "ZoomInfo": {
+    "name": "ZoomInfo",
+    "parenthetical": null,
+    "link": "ZoomInfo",
+    "parent": "ZoomInfo",
+    "parent_link": "ZoomInfo",
+    "ratings": [
+      "Blacklisted",
+      "Generally unreliable"
+    ],
+    "row_id": "ZoomInfo",
+    "domain": "zoominfo.com"
+  }
+}

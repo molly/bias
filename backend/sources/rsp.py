@@ -1,10 +1,13 @@
 from bs4 import BeautifulSoup
 from constants.misc import HEADERS
-from constants.urls import RSP_URL
+from constants.sources.rsp import supplementary
+from constants.urls import RSP_URL, WIKIDATA_API_URL
+from database.rsp_source import validate_rsp_source
+from utils import get_current_timestamp
+from urllib.parse import urlparse, unquote
 import logging
 import requests
 import re
-import json
 
 
 def trim_href(href):
@@ -80,8 +83,6 @@ def parse_source(cell):
                     other_sources.append(link)
                 else:
                     other_sources.append(child.text)
-    if any([isinstance(entry, str) and len(entry) < 5 for entry in other_sources]):
-        print("check")
 
     # Get any parenthetical information
     parenthetical = None
@@ -142,9 +143,81 @@ def parse(logger):
     return sources
 
 
-def update(db, dry_run=False):
-    dry_run = False  # TESTING
+def get_domain_for_link(link):
+    params = {
+        "action": "wbgetentities",
+        "sites": "enwiki",
+        "props": "claims",
+        "normalize": 1,
+        "format": "json",
+        "titles": unquote(link),
+    }
+    r = requests.get(WIKIDATA_API_URL, params=params, headers=HEADERS)
+    result = r.json()
+    if "entities" in result:
+        entity = next(iter(result["entities"].values()))
+        if "claims" in entity:
+            if "P856" in entity["claims"]:
+                try:
+                    url = entity["claims"]["P856"][0]["mainsnak"]["datavalue"]["value"]
+                    parsed = urlparse(url)
+                    netloc = (
+                        parsed.netloc[4:]
+                        if parsed.netloc.startswith("www.")
+                        else parsed.netloc
+                    )
+                    domain = netloc.lower()
+                    return domain
+                except KeyError:
+                    pass
+    return None
 
+
+def get_domains_for_sources(sources):
+    sources_to_domains = {}
+
+    for source in sources.values():
+        source["domain"] = None
+        if "link" in source and source["link"] is not None:
+            link = source["link"]
+            if link not in sources_to_domains or sources_to_domains[link] is None:
+                sources_to_domains[link] = None
+                domain = get_domain_for_link(link)
+                if domain:
+                    sources_to_domains[link] = domain
+    return sources_to_domains
+
+
+def get_domain_for_source(source, domains_for_sources):
+    if source["name"] in supplementary:
+        return supplementary[source["name"]]
+
+    link = source.get("link")
+    if link:
+        domain = domains_for_sources.get(link)
+        if domain:
+            return domain
+
+    if source["parent"] is not None and source["parent"] in supplementary:
+        return supplementary[source["parent"]]
+
+    parent_link = source.get("parent_link")
+    if parent_link:
+        domain = domains_for_sources.get(parent_link)
+        if domain:
+            return domain
+
+    return None
+
+
+def zip_domains_and_sources(sources, domains_for_sources):
+    for source in sources.values():
+        domain = get_domain_for_source(source, domains_for_sources)
+        if domain:
+            source["domain"] = domain
+
+
+def update(db, dry_run=False):
     logger = logging.getLogger("bias." + __name__)
     if dry_run:
         logger.info(
@@ -152,6 +225,14 @@ def update(db, dry_run=False):
         )
     if not dry_run:
         sources = parse(logger)
+        domains_for_sources = get_domains_for_sources(sources)
+        zip_domains_and_sources(sources, domains_for_sources)
+
+        timestamp = get_current_timestamp()
+        db.add_or_update_sources(
+            [validate_rsp_source(source, timestamp) for source in sources.values()]
+        )
+        db.set_last_updated("rsp", timestamp)
         logger.info(
             "Wikipedia:Reliable sources/Perennial sources update complete. "
             "{} sources updated.".format(len(sources))

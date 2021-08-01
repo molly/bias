@@ -2,7 +2,6 @@ from constants.misc import HEADERS
 from constants.urls import MBFC_API_URL
 from database.mbfc_source import validate_mbfc_source
 from utils import get_current_timestamp
-from time import time
 import logging
 import requests
 
@@ -25,10 +24,10 @@ def update(db, dry_run=False):
             return
 
         try:
-            db.set_last_updated("mbfc", timestamp)
             db.add_or_update_sources(
                 [validate_mbfc_source(source, timestamp) for source in sources]
             )
+            db.set_last_updated("mbfc", timestamp)
             logger.info(
                 "Media Bias/Fact Check update complete. {} sources updated.".format(
                     len(sources)
