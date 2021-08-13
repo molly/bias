@@ -9,10 +9,9 @@ export const SourcesActionTypes = {
 const SOURCES_URL = "http://localhost:5000/sources";
 
 export const fetchSources = (args) => (dispatch) => {
-  const { sourceTitle, sourceDomain } = args;
   dispatch({ type: SourcesActionTypes.SOURCES_FETCH_STARTED });
   return axios
-    .post(SOURCES_URL, { title: sourceTitle, domain: sourceDomain })
+    .post(SOURCES_URL, args)
     .then((resp) => {
       dispatch({
         type: SourcesActionTypes.SOURCES_FETCH_SUCCEEDED,

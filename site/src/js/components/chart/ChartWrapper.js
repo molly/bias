@@ -1,11 +1,11 @@
 import React from "react";
-import Results from "../Results";
+import ArticleResults from "../ArticleResults";
 import Chart from "./Chart";
 
 export default function ChartWrapper() {
   return (
-    <Results>
+    <ArticleResults>
       <Chart />
-    </Results>
+    </ArticleResults>
   );
 }

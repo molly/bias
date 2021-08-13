@@ -10,6 +10,7 @@ import reducer from "./reducers";
 import Home from "./components/Home";
 import ListWrapper from "./components/list/ListWrapper";
 import ChartWrapper from "./components/chart/ChartWrapper";
+import Source from "./components/source/Source";
 import FAQ from "./components/faq/FAQ";
 
 import "../css/main.scss";
@@ -22,6 +23,7 @@ ReactDOM.render(
           <Route exact path="/" component={Home} />
           <Route path="/list" component={ListWrapper} />
           <Route path="/chart" component={ChartWrapper} />
+          <Route path="/source" component={Source} />
           <Route path="/faq" component={FAQ} />
         </Switch>
       </Router>

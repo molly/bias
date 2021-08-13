@@ -1,11 +1,11 @@
 import React from "react";
-import Results from "../Results";
+import ArticleResults from "../ArticleResults";
 import SourcesTable from "./SourcesTable";
 
 export default function List() {
   return (
-    <Results>
+    <ArticleResults>
       <SourcesTable />
-    </Results>
+    </ArticleResults>
   );
 }

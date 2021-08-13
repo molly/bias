@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import SourcesPropType from "../../constants/SourcesPropType";
+import ArticleSourcesPropType from "../../constants/ArticleSourcesPropType";
 
 import Disclaimer from "../Disclaimer";
 import ScatterPlot from "./ScatterPlot";
@@ -46,5 +46,5 @@ export default function Chart({ sources }) {
 }
 
 Chart.propTypes = {
-  sources: SourcesPropType,
+  sources: ArticleSourcesPropType,
 };

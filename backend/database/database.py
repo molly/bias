@@ -1,6 +1,7 @@
 from _secrets import MONGO_URL
 from utils import omit
 from urllib.parse import urlparse
+import re
 import pymongo
 
 
@@ -50,7 +51,10 @@ class Database:
     def find(self, query):
         return self.database.sources.find(query)
 
-    def find_by_domain(self, domains):
+    def find_by_domain(self, domain):
+        return self.find({"source_url": domain})
+
+    def find_by_domains(self, domains):
         return self.find({"source_url": {"$in": domains}})
 
     def find_by_url(self, urls):
@@ -60,6 +64,6 @@ class Database:
             domains.append(".".join(netloc.split(".")[1:]))
         return self.find_by_domain(domains)
 
-    def find_by_name(self, names):
-        normalized = [name.lower() for name in names]
-        return self.find({"name": {"$in": normalized}})
+    def find_by_name(self, name):
+        regex = re.compile(re.escape(name.lower()), re.IGNORECASE)
+        return self.find({"name": regex})

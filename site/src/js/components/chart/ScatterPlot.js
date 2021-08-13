@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import * as d3 from "d3";
 import clone from "just-clone";
 import pluralize from "../../utils/pluralize";
-import SourcesPropType from "../../constants/SourcesPropType";
+import ArticleSourcesPropType from "../../constants/ArticleSourcesPropType";
 
 const basePointSize = 4;
 const xMargin = 50;
@@ -44,8 +44,8 @@ export default function ScatterPlot({
       .append("g")
       .attr("transform", `translate(${xMargin},${yMargin})`);
     svgEl.call(
-      d3.zoom().on("zoom", function () {
-        svgEl.attr("transform", d3.event.transform);
+      d3.zoom().on("zoom", function (event) {
+        svgEl.attr("transform", event.transform);
       })
     );
 
@@ -133,7 +133,7 @@ export default function ScatterPlot({
   }, [data, sources, options, height, width]);
 
   return (
-    <div className={className} id="container">
+    <div className={className} id="svg-container">
       <svg ref={svgRef} viewBox={`0 0 ${width} ${height}`} />
       <div className="d3-tooltip border rounded p-2" />
     </div>
@@ -142,7 +142,7 @@ export default function ScatterPlot({
 
 ScatterPlot.propTypes = {
   data: PropTypes.array.isRequired,
-  sources: SourcesPropType.isRequired,
+  sources: ArticleSourcesPropType.isRequired,
   className: PropTypes.string,
   width: PropTypes.number,
   height: PropTypes.number,

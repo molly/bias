@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SourcesPropType from "../../constants/SourcesPropType";
+import ArticleSourcesPropType from "../../constants/ArticleSourcesPropType";
 import { ACCURACY_COLORS, BIAS_COLORS } from "../../utils/colors";
 
 import { Link } from "react-router-dom";
@@ -159,5 +159,5 @@ export default function SourcesTable({ sources }) {
 }
 
 SourcesTable.propTypes = {
-  sources: SourcesPropType,
+  sources: ArticleSourcesPropType,
 };

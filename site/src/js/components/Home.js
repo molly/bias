@@ -16,8 +16,10 @@ function Home({ articleSourcesStatus, sourcesStatus }) {
 
   return (
     <div className="container">
-      <div className="row">
+      <div className="row mb-4">
         <ArticleSourceEvaluator clicked={clicked} setClicked={setClicked} />
+      </div>
+      <div className="row">
         <SingleSourceEvaluator clicked={clicked} setClicked={setClicked} />
       </div>
     </div>

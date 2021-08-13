@@ -8,9 +8,9 @@ import { fetchArticleSources as fetchArticleSourcesAction } from "../actions/art
 
 import Spinner from "./Spinner";
 import APIError from "./APIError";
-import SourcesPropType from "../constants/SourcesPropType";
+import ArticleSourcesPropType from "../constants/ArticleSourcesPropType";
 
-function Results({
+function ArticleResults({
   fetchArticleSources,
   sources,
   articleSourcesStatus,
@@ -46,12 +46,12 @@ function Results({
   );
 }
 
-Results.propTypes = {
+ArticleResults.propTypes = {
   fetchArticleSources: PropTypes.func.isRequired,
 
   children: PropTypes.element.isRequired,
   articleSourcesStatus: RequestStatusPropType.isRequired,
-  sources: SourcesPropType,
+  sources: ArticleSourcesPropType,
 };
 
 const select = (state) => ({
@@ -63,4 +63,4 @@ const mapDispatchToProps = {
   fetchArticleSources: fetchArticleSourcesAction,
 };
 
-export default connect(select, mapDispatchToProps)(Results);
+export default connect(select, mapDispatchToProps)(ArticleResults);

@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
+import { useHistory } from "react-router-dom";
 
 import { RequestStatusPropType } from "../utils/RequestStatus";
 import { navigate } from "../utils/navigate";
@@ -13,42 +14,65 @@ function SingleSourceEvaluator({
   clicked,
   setClicked,
 }) {
+  const history = useHistory();
   const [formData, setFormData] = useState({
-    sourceTitle: "",
-    sourceDomain: "",
+    field: "domain",
+    value: "",
   });
 
   const evaluateAndGoToResults = useCallback(
     (e) => {
       e.preventDefault();
       setClicked("singleSource");
+      const query = { [formData.field]: formData.value };
       if (!sourcesStatus.pending) {
-        fetchSources(formData)
-          .then(() => navigate(formData, "source", history))
+        fetchSources(query)
+          .then(() => navigate(query, "source", history))
           .catch(() => setClicked(null));
       }
     },
-    [setClicked, formData, sourcesStatus, fetchSources]
+    [setClicked, formData, sourcesStatus, fetchSources, history]
   );
 
   return (
     <div className="card">
       <div className="card-body">
         <h5 className="card-title">Evaluate a single source</h5>
-        <label htmlFor="sourceTitle" className="form-label">
-          Source name:
-        </label>
-        <input
-          type="text"
-          id="sourceTitle"
-          name="sourceTitle"
-          className="form-control"
-          placeholder="The New York Times"
-          value={formData.sourceTitle}
-          onChange={({ target: { value } }) =>
-            setFormData({ ...formData, sourceTitle: value })
-          }
-        />
+        <div className="mb-3">
+          <form className="row g-2">
+            <div className="col-sm-2">
+              <select
+                className="form-select"
+                aria-label="Source attribute"
+                value={formData.field}
+                onChange={({ target: { value } }) =>
+                  setFormData({ field: value, value: "" })
+                }
+              >
+                <option value="domain">Domain</option>
+                <option value="name">Name</option>
+              </select>
+            </div>
+
+            <div className="col-sm-10">
+              <input
+                type="text"
+                id="searchValue"
+                name="searchValue"
+                className="form-control"
+                placeholder={
+                  formData.field === "domain"
+                    ? "nytimes.com"
+                    : "The New York Times"
+                }
+                value={formData.value}
+                onChange={({ target: { value } }) =>
+                  setFormData({ ...formData, value })
+                }
+              />
+            </div>
+          </form>
+        </div>
         <button
           className="btn btn-primary"
           onClick={evaluateAndGoToResults}
