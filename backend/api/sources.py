@@ -4,13 +4,12 @@ from flask_restful import Resource
 
 
 class Sources(Resource):
-    def get(self):
+    def post(self):
         body = request.get_json()
         db = Database()
         results = []
-        if "urls" in body:
-            results += db.find_by_url(body["urls"])
-        if "names" in body:
-            results += db.find_by_name(body["names"])
+        if "domain" in body:
+            results += db.find_by_url(body["domain"])
+        if "title" in body:
+            results += db.find_by_name(body["title"])
         return results
-

@@ -4,13 +4,18 @@ import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import { RequestStatusPropType } from "../utils/RequestStatus";
 
-import { fetchSources as fetchSourcesAction } from "../actions/sourcesActions";
+import { fetchArticleSources as fetchArticleSourcesAction } from "../actions/articleSourcesActions";
 
 import Spinner from "./Spinner";
 import APIError from "./APIError";
 import SourcesPropType from "../constants/SourcesPropType";
 
-function Results({ fetchSources, sources, sourcesStatus, children }) {
+function Results({
+  fetchArticleSources,
+  sources,
+  articleSourcesStatus,
+  children,
+}) {
   const location = useLocation();
   const params = useMemo(
     () => new URLSearchParams(location.search.slice("1")),
@@ -18,16 +23,16 @@ function Results({ fetchSources, sources, sourcesStatus, children }) {
   );
 
   useEffect(() => {
-    if (sourcesStatus.uninitialized) {
-      fetchSources(Object.fromEntries(params));
+    if (articleSourcesStatus.uninitialized) {
+      fetchArticleSources(Object.fromEntries(params));
     }
-  }, [params, sourcesStatus, fetchSources]);
+  }, [params, articleSourcesStatus, fetchArticleSources]);
 
   const renderBody = () => {
-    if (sourcesStatus.succeeded) {
+    if (articleSourcesStatus.succeeded) {
       return React.cloneElement(children, { sources });
-    } else if (sourcesStatus.failed) {
-      return <APIError status={sourcesStatus} />;
+    } else if (articleSourcesStatus.failed) {
+      return <APIError status={articleSourcesStatus} />;
     } else {
       return <Spinner centered={true} height="200px" color="primary" />;
     }
@@ -42,20 +47,20 @@ function Results({ fetchSources, sources, sourcesStatus, children }) {
 }
 
 Results.propTypes = {
-  fetchSources: PropTypes.func.isRequired,
+  fetchArticleSources: PropTypes.func.isRequired,
 
   children: PropTypes.element.isRequired,
-  sourcesStatus: RequestStatusPropType.isRequired,
+  articleSourcesStatus: RequestStatusPropType.isRequired,
   sources: SourcesPropType,
 };
 
 const select = (state) => ({
-  sourcesStatus: state.sources.status,
-  sources: state.sources.data,
+  articleSourcesStatus: state.articleSources.status,
+  sources: state.articleSources.data,
 });
 
 const mapDispatchToProps = {
-  fetchSources: fetchSourcesAction,
+  fetchArticleSources: fetchArticleSourcesAction,
 };
 
 export default connect(select, mapDispatchToProps)(Results);

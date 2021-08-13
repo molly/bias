@@ -6,13 +6,13 @@ export const SourcesActionTypes = {
   SOURCES_FETCH_FAILED: "SOURCES_FETCH_FAILED",
 };
 
-const SOURCES_URL = "http://localhost:5000/evaluate";
+const SOURCES_URL = "http://localhost:5000/sources";
 
 export const fetchSources = (args) => (dispatch) => {
-  const { title, references_section_name } = args;
+  const { sourceTitle, sourceDomain } = args;
   dispatch({ type: SourcesActionTypes.SOURCES_FETCH_STARTED });
   return axios
-    .post(SOURCES_URL, { title, references_section_name })
+    .post(SOURCES_URL, { title: sourceTitle, domain: sourceDomain })
     .then((resp) => {
       dispatch({
         type: SourcesActionTypes.SOURCES_FETCH_SUCCEEDED,
@@ -20,7 +20,10 @@ export const fetchSources = (args) => (dispatch) => {
       });
     })
     .catch((err) => {
-      dispatch({ type: SourcesActionTypes.SOURCES_FETCH_FAILED, payload: err });
+      dispatch({
+        type: SourcesActionTypes.SOURCES_FETCH_FAILED,
+        payload: err,
+      });
       throw err;
     });
 };

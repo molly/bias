@@ -14,7 +14,7 @@ import sys
 app = Flask(__name__)
 CORS(app)
 api = Api(app)
-api.add_resource(Sources, "/")
+api.add_resource(Sources, "/sources")
 api.add_resource(Wikipedia, "/evaluate")
 
 
@@ -44,5 +44,5 @@ def setup_logging(debug=False):
 if __name__ == "__main__":
     is_debug = sys.argv[1] == "debug"
     setup_logging(is_debug)
-    update_stale(is_debug)
-    # app.run(debug=is_debug)
+    # update_stale(is_debug)
+    app.run(debug=is_debug)
