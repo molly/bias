@@ -14,7 +14,7 @@ export default function FAQEntry({
     <div id={id}>
       <h5
         id={`${id}-header`}
-        className={id === activeAnchor ? "highlighted" : null}
+        className={`d-inline ${id === activeAnchor ? "highlighted" : ""}`}
       >
         <a onClick={() => updateUrl(id)} className="anchor-icon" role="button">
           <FontAwesomeIcon icon={faLink} />

@@ -1,6 +1,8 @@
 import React, { useMemo } from "react";
 import { useHistory, useLocation } from "react-router";
-import usagesImg from "../../../images/usages.png";
+import usagesImg from "../../../../images/usages.png";
+
+import Breadcrumb from "../../Breadcrumb";
 import FAQEntry from "./FAQEntry";
 
 export default function FAQ() {
@@ -17,6 +19,12 @@ export default function FAQ() {
 
   return (
     <div className="container">
+      <Breadcrumb
+        path={[
+          { title: "About", path: "about" },
+          { title: "FAQ", path: "faq", active: true },
+        ]}
+      />
       <h1 className="display-1">FAQ</h1>
       <FAQEntry
         id="usages"
@@ -24,7 +32,7 @@ export default function FAQ() {
         activeAnchor={activeAnchor}
         updateUrl={updateUrl}
       >
-        <p>
+        <div>
           References can be reused in Wikipedia articles, so this shows the
           number of times this reference is used, as well as the percentage of
           total reference usages in an article. Please note that if there are
@@ -45,7 +53,7 @@ export default function FAQ() {
           In this example, reference A has one usage and reference B has three.
           Reference A is 25% (1/4) of the total usages, and reference B is 75%
           (3/4).
-        </p>
+        </div>
       </FAQEntry>
     </div>
   );

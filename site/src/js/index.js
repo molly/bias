@@ -11,7 +11,13 @@ import Home from "./components/Home";
 import ListWrapper from "./components/list/ListWrapper";
 import ChartWrapper from "./components/chart/ChartWrapper";
 import Source from "./components/source/Source";
-import FAQ from "./components/faq/FAQ";
+
+import About from "./components/about/About";
+import FAQ from "./components/about/faq/FAQ";
+
+import Raters from "./components/about/raters/Raters";
+import MBFC from "./components/about/raters/mbfc";
+import RSP from "./components/about/raters/rsp";
 
 import "../css/main.scss";
 
@@ -24,7 +30,13 @@ ReactDOM.render(
           <Route path="/list" component={ListWrapper} />
           <Route path="/chart" component={ChartWrapper} />
           <Route path="/source" component={Source} />
-          <Route path="/faq" component={FAQ} />
+
+          <Route exact path="/about" component={About} />
+          <Route path="/about/faq" component={FAQ} />
+
+          <Route exact path="/about/raters" component={Raters} />
+          <Route exact path="/about/raters/mbfc" component={MBFC} />
+          <Route exact path="/about/raters/rsp" component={RSP} />
         </Switch>
       </Router>
     </Provider>
